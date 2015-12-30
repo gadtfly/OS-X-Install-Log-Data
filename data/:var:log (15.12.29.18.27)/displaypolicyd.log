@@ -1,0 +1,92 @@
+u>92453436 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>92455791 /usr/libexec/displaypolicyd: Started at Mon Dec 28 00:29:02 2015
+u>129524233 ERROR: AGDC suppport not present in system
+u>129524254 ERROR: Policy engine instance init failed
+u>35915561 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>37227313 /usr/libexec/displaypolicyd: Started at Mon Dec 28 00:58:59 2015
+u>76345351 ERROR: AGDC suppport not present in system
+u>76345407 ERROR: Policy engine instance init failed
+u>25157516 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>25160062 /usr/libexec/displaypolicyd: Started at Mon Dec 28 01:11:51 2015
+u>64444547 ERROR: AGDC suppport not present in system
+u>64444591 ERROR: Policy engine instance init failed
+u>23579980 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>23583482 /usr/libexec/displaypolicyd: Started at Mon Dec 28 01:26:11 2015
+u>62905835 ERROR: AGDC suppport not present in system
+u>62905881 ERROR: Policy engine instance init failed
+u>28863759 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>28864094 /usr/libexec/displaypolicyd: Started at Mon Dec 28 01:46:00 2015
+u>68653206 ERROR: AGDC suppport not present in system
+u>68653255 ERROR: Policy engine instance init failed
+u>31597653 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>31617716 /usr/libexec/displaypolicyd: Started at Mon Dec 28 04:51:24 2015
+u>74351317 ERROR: AGDC suppport not present in system
+u>74351350 ERROR: Policy engine instance init failed
+u>25299828 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>25308400 /usr/libexec/displaypolicyd: Started at Mon Dec 28 05:03:44 2015
+u>69633195 ERROR: AGDC suppport not present in system
+u>69633249 ERROR: Policy engine instance init failed
+u>25703369 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>25712700 /usr/libexec/displaypolicyd: Started at Mon Dec 28 05:06:32 2015
+u>68207934 ERROR: AGDC suppport not present in system
+u>68207984 ERROR: Policy engine instance init failed
+u>26023865 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>26027677 /usr/libexec/displaypolicyd: Started at Mon Dec 28 05:12:41 2015
+u>68544518 ERROR: AGDC suppport not present in system
+u>68545910 ERROR: Policy engine instance init failed
+u>25896793 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>26614297 /usr/libexec/displaypolicyd: Started at Mon Dec 28 05:20:37 2015
+u>69870022 ERROR: AGDC suppport not present in system
+u>69870056 ERROR: Policy engine instance init failed
+u>29573301 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>29577947 /usr/libexec/displaypolicyd: Started at Mon Dec 28 05:31:58 2015
+u>73288055 ERROR: AGDC suppport not present in system
+u>73288105 ERROR: Policy engine instance init failed
+u>33414531 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>33874807 /usr/libexec/displaypolicyd: Started at Mon Dec 28 15:33:40 2015
+u>77073733 ERROR: AGDC suppport not present in system
+u>77073759 ERROR: Policy engine instance init failed
+u>29787506 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>29790764 /usr/libexec/displaypolicyd: Started at Mon Dec 28 22:56:18 2015
+u>73241208 ERROR: AGDC suppport not present in system
+u>73241244 ERROR: Policy engine instance init failed
+u>31172270 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>31176418 /usr/libexec/displaypolicyd: Started at Tue Dec 29 01:46:42 2015
+u>75452405 ERROR: AGDC suppport not present in system
+u>75452429 ERROR: Policy engine instance init failed
+u>26141836 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>26145454 /usr/libexec/displaypolicyd: Started at Tue Dec 29 01:51:43 2015
+u>65862038 ERROR: AGDC suppport not present in system
+u>65862091 ERROR: Policy engine instance init failed
+u>26023359 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>26028312 /usr/libexec/displaypolicyd: Started at Tue Dec 29 02:29:08 2015
+u>69729849 ERROR: AGDC suppport not present in system
+u>69729885 ERROR: Policy engine instance init failed
+u>26082729 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>26091171 /usr/libexec/displaypolicyd: Started at Tue Dec 29 03:15:18 2015
+u>65259527 ERROR: AGDC suppport not present in system
+u>65259570 ERROR: Policy engine instance init failed
+u>25868943 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>26077603 /usr/libexec/displaypolicyd: Started at Tue Dec 29 14:32:08 2015
+u>70176892 ERROR: AGDC suppport not present in system
+u>70176941 ERROR: Policy engine instance init failed
+u>32286186 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>32289416 /usr/libexec/displaypolicyd: Started at Tue Dec 29 14:40:51 2015
+u>77467728 ERROR: AGDC suppport not present in system
+u>77467762 ERROR: Policy engine instance init failed
+u>32235241 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>32239032 /usr/libexec/displaypolicyd: Started at Tue Dec 29 14:45:33 2015
+u>76192757 ERROR: AGDC suppport not present in system
+u>76192791 ERROR: Policy engine instance init failed
+u>31099239 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>31107106 /usr/libexec/displaypolicyd: Started at Tue Dec 29 15:14:12 2015
+u>71646169 ERROR: AGDC suppport not present in system
+u>71646222 ERROR: Policy engine instance init failed
+u>31881294 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>31884257 /usr/libexec/displaypolicyd: Started at Tue Dec 29 15:32:22 2015
+u>74532254 ERROR: AGDC suppport not present in system
+u>74532303 ERROR: Policy engine instance init failed
+u>26934656 /usr/libexec/displaypolicyd: Version: V1.0 starting [0]
+u>26936684 /usr/libexec/displaypolicyd: Started at Tue Dec 29 18:10:29 2015
+u>71884422 ERROR: AGDC suppport not present in system
+u>71884476 ERROR: Policy engine instance init failed

@@ -1,0 +1,215 @@
+Safari(351) System Policy: deny file-write-xattr /Applications/Safari.app/Contents/Resources/ReadingList-ShiftClickAnimatedIcon@2x.png
+
+Process:         Safari [351]
+Path:            /Applications/Safari.app/Contents/MacOS/Safari
+Load Address:    0x102ae1000
+Identifier:      com.apple.Safari
+Version:         11601.3.9 (9.0.2)
+Build Info:      1-WebBrowser~7601003009000000
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 04:54:38.995 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff97b5e386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff9e9c7624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff9e9c6aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff9e9c6338 CFRunLoopRunSpecific + 296
+4   HIToolbox                     	0x00007fff8d22e935 RunCurrentEventLoopInMode + 235
+5   HIToolbox                     	0x00007fff8d22e76f ReceiveNextEventCommon + 432
+6   HIToolbox                     	0x00007fff8d22e5af _BlockUntilNextEventMatchingListInModeWithFilter + 71
+7   AppKit                        	0x00007fff8c3300ee _DPSNextEvent + 1067
+8   AppKit                        	0x00007fff8c6fc943 -[NSApplication _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 454
+9   Safari                        	0x00007fff959f437f -[BrowserApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 252
+10  AppKit                        	0x00007fff8c325fc8 -[NSApplication run] + 682
+11  AppKit                        	0x00007fff8c2a8520 NSApplicationMain + 1176
+12  libdyld.dylib                 	0x00007fff940765ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff97b64ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff92bc0d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff97b646de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8d51b365 start_wqthread + 13
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff97b63eb2 __psynch_cvwait + 10
+1   WebCore                       	0x00007fffa02c9d5b WebCore::IconDatabase::syncThreadMainLoop() + 395
+2   WebCore                       	0x00007fffa02c7649 WebCore::IconDatabase::iconDatabaseSyncThread() + 361
+3   JavaScriptCore                	0x00007fff9dfdcd42 WTF::threadEntryPoint(void*) + 178
+4   JavaScriptCore                	0x00007fff9dfdcc6f WTF::wtfThreadEntryPoint(void*) + 15
+5   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+6   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+7   libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff97b5e386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff9e9c7624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff9e9c6aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff9e9c6338 CFRunLoopRunSpecific + 296
+4   CFNetwork                     	0x00007fff9015a6e9 +[NSURLConnection(Loader) _resourceLoadLoop:] + 412
+5   Foundation                    	0x00007fff9d05ec6f __NSThread__start__ + 1351
+6   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+7   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+8   libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff97b5e386 mach_msg_trap + 10
+1   QuartzCore                    	0x00007fff976b7c41 CA::Render::Server::server_thread(void*) + 257
+2   QuartzCore                    	0x00007fff976b7b39 thread_fun + 25
+3   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+4   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+5   libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 6:
+0   libsystem_kernel.dylib        	0x00007fff97b5e386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff9e9c7624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff9e9c6aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff9e9c6338 CFRunLoopRunSpecific + 296
+4   AppKit                        	0x00007fff8c3ef065 _NSEventThread + 149
+5   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+6   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+7   libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 7:
+0   libsystem_kernel.dylib        	0x00007fff97b5e386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff9e9c7624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff9e9c6aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff9e9c6338 CFRunLoopRunSpecific + 296
+4   SafariShared                  	0x00007fff971914f8 -[WBSParsecSearchClient _locationThread] + 43
+5   Foundation                    	0x00007fff9d05ec6f __NSThread__start__ + 1351
+6   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+7   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+8   libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 8:
+0   libsystem_platform.dylib      	0x00007fffa144d23f _platform_memmove$VARIANT$Merom + 31
+1   libsystem_c.dylib             	0x00007fffa1f70f1b __memcpy_chk + 22
+2   ImageIO                       	0x00007fff9a4337e7 _AccessHeader + 53
+3   ImageIO                       	0x00007fff9a4333e9 _BindToPlugin + 253
+4   ImageIO                       	0x00007fff9a4332e1 _CGImageSourceBindToPlugin + 61
+5   ImageIO                       	0x00007fff9a43fe15 CGImageSourceGetType + 56
+6   AppKit                        	0x00007fff8c2cc9f3 +[NSBitmapImageRep _imagesWithData:hfsFileType:extension:zone:expandImageContentNow:includeAllReps:] + 320
+7   AppKit                        	0x00007fff8c3aaf23 +[NSBitmapImageRep _imageRepsWithData:hfsFileType:extension:expandImageContentNow:] + 96
+8   AppKit                        	0x00007fff8c356182 +[NSImageRep _imageRepsWithContentsOfURL:expandImageContentNow:giveUpOnNetworkURLsWithoutGoodExtensions:] + 890
+9   AppKit                        	0x00007fff8c3aae4a __56-[NSImageMultiURLReferencingRepProvider representations]_block_invoke + 245
+10  Foundation                    	0x00007fff9ce9bee3 _NSFaultInObject + 32
+11  AppKit                        	0x00007fff8c3aad4e -[NSImageMultiURLReferencingRepProvider representations] + 89
+12  AppKit                        	0x00007fff8c2b3585 __45-[NSImage _usingRepresentationsPerformBlock:]_block_invoke + 47
+13  AppKit                        	0x00007fff8c2b350b -[NSImage _usingRepresentationsPerformBlock:] + 91
+14  AppKit                        	0x00007fff8c61fe5c -[NSImage TIFFRepresentationUsingCompression:factor:] + 380
+15  Foundation                    	0x00007fff9d131bbe __36-[NSProgressValues encodeWithCoder:]_block_invoke + 88
+16  CoreFoundation                	0x00007fff9e9e1fe6 __65-[__NSDictionaryM enumerateKeysAndObjectsWithOptions:usingBlock:]_block_invoke + 102
+17  CoreFoundation                	0x00007fff9e9e1ed9 -[__NSDictionaryM enumerateKeysAndObjectsWithOptions:usingBlock:] + 185
+18  Foundation                    	0x00007fff9d1319e4 -[NSProgressValues encodeWithCoder:] + 165
+19  Foundation                    	0x00007fff9ceb897a -[NSXPCEncoder _encodeObject:] + 610
+20  Foundation                    	0x00007fff9ceb8dd9 encodeInvocationArguments + 257
+21  Foundation                    	0x00007fff9ceb8b04 -[NSXPCEncoder encodeInvocation:] + 337
+22  Foundation                    	0x00007fff9ceb897a -[NSXPCEncoder _encodeObject:] + 610
+23  Foundation                    	0x00007fff9d11ee60 __51-[NSXPCConnection _decodeAndInvokeMessageWithData:]_block_invoke133 + 604
+24  CoreFoundation                	0x00007fff9ea31b11 __forwarding_prep_b___ + 113
+25  Foundation                    	0x00007fff9d1370a8 -[NSProgress startProvidingValuesWithInitialAcceptor:] + 107
+26  CoreFoundation                	0x00007fff9e99017c __invoking___ + 140
+27  CoreFoundation                	0x00007fff9e98ffce -[NSInvocation invoke] + 286
+28  Foundation                    	0x00007fff9cefecdf __NSXPCCONNECTION_IS_CALLING_OUT_TO_EXPORTED_OBJECT__ + 17
+29  Foundation                    	0x00007fff9cefe5d9 -[NSXPCConnection _decodeAndInvokeMessageWithData:] + 1123
+30  Foundation                    	0x00007fff9cefe0a7 message_handler + 705
+31  libxpc.dylib                  	0x00007fff9413e396 _xpc_connection_call_event_handler + 35
+32  libxpc.dylib                  	0x00007fff9413e00f _xpc_connection_mach_event + 2198
+33  libdispatch.dylib             	0x00007fff92bc34ca _dispatch_client_callout4 + 9
+34  libdispatch.dylib             	0x00007fff92bc393c _dispatch_mach_msg_invoke + 555
+35  libdispatch.dylib             	0x00007fff92bc0134 _dispatch_queue_drain + 1207
+36  libdispatch.dylib             	0x00007fff92bc2293 _dispatch_mach_invoke + 735
+37  libdispatch.dylib             	0x00007fff92bc0134 _dispatch_queue_drain + 1207
+38  libdispatch.dylib             	0x00007fff92bc663b _dispatch_queue_invoke + 549
+39  libdispatch.dylib             	0x00007fff92bbb33f _dispatch_client_callout + 8
+40  libdispatch.dylib             	0x00007fff92bbf1cf _dispatch_root_queue_drain + 1890
+41  libdispatch.dylib             	0x00007fff92bbea34 _dispatch_worker_thread3 + 91
+42  libsystem_pthread.dylib       	0x00007fff8d51d68f _pthread_wqthread + 1129
+43  libsystem_pthread.dylib       	0x00007fff8d51b365 start_wqthread + 13
+
+Thread 9:
+0   libsystem_kernel.dylib        	0x00007fff97b64176 __select + 10
+1   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+2   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+3   libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 10:
+0   libsystem_kernel.dylib        	0x00007fff97b646de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8d51b365 start_wqthread + 13
+
+Thread 11:
+0   libsystem_kernel.dylib        	0x00007fff97b65746 setxattr + 10
+1   libdispatch.dylib             	0x00007fff92bc6871 _dispatch_call_block_and_release + 12
+2   libdispatch.dylib             	0x00007fff92bbb33f _dispatch_client_callout + 8
+3   libdispatch.dylib             	0x00007fff92bbff6f _dispatch_queue_drain + 754
+4   libdispatch.dylib             	0x00007fff92bc663b _dispatch_queue_invoke + 549
+5   libdispatch.dylib             	0x00007fff92bbec87 _dispatch_root_queue_drain + 538
+6   libdispatch.dylib             	0x00007fff92bbea34 _dispatch_worker_thread3 + 91
+7   libsystem_pthread.dylib       	0x00007fff8d51d68f _pthread_wqthread + 1129
+8   libsystem_pthread.dylib       	0x00007fff8d51b365 start_wqthread + 13
+
+Thread 12:
+0   libsystem_kernel.dylib        	0x00007fff97b64206 __semwait_signal + 10
+1   libc++.1.dylib                	0x00007fff934c6020 std::__1::this_thread::sleep_for(std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > const&) + 75
+2   JavaScriptCore                	0x00007fff9e617aab bmalloc::Heap::scavenge(std::__1::unique_lock<bmalloc::StaticMutex>&, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000l> >) + 155
+3   JavaScriptCore                	0x00007fff9e617704 bmalloc::Heap::concurrentScavenge() + 68
+4   JavaScriptCore                	0x00007fff9e619c8a bmalloc::AsyncTask<bmalloc::Heap, void (bmalloc::Heap::*)()>::entryPoint() + 90
+5   JavaScriptCore                	0x00007fff9e619c29 bmalloc::AsyncTask<bmalloc::Heap, void (bmalloc::Heap::*)()>::pthreadEntryPoint(void*) + 9
+6   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+7   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+8   libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 13:
+0   libsystem_kernel.dylib        	0x00007fff97b5e386 mach_msg_trap + 10
+1   Metadata                      	0x00007fff960adf5b mdsFetchAttributesForItems + 173
+2   Metadata                      	0x00007fff9608a44a __newAttr + 897
+3   Metadata                      	0x00007fff96089f66 MDItemCopyAttribute + 158
+4   Metadata                      	0x00007fff9609c0a2 _MDCopyUTITypeFromLS + 29
+5   Metadata                      	0x00007fff9609c444 _MDItemValidateOperation + 419
+6   Metadata                      	0x00007fff9608b1e5 MDItemSetAttribute + 215
+7   WebKitLegacy                  	0x00007fff9354e9e9 WKSetMetadataURL + 137
+8   WebKitLegacy                  	0x00007fff9354e912 setMetaData(void*) + 66
+9   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+10  libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+11  libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Thread 14:
+0   libsystem_kernel.dylib        	0x00007fff97b64c7e fsync + 10
+1   Foundation                    	0x00007fff9cf13f1c -[NSData(NSData) enumerateByteRangesUsingBlock:] + 73
+2   Foundation                    	0x00007fff9cf1365c _NSWriteDataToFileWithExtendedAttributes + 742
+3   Foundation                    	0x00007fff9cf25835 -[NSData(NSData) writeToURL:atomically:] + 83
+4   SafariShared                  	0x00007fff97199697 SafariShared::CoalescedAsynchronousWriter::write() + 67
+5   SafariShared                  	0x00007fff97199638 SafariShared::CoalescedAsynchronousWriter::thread() + 26
+6   JavaScriptCore                	0x00007fff9dfdcd42 WTF::threadEntryPoint(void*) + 178
+7   JavaScriptCore                	0x00007fff9dfdcc6f WTF::wtfThreadEntryPoint(void*) + 15
+8   libsystem_pthread.dylib       	0x00007fff8d51dc13 _pthread_body + 131
+9   libsystem_pthread.dylib       	0x00007fff8d51db90 _pthread_body + 0
+10  libsystem_pthread.dylib       	0x00007fff8d51b375 thread_start + 13
+
+Binary Images:
+    0x7fff8c2a6000 -     0x7fff8cec9ff7  com.apple.AppKit (6.9 - 1404.34) <fb9c0e8d-8e07-35cd-91d8-7a3869b8eb03> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+    0x7fff8d1fe000 -     0x7fff8d4f3fff  com.apple.HIToolbox (2.1.1) <d9338bef-ca84-3085-b6cb-4e93b3b9a2e1> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+    0x7fff8d51a000 -     0x7fff8d523ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff90153000 -     0x7fff903d9ff7  com.apple.CFNetwork (760.2.6 - 760.2.6) <dde325b9-7f6f-3933-8f86-8d031e400dd5> /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+    0x7fff92bb9000 -     0x7fff92be6fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff93480000 -     0x7fff934d3ff7  libc++.1.dylib (120.1) <8fc3d139-8055-3498-9ac5-6467cb7f4d14> /usr/lib/libc++.1.dylib
+    0x7fff9352c000 -     0x7fff93687ffb  com.apple.WebKitLegacy (11601 - 11601.3.9) <c961a4f8-4947-31da-9e91-ffb006bf1734> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy
+    0x7fff94073000 -     0x7fff94076ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff94137000 -     0x7fff94160fff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff95982000 -     0x7fff96050ffb  com.apple.Safari.framework (11601 - 11601.3.9) <441dfb91-3c79-3238-865d-5f2d45f67303> /System/Library/PrivateFrameworks/Safari.framework/Versions/A/Safari
+    0x7fff9605b000 -     0x7fff960fbff7  com.apple.Metadata (10.7.0 - 972.16) <98ca1355-3e2c-364c-9c4f-3ca286db08a7> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+    0x7fff97185000 -     0x7fff97464ff7  com.apple.Safari.Shared (11601 - 11601.3.8) <471e9ec4-4e6a-3f79-8bcc-7dd6b992c5f1> /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/SafariShared
+    0x7fff97698000 -     0x7fff97866ffb  com.apple.QuartzCore (1.11 - 410.14) <db552fa2-d2d1-37f9-a1d4-c77d7ea82ecd> /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+    0x7fff97b4d000 -     0x7fff97b6bfff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff9a42f000 -     0x7fff9a5f8ff7  com.apple.ImageIO.framework (3.3.0 - 1442) <2c8af87e-080e-3fd8-824d-332b43df4b61> /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+    0x7fff9ce87000 -     0x7fff9d1dbff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff9dfd9000 -     0x7fff9e67fffb  com.apple.JavaScriptCore (11601 - 11601.3.7) <f9351983-16a7-312d-9202-02873cbc1d9d> /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+    0x7fff9e957000 -     0x7fff9edcdfff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fffa02c3000 -     0x7fffa1382fff  com.apple.WebCore (11601 - 11601.3.8) <39580b20-b884-3d6c-8de0-3ff7ad12a6ca> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+    0x7fffa1448000 -     0x7fffa1450fe7  libsystem_platform.dylib (74.10.3) <d3a27e10-7f08-3603-acc8-7a92b2c04bab> /usr/lib/system/libsystem_platform.dylib
+    0x7fffa1eec000 -     0x7fffa1f79fff  libsystem_c.dylib (1082.20.4) <eab38a6c-8671-3b13-b500-90ec1b912063> /usr/lib/system/libsystem_c.dylib

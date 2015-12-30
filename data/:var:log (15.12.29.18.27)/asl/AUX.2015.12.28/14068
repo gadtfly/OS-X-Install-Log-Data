@@ -1,0 +1,59 @@
+coreduetd(65) deny file-read-metadata /
+
+Process:         coreduetd [65]
+Path:            /usr/libexec/coreduetd
+Load Address:    0x10a1f4000
+Identifier:      coreduetd
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 05:16:24.830 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff9516d7e6 __getattrlist + 10
+1   CoreServicesInternal          	0x00007fff8ad6c6f7 prepareValuesForBitmap(__CFURL const*, __FileCache*, _FilePropertyBitmap*, __CFError**) + 227
+2   CoreServicesInternal          	0x00007fff8ad6a357 _FSURLCopyResourcePropertyForKeyInternal(__CFURL const*, __CFString const*, void*, void*, __CFError**, unsigned char) + 212
+3   CoreFoundation                	0x00007fff9bfbc13b CFURLCopyResourcePropertyForKey + 123
+4   LaunchServices                	0x00007fff8b41dd2e FSNodeCopyResourcePropertyForKey + 428
+5   LaunchServices                	0x00007fff8b41db24 FSNodeGetVolumeIdentifier + 113
+6   LaunchServices                	0x00007fff8b40469b _LSContainerFindWithNodesAndFlags + 71
+7   LaunchServices                	0x00007fff8b3d748d _LSFindOrRegisterBundleNode + 432
+8   LaunchServices                	0x00007fff8b45ff3e _LSDatabaseClean(LSDatabase*) + 280
+9   LaunchServices                	0x00007fff8b3d5b07 _LSContextInit + 795
+10  LaunchServices                	0x00007fff8b3ddb62 UTTypeConformsTo + 82
+11  CoreDuet                      	0x00007fff8b5101f7 initUTTypeConformsTo + 404
+12  CoreDuet                      	0x00007fff8b50d753 +[_CDSpotlightItemUtils interactionForSearchableItem:] + 590
+13  CoreDuet                      	0x00007fff8b57d75b -[_CDSpotlightItemRecorder addOrUpdateSearchableItems:bundleID:] + 644
+14  SpotlightReceiver             	0x000000010c773a7e -[SpotlightReceiverDelegate indexFromBundle:items:itemsContent:completion:] + 289
+15  CoreFoundation                	0x00007fff9bf9a17c __invoking___ + 140
+16  CoreFoundation                	0x00007fff9bf99fce -[NSInvocation invoke] + 286
+17  Foundation                    	0x00007fff9a508cdf __NSXPCCONNECTION_IS_CALLING_OUT_TO_EXPORTED_OBJECT__ + 17
+18  Foundation                    	0x00007fff9a5085d9 -[NSXPCConnection _decodeAndInvokeMessageWithData:] + 1123
+19  Foundation                    	0x00007fff9a5080a7 message_handler + 705
+20  libxpc.dylib                  	0x00007fff91748396 _xpc_connection_call_event_handler + 35
+21  libxpc.dylib                  	0x00007fff9174800f _xpc_connection_mach_event + 2198
+22  libdispatch.dylib             	0x00007fff901cd4ca _dispatch_client_callout4 + 9
+23  libdispatch.dylib             	0x00007fff901cd93c _dispatch_mach_msg_invoke + 555
+24  libdispatch.dylib             	0x00007fff901ca134 _dispatch_queue_drain + 1207
+25  libdispatch.dylib             	0x00007fff901cc293 _dispatch_mach_invoke + 735
+26  libdispatch.dylib             	0x00007fff901ca134 _dispatch_queue_drain + 1207
+27  libdispatch.dylib             	0x00007fff901d063b _dispatch_queue_invoke + 549
+28  libdispatch.dylib             	0x00007fff901c8c87 _dispatch_root_queue_drain + 538
+29  libdispatch.dylib             	0x00007fff901c8a34 _dispatch_worker_thread3 + 91
+30  libsystem_pthread.dylib       	0x00007fff8ab2768f _pthread_wqthread + 1129
+31  libsystem_pthread.dylib       	0x00007fff8ab25365 start_wqthread + 13
+
+Binary Images:
+       0x10c772000 -        0x10c774fff  com.apple.SpotlightReceiver (1.0 - 1) <29228e42-ceed-361a-8043-235c3c754363> /System/Library/PrivateFrameworks/SpotlightReceiver.framework/SpotlightReceiver
+    0x7fff8ab24000 -     0x7fff8ab2dff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8ad57000 -     0x7fff8ad85ff7  com.apple.CoreServicesInternal (248.2 - 248.2) <7d0d2c65-c4c4-3fbd-89a7-12302ea444aa> /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal
+    0x7fff8b3cb000 -     0x7fff8b4f0ff7  com.apple.LaunchServices (728.6 - 728.6) <8658230b-5894-3244-bdba-a6c9dd347219> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+    0x7fff8b4f1000 -     0x7fff8b5a8ff7  com.apple.CoreDuet (1.0 - 1) <20bda287-415a-385e-bcb5-934d165bdaa4> /System/Library/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet
+    0x7fff901c3000 -     0x7fff901f0fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff91741000 -     0x7fff9176afff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff95157000 -     0x7fff95175fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff9a491000 -     0x7fff9a7e5ff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff9bf61000 -     0x7fff9c3d7fff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

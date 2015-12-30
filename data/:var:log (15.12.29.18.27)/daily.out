@@ -1,0 +1,102 @@
+
+Mon Dec 28 12:29:35 PST 2015
+
+Removing old temporary files:
+
+Cleaning out old system announcements:
+
+Removing stale files from /var/rwho:
+
+Removing scratch fax files
+
+Disk status:
+Filesystem     Size   Used  Avail Capacity iused     ifree %iused  Mounted on
+/dev/disk0s2  465Gi   14Gi  451Gi     3% 3661689 118225052    3%   /
+
+Network interface status:
+Name  Mtu   Network       Address            Ipkts Ierrs    Opkts Oerrs  Coll
+lo0   16384 <Link#1>                           640     0      640     0     0
+lo0   16384 localhost   ::1                    640     -      640     -     -
+lo0   16384 127           localhost            640     -      640     -     -
+lo0   16384 fe80::1%lo0 fe80:1::1              640     -      640     -     -
+gif0* 1280  <Link#2>                             0     0        0     0     0
+stf0* 1280  <Link#3>                             0     0        0     0     0
+en0   1500  <Link#4>    d4:9a:20:0c:0d:ea        0     0        0     0     0
+en1   1500  <Link#5>    f8:1e:df:e4:71:b3  1304420     0   499222     0     0
+en1   1500  adams-macbo fe80:5::fa1e:dfff  1304420     -   499222     -     -
+en1   1500  192.168.1     adams-mbp        1304420     -   499222     -     -
+fw0   4078  <Link#6>    d4:9a:20:ff:fe:0c:0d:ea        0     0        0     0     0
+p2p0  2304  <Link#7>    0a:1e:df:e4:71:b3        0     0        0     0     0
+
+Local system status:
+12:29  up  6:58, 1 user, load averages: 1.64 2.10 2.15
+
+-- End of daily output --
+
+Tue Dec 29 00:29:38 PST 2015
+
+Removing old temporary files:
+
+Cleaning out old system announcements:
+
+Removing stale files from /var/rwho:
+
+Removing scratch fax files
+
+Disk status:
+Filesystem     Size   Used  Avail Capacity iused     ifree %iused  Mounted on
+/dev/disk0s2  465Gi   14Gi  450Gi     4% 3805405 118081336    3%   /
+
+Network interface status:
+Name  Mtu   Network       Address            Ipkts Ierrs    Opkts Oerrs  Coll
+lo0   16384 <Link#1>                           263     0      263     0     0
+lo0   16384 localhost   ::1                    263     -      263     -     -
+lo0   16384 127           localhost            263     -      263     -     -
+lo0   16384 fe80::1%lo0 fe80:1::1              263     -      263     -     -
+gif0* 1280  <Link#2>                             0     0        0     0     0
+stf0* 1280  <Link#3>                             0     0        0     0     0
+en0   1500  <Link#4>    d4:9a:20:0c:0d:ea        0     0        0     0     0
+en1   1500  <Link#5>    f8:1e:df:e4:71:b3   159979     0    80206     0     0
+en1   1500  adams-macbo fe80:5::fa1e:dfff   159979     -    80206     -     -
+en1   1500  192.168.1     adams-mbp         159979     -    80206     -     -
+fw0   4078  <Link#6>    d4:9a:20:ff:fe:0c:0d:ea        0     0        0     0     0
+p2p0  2304  <Link#7>    0a:1e:df:e4:71:b3        0     0        0     0     0
+
+Local system status:
+ 0:29  up  1:34, 1 user, load averages: 1.13 1.08 1.16
+
+-- End of daily output --
+
+Tue Dec 29 12:29:41 PST 2015
+
+Removing old temporary files:
+
+Cleaning out old system announcements:
+
+Removing stale files from /var/rwho:
+
+Removing scratch fax files
+
+Disk status:
+Filesystem     Size   Used  Avail Capacity iused     ifree %iused  Mounted on
+/dev/disk0s2  465Gi   15Gi  450Gi     4% 3927400 117959341    3%   /
+
+Network interface status:
+Name  Mtu   Network       Address            Ipkts Ierrs    Opkts Oerrs  Coll
+lo0   16384 <Link#1>                           743     0      743     0     0
+lo0   16384 localhost   ::1                    743     -      743     -     -
+lo0   16384 127           localhost            743     -      743     -     -
+lo0   16384 fe80::1%lo0 fe80:1::1              743     -      743     -     -
+gif0* 1280  <Link#2>                             0     0        0     0     0
+stf0* 1280  <Link#3>                             0     0        0     0     0
+en0   1500  <Link#4>    d4:9a:20:0c:0d:ea        0     0        0     0     0
+en1   1500  <Link#5>    f8:1e:df:e4:71:b3  1070340     0   210256     0     0
+en1   1500  adams-macbo fe80:5::fa1e:dfff  1070340     -   210256     -     -
+en1   1500  192.168.1     adams-mbp        1070340     -   210256     -     -
+fw0   4078  <Link#6>    d4:9a:20:ff:fe:0c:0d:ea        0     0        0     0     0
+p2p0  2304  <Link#7>    0a:1e:df:e4:71:b3        0     0        0     0     0
+
+Local system status:
+12:29  up  9:15, 1 user, load averages: 1.54 1.99 2.19
+
+-- End of daily output --

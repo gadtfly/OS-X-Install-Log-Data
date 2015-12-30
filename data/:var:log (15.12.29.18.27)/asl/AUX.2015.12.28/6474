@@ -1,0 +1,82 @@
+mdworker(682) deny file-read-data /Users/adamlouis/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist ()
+
+Process:         mdworker [682]
+Path:            /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+Load Address:    0x108f47000
+Identifier:      mdworker
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 02:26:29.205 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff8c573624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff8c572aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff8c572338 CFRunLoopRunSpecific + 296
+4   CoreFoundation                	0x00007fff8c6351f1 CFRunLoopRun + 97
+5   mdworker                      	0x0000000108f4fb27
+6   libdyld.dylib                 	0x00007fff935fb5ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff9876aff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff8c11cd01 _dispatch_autorelease_pool_pop + 0
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff98769d16 __open + 10
+1   LaunchServices                	0x00007fff8a54bd6b _FSCreateDataWithContentsOfURLAndOptions + 152
+2   LaunchServices                	0x00007fff8a54b92d _LSPreferences::_LSPreferences(bool) + 197
+3   LaunchServices                	0x00007fff8a54b839 ___ZN14_LSPreferences4WithEPKNS_15SecurityContextEU13block_pointerFvPKvE_block_invoke + 63
+4   libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+5   libdispatch.dylib             	0x00007fff8c117237 dispatch_once_f + 67
+6   LaunchServices                	0x00007fff8a54b7f7 _LSPreferences::With(_LSPreferences::SecurityContext const*, void (void const*) block_pointer) + 93
+7   LaunchServices                	0x00007fff8a552563 _LSWithSecurePreferences + 107
+8   LaunchServices                	0x00007fff8a5524d7 LSHandlerPref::CopyHandlers() + 109
+9   LaunchServices                	0x00007fff8a54598c _LSContextInit + 416
+10  LaunchServices                	0x00007fff8a60093c prepareBasicFlags(_LSOnDemandContext&, FSNode*, __FileCache*, __CFString const*, __CFError**) + 103
+11  LaunchServices                	0x00007fff8a5455cd LSPropertyProviderPrepareValues(__CFURL const*, __FileCache*, __CFString const* const*, void const**, long, void const*, __CFError**) + 195
+12  CoreServicesInternal          	0x00007fff8b2f26f7 prepareValuesForBitmap(__CFURL const*, __FileCache*, _FilePropertyBitmap*, __CFError**) + 227
+13  CoreServicesInternal          	0x00007fff8b2f1af5 _FSURLCopyResourcePropertyValuesAndFlags + 583
+14  CoreFoundation                	0x00007fff8c5f1a0c _CFURLCopyResourcePropertyValuesAndFlags + 156
+15  DesktopServicesPriv           	0x00007fff95a839d6 TFSInfo::FetchProperties(bool) + 230
+16  DesktopServicesPriv           	0x00007fff959ca319 TFSInfo::Initialize(__CFURL const*, bool, bool) + 271
+17  DesktopServicesPriv           	0x00007fff959d48a2 TFSInfo::Initialize(TCountedPtr<TFSInfo> const&, TUString const&) + 124
+18  DesktopServicesPriv           	0x00007fff959ed80f TPropertyInfo::CreatePropertyList(TCountedPtr<TFSInfo> const&, double&, long long&, bool, TPropertyInfoList*) + 111
+19  DesktopServicesPriv           	0x00007fff959ed763 TPropertyInfo::CreatePropertyList(TCountedPtr<TCFURLInfo> const&, double&, long long&, bool, TPropertyInfoList*) + 137
+20  DesktopServicesPriv           	0x00007fff959ed602 THFSPlusPropertyStore::Open(bool, bool) const + 78
+21  DesktopServicesPriv           	0x00007fff959ed59b THFSPlusPropertyStore::GetProperties(bool) const + 39
+22  DesktopServicesPriv           	0x00007fff95a4eb85 _CopyPropertyStoreWithURL + 141
+23  mdworker                      	0x0000000108f54d08
+24  mdworker                      	0x0000000108f52097
+25  libsystem_pthread.dylib       	0x00007fff8bb5ac13 _pthread_body + 131
+26  libsystem_pthread.dylib       	0x00007fff8bb5ab90 _pthread_body + 0
+27  libsystem_pthread.dylib       	0x00007fff8bb58375 thread_start + 13
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   mdworker                      	0x0000000108f68124
+2   libsystem_pthread.dylib       	0x00007fff8bb5ac13 _pthread_body + 131
+3   libsystem_pthread.dylib       	0x00007fff8bb5ab90 _pthread_body + 0
+4   libsystem_pthread.dylib       	0x00007fff8bb58375 thread_start + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Binary Images:
+       0x108f47000 -        0x108fa8fff  mdworker (972.16) <567c442e-cd49-3bf2-a450-f1fd543a5a28> /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+    0x7fff8a53b000 -     0x7fff8a660ff7  com.apple.LaunchServices (728.6 - 728.6) <8658230b-5894-3244-bdba-a6c9dd347219> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+    0x7fff8b2dd000 -     0x7fff8b30bff7  com.apple.CoreServicesInternal (248.2 - 248.2) <7d0d2c65-c4c4-3fbd-89a7-12302ea444aa> /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal
+    0x7fff8bb57000 -     0x7fff8bb60ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8c115000 -     0x7fff8c142fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8c503000 -     0x7fff8c979fff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fff935f8000 -     0x7fff935fbffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff959c8000 -     0x7fff95ad6ff3  com.apple.desktopservices (1.10 - 1.10) <0baed9fa-efa5-3da0-8715-043fd2400b77> /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+    0x7fff98753000 -     0x7fff98771fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib

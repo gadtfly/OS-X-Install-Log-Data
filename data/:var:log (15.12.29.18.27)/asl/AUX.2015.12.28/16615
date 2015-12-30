@@ -1,0 +1,35 @@
+softwareupdated(318) deny system-fsctl 0x682f
+
+Process:         softwareupdated [318]
+Path:            /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+Load Address:    0x108143000
+Identifier:      softwareupdated
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 06:31:57.267 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff8dd88ba6 fsctl + 10
+1   Foundation                    	0x00007fff931651f9 -[NSFileManager _URLForReplacingItemAtURL:error:] + 1748
+2   Foundation                    	0x00007fff93137b7d _NSCreateTemporaryFile_Protected + 201
+3   Foundation                    	0x00007fff9313745e _NSWriteDataToFileWithExtendedAttributes + 232
+4   SoftwareUpdate                	0x00007fff90fb8fb1 -[SUUpdateServiceDaemon _saveCurrentState] + 117
+5   libdispatch.dylib             	0x00007fff88dea871 _dispatch_call_block_and_release + 12
+6   libdispatch.dylib             	0x00007fff88ddf33f _dispatch_client_callout + 8
+7   libdispatch.dylib             	0x00007fff88de3f6f _dispatch_queue_drain + 754
+8   libdispatch.dylib             	0x00007fff88dea63b _dispatch_queue_invoke + 549
+9   libdispatch.dylib             	0x00007fff88de2c87 _dispatch_root_queue_drain + 538
+10  libdispatch.dylib             	0x00007fff88de2a34 _dispatch_worker_thread3 + 91
+11  libsystem_pthread.dylib       	0x00007fff8374168f _pthread_wqthread + 1129
+12  libsystem_pthread.dylib       	0x00007fff8373f365 start_wqthread + 13
+
+Binary Images:
+    0x7fff8373e000 -     0x7fff83747ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff88ddd000 -     0x7fff88e0afff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8dd71000 -     0x7fff8dd8ffff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff90fa8000 -     0x7fff91042ff7  com.apple.SoftwareUpdate.framework (6 - 790) <a4c2e56e-4554-3b6a-acac-5a969bc3f0fd> /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+    0x7fff930ab000 -     0x7fff933ffff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation

@@ -1,0 +1,38 @@
+SoftwareUpdateCo(1105) deny authorization-right-obtain system.install.app-store-software.standard-user
+
+Process:         SoftwareUpdateCo [1105]
+Path:            /System/Library/CoreServices/Software Update.app/Contents/Resources/SoftwareUpdateConfigData
+Load Address:    0x10904b000
+Identifier:      SoftwareUpdateConfigData
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  softwareupdated [213]
+
+Date/Time:       2015-12-28 03:31:31.703 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff987643c2 semaphore_wait_trap + 10
+1   SoftwareUpdateConfigData      	0x000000010904d3d5
+2   SoftwareUpdateConfigData      	0x000000010904c86a
+3   libdyld.dylib                 	0x00007fff935fb5ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff9876aff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff8c11cd01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Binary Images:
+       0x10904b000 -        0x10904dfff  SoftwareUpdateConfigData (790) <4bc45e5f-0ef4-344e-89fb-773bb856bb2a> /System/Library/CoreServices/Software Update.app/Contents/Resources/SoftwareUpdateConfigData
+    0x7fff8bb57000 -     0x7fff8bb60ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8c115000 -     0x7fff8c142fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff935f8000 -     0x7fff935fbffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff98753000 -     0x7fff98771fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib

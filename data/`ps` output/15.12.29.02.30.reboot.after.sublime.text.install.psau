@@ -1,0 +1,169 @@
+USER              PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+adamlouis         376   2.0  0.7  2644940  30180   ??  S     2:30am   0:01.72 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+_windowserver     160   1.1  1.4  3432936  59212   ??  Ss    2:29am   0:02.28 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Resources/WindowServer -daemon
+root              383   0.0  0.1  2450012   6212   ??  Ss    2:30am   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+adamlouis         378   0.0  0.0  2444648   1460 s000  S     2:30am   0:00.01 -bash
+root              377   0.0  0.1  2450048   3928 s000  Ss    2:30am   0:00.02 login -pf adamlouis
+adamlouis         369   0.0  0.2  2474160  10300   ??  Ss    2:30am   0:00.03 /System/Library/PrivateFrameworks/IMDMessageServices.framework/XPCServices/IMDMessageServicesAgent.xpc/Contents/MacOS/IMDMessageServicesAgent
+_spotlight        365   0.0  0.3  2477228  10684   ??  S     2:30am   0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+_spotlight        364   0.0  0.3  2477228  10664   ??  S     2:30am   0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+_spotlight        363   0.0  0.3  2477228  10720   ??  S     2:30am   0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+_spotlight        362   0.0  0.3  2477228  10656   ??  S     2:30am   0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+adamlouis         345   0.0  0.0  2449280    856   ??  U     2:30am   0:00.01 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+adamlouis         338   0.0  0.4  2485804  17556   ??  S     2:29am   0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+adamlouis         337   0.0  0.4  2484588  18568   ??  S     2:29am   0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+adamlouis         336   0.0  0.5  2487388  20344   ??  S     2:29am   0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+adamlouis         335   0.0  0.5  2484304  19380   ??  S     2:29am   0:00.08 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+root              326   0.0  0.2  2448624   6372   ??  Ss    2:29am   0:00.02 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/suhelperd
+_softwareupdate   325   0.0  1.1  2508792  48144   ??  Ss    2:29am   0:01.10 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+adamlouis         319   0.0  0.3  2477264  12516   ??  S     2:29am   0:00.96 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+adamlouis         318   0.0  0.1  2477140   4976   ??  S     2:29am   0:00.03 /usr/libexec/swcd
+adamlouis         313   0.0  0.2  2479056   7952   ??  S     2:29am   0:00.04 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+adamlouis         312   0.0  0.4  2483596  15240   ??  S     2:29am   0:00.05 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+adamlouis         307   0.0  0.1  2448496   4216   ??  S     2:29am   0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/Resources/IDSKeychainSyncingProxy.bundle/Contents/MacOS/IDSKeychainSyncingProxy
+root              305   0.0  0.1  2448964   3816   ??  Us    2:29am   0:00.01 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+adamlouis         304   0.0  0.1  2477572   5200   ??  S     2:29am   0:00.05 /System/Library/CoreServices/pbs
+adamlouis         303   0.0  0.1  2448604   3776   ??  S     2:29am   0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+adamlouis         302   0.0  0.2  2476832   8580   ??  U     2:29am   0:00.27 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+adamlouis         301   0.0  0.2  2499528   9792   ??  S     2:29am   0:00.05 /Applications/BetterTouchTool.app/Contents/Resources/BTTRelaunch.app/Contents/MacOS/BTTRelaunch
+adamlouis         300   0.0  0.4  2480320  16724   ??  S     2:29am   0:00.16 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+adamlouis         299   0.0  0.5  2481668  22656   ??  Ss    2:29am   0:00.66 /System/Library/PrivateFrameworks/CalendarAgent.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+adamlouis         298   0.0  0.4  2479088  18204   ??  S     2:29am   0:00.21 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+adamlouis         297   0.0  0.2  2474980   8852   ??  S     2:29am   0:00.35 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+root              296   0.0  0.1  2448428   3612   ??  Ss    2:29am   0:00.01 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+root              295   0.0  0.3  2474932  13704   ??  Ss    2:29am   0:00.03 /System/Library/CoreServices/backupd.bundle/Contents/Resources/TMCacheDelete
+root              294   0.0  0.1  2452504   4596   ??  Ss    2:29am   0:00.03 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+adamlouis         293   0.0  0.3  2475504  11044   ??  S     2:29am   0:00.05 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+adamlouis         292   0.0  0.5  2477608  21212   ??  S     2:29am   0:00.35 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+adamlouis         291   0.0  0.5  2524220  22336   ??  S     2:29am   0:00.22 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+adamlouis         290   0.0  0.2  2448876   7292   ??  S     2:29am   0:00.03 /usr/libexec/nsurlsessiond
+adamlouis         289   0.0  0.4  2477272  16168   ??  S     2:29am   0:00.15 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+adamlouis         288   0.0  0.4  2543540  18612   ??  S     2:29am   0:00.25 /Applications/Alfred 2.app/Contents/MacOS/Alfred 2
+root              287   0.0  0.1  2475940   5748   ??  Ss    2:29am   0:00.07 /usr/libexec/taskgated -s
+adamlouis         286   0.0  0.5  2500396  21388   ??  S     2:29am   0:01.45 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+adamlouis         285   0.0  0.1  2475908   6280   ??  S     2:29am   0:00.11 /usr/libexec/nsurlstoraged
+adamlouis         283   0.0  0.2  2474152  10076   ??  S     2:29am   0:00.05 /System/Library/Frameworks/AddressBook.framework/Versions/A/XPCServices/com.apple.AddressBook.ContactsAccountsService.xpc/Contents/MacOS/com.apple.AddressBook.ContactsAccountsService
+adamlouis         282   0.0  0.1  2475992   3928   ??  S     2:29am   0:00.09 /usr/libexec/secd
+adamlouis         281   0.0  0.2  2476848   7352   ??  S     2:29am   0:00.15 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+adamlouis         280   0.0  0.4  2474616  15216   ??  S     2:29am   0:00.09 /usr/libexec/fmfd
+adamlouis         279   0.0  0.3  2474672  12964   ??  S     2:29am   0:00.05 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper
+adamlouis         278   0.0  0.2  2449076   8960   ??  U     2:29am   0:00.04 /System/Library/CoreServices/mapspushd
+adamlouis         277   0.0  0.1  2475500   4932   ??  Ss    2:29am   0:00.03 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+root              276   0.0  0.1  2475364   5960   ??  Ss    2:29am   0:00.18 /usr/libexec/amfid
+adamlouis         275   0.0  0.5  2515572  22324   ??  S     2:29am   0:00.40 /Applications/BetterTouchTool.app/Contents/MacOS/BetterTouchTool
+adamlouis         271   0.0  0.3  2475612  11684   ??  S     2:29am   0:00.06 /System/Library/CoreServices/diagnostics_agent
+adamlouis         270   0.0  0.2  2499556  10140   ??  S     2:29am   0:00.06 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+adamlouis         268   0.0  0.2  2474180   6400   ??  S     2:29am   0:00.02 /System/Library/PrivateFrameworks/HelpData.framework/Versions/A/Resources/helpd
+adamlouis         266   0.0  0.2  2500080  10020   ??  S     2:29am   0:00.07 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+adamlouis         265   0.0  0.3  2474240  13448   ??  S     2:29am   0:00.04 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+adamlouis         262   0.0  0.4  2478556  16244   ??  U     2:29am   0:00.15 /System/Library/CoreServices/AppleIDAuthAgent
+adamlouis         261   0.0  0.1  2480360   5320   ??  S     2:29am   0:00.02 /System/Library/CoreServices/iconservicesagent
+adamlouis         260   0.0  0.2  2474736   8624   ??  S     2:29am   0:00.08 /System/Library/Image Capture/Support/icdd
+adamlouis         259   0.0  0.3  2482908  14460   ??  S     2:29am   0:00.55 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+adamlouis         257   0.0  0.7  2550120  31036   ??  S     2:29am   0:00.62 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+adamlouis         254   0.0  0.4  2498992  16692   ??  S     2:29am   0:00.07 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+adamlouis         252   0.0  0.2  2474228   7828   ??  S     2:29am   0:00.03 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+adamlouis         250   0.0  0.1  2448972   3436   ??  S     2:29am   0:00.01 /usr/libexec/spindump_agent
+adamlouis         249   0.0  0.3  2500052  12988   ??  S     2:29am   0:00.06 /System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher
+adamlouis         248   0.0  0.3  2474112  13604   ??  S     2:29am   0:00.06 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+adamlouis         247   0.0  0.4  2474504  14816   ??  S     2:29am   0:00.18 /System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd
+adamlouis         246   0.0  0.7  2540276  30836   ??  S     2:29am   0:00.64 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+root              245   0.0  0.1  2449884   4312   ??  Ss    2:29am   0:00.03 /System/Library/CoreServices/sharedfilelistd --enable-legacy-services
+adamlouis         244   0.0  0.3  2474564  12048   ??  S     2:29am   0:00.04 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+adamlouis         243   0.0  0.8  2494400  33176   ??  S     2:29am   0:02.58 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+adamlouis         242   0.0  0.3  2474940  11640   ??  S     2:29am   0:00.05 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+adamlouis         241   0.0  0.3  2474984  13932   ??  S     2:29am   0:00.11 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+adamlouis         240   0.0  0.2  2474716   8868   ??  S     2:29am   0:00.16 /usr/libexec/secinitd
+adamlouis         239   0.0  0.4  2488040  17952   ??  S     2:29am   0:00.19 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+adamlouis         238   0.0  0.2  2478428   6480   ??  S     2:29am   0:00.16 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+adamlouis         237   0.0  0.2  2477092   9360   ??  S     2:29am   0:00.29 /usr/libexec/pkd
+adamlouis         236   0.0  0.4  2484732  18244   ??  S     2:29am   0:00.16 /usr/libexec/sharingd
+adamlouis         235   0.0  0.5  2500144  19100   ??  Ss    2:29am   0:00.16 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+root              234   0.0  0.1  2451372   3576   ??  Ss    2:29am   0:00.01 /usr/sbin/filecoordinationd
+adamlouis         233   0.0  0.2  2475360   7172   ??  S     2:29am   0:00.30 /usr/sbin/usernoted
+adamlouis         232   0.0  0.2  2477340   6620   ??  S     2:29am   0:00.11 /System/Library/CoreServices/sharedfilelistd
+adamlouis         230   0.0  0.2  2508484   8948   ??  S     2:29am   0:00.40 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+adamlouis         228   0.0  0.0  2448144   1160   ??  S     2:29am   0:00.01 /usr/sbin/pboard
+adamlouis         224   0.0  1.1  2542120  47208   ??  R     2:29am   0:01.30 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+adamlouis         223   0.0  0.5  2519076  19320   ??  S     2:29am   0:00.26 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+adamlouis         221   0.0  0.8  2558356  34068   ??  S     2:29am   0:00.34 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+adamlouis         220   0.0  0.1  2451092   3404   ??  S     2:29am   0:00.27 /usr/sbin/cfprefsd agent
+adamlouis         219   0.0  0.2  2479100   7472   ??  U     2:29am   0:00.11 /usr/libexec/lsd
+adamlouis         218   0.0  0.2  2483616  10144   ??  S     2:29am   0:00.07 /usr/sbin/universalaccessd launchd -s
+adamlouis         217   0.0  0.1  2450372   2840   ??  S     2:29am   0:00.16 /usr/sbin/distnoted agent
+adamlouis         215   0.0  0.4  2479168  17548   ??  S     2:29am   0:00.37 /usr/libexec/UserEventAgent (Aqua)
+root              214   0.0  0.1  2474720   3384   ??  Ss    2:29am   0:00.83 /usr/libexec/securityd_service
+root              209   0.0  0.1  2451088   3240   ??  Ss    2:29am   0:00.02 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+root              208   0.0  0.1  2475580   6168   ??  Ss    2:29am   0:00.07 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+root              207   0.0  0.1  2479636   5152   ??  Ss    2:29am   0:00.06 /usr/sbin/systemsoundserverd
+_cvmsroot         202   0.0  0.2  2470656   7804   ??  S     2:29am   0:00.08 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMCompiler 2
+root              200   0.0  0.1  2450328   2376   ??  Ss    2:29am   0:00.03 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+root              189   0.0  0.0  2482996   1580   ??  Ss    2:29am   0:00.02 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+root              188   0.0  0.2  2474804   7024   ??  Ss    2:29am   0:00.03 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+_netbios          187   0.0  0.2  2449400   6676   ??  SNs   2:29am   0:00.03 /usr/sbin/netbiosd
+root              182   0.0  2.0  2890568  82444   ??  Ss    2:29am   0:01.36 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+root              178   0.0  0.1  2455964   4052   ??  Ss    2:29am   0:00.03 /usr/libexec/rpcsvchost -launchd netlogon.bundle
+root              176   0.0  0.1  2476404   5984   ??  Ss    2:29am   0:00.05 /usr/libexec/lsd runAsRoot
+root              175   0.0  0.0  2441092   1080   ??  Ss    2:29am   0:00.01 /usr/libexec/watchdogd
+root              172   0.0  0.2  2479632   7868   ??  Ss    2:29am   0:00.05 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+root              171   0.0  0.1  2448992   3468   ??  Us    2:29am   0:00.03 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+root              169   0.0  0.2  2476224   9256   ??  Ss    2:29am   0:00.11 /usr/libexec/usbd
+root              168   0.0  0.2  2474764   8792   ??  Ss    2:29am   0:00.06 /usr/libexec/findmydeviced
+_networkd         167   0.0  0.2  2481728   9796   ??  Ss    2:29am   0:00.24 /usr/libexec/symptomsd
+root              166   0.0  0.0  2449688   1364   ??  Ss    2:29am   0:00.03 /usr/sbin/ntpd -c /private/etc/ntp-restrict.conf -n -g -p /var/run/ntpd.pid -f /var/db/ntp.drift
+root              165   0.0  0.1  2452580   6072   ??  Ss    2:29am   0:00.05 /usr/libexec/nehelper
+_nsurlsessiond    164   0.0  0.2  2448864   6888   ??  Ss    2:29am   0:00.04 /usr/libexec/nsurlsessiond --privileged
+root              161   0.0  0.1  2476340   5244   ??  Ss    2:29am   0:00.18 /usr/sbin/ocspd
+root              159   0.0  0.1  2450540   3288   ??  Ss    2:29am   0:00.02 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+root              158   0.0  0.1  2474964   5540   ??  Ss    2:29am   0:00.07 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+root              157   0.0  0.3  2474740  13760   ??  Ss    2:29am   0:00.06 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd
+root              154   0.0  0.1  2448968   3356   ??  Ss    2:29am   0:00.02 /usr/libexec/networkd_privileged
+_networkd         153   0.0  0.1  2449012   5236   ??  Ss    2:29am   0:00.11 /usr/libexec/networkd
+root              137   0.0  0.2  2474708   8088   ??  Ss    2:29am   0:00.07 /usr/libexec/secinitd
+root              136   0.0  0.1  2448972   3280   ??  Ss    2:29am   0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+root              135   0.0  0.1  2448988   3252   ??  Ss    2:29am   0:00.02 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+_coreaudiod       129   0.0  0.1  2474500   2996   ??  Ss    2:29am   0:00.08 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+_coreaudiod       128   0.0  0.2  2485100   8888   ??  Ss    2:29am   0:00.25 /usr/sbin/coreaudiod
+root              125   0.0  0.1  2475972   5940   ??  Ss    2:29am   0:00.18 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root              123   0.0  0.1  2451384   3128   ??  Ss    2:29am   0:00.32 /usr/sbin/cfprefsd daemon
+root              122   0.0  0.1  2484728   5684   ??  Ss    2:29am   0:00.25 /usr/libexec/sandboxd
+root              118   0.0  0.1  2449164   3756   ??  Ss    2:29am   0:00.07 /usr/libexec/diagnosticd
+root              117   0.0  0.1  2449520   3616   ??  Us    2:29am   0:00.02 aslmanager
+_distnote          97   0.0  0.1  2448276   2376   ??  Ss    2:29am   0:00.06 /usr/sbin/distnoted daemon
+root               94   0.0  0.2  2479140   6712   ??  Ss    2:29am   0:00.23 /System/Library/CoreServices/coreservicesd
+root               93   0.0  0.0  2449348   1484   ??  Ss    2:29am   0:00.60 /usr/sbin/notifyd
+root               92   0.0  0.2  2450060   7088   ??  Ss    2:29am   0:00.07 /usr/libexec/AirPlayXPCHelper
+root               91   0.0  0.1  2450700   4756   ??  Ss    2:29am   0:00.16 /usr/libexec/hidd
+root               89   0.0  0.0  2448780   1792   ??  Ss    2:29am   0:00.01 /usr/sbin/KernelEventAgent
+root               88   0.0  0.1  2448464   3764   ??  Ss    2:29am   0:00.03 /System/Library/CoreServices/logind
+adamlouis          87   0.0  0.4  2495516  18152   ??  Ss    2:29am   0:00.59 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root               86   0.0  0.1  2475480   4888   ??  Ss    2:29am   0:00.08 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+_mdnsresponder     84   0.0  0.2  2478360   6728   ??  Ss    2:29am   0:00.17 /usr/sbin/mDNSResponder
+root               80   0.0  0.1  2448948   3496   ??  Ss    2:29am   0:00.02 autofsd
+root               79   0.0  0.1  2475436   5432   ??  Us    2:29am   0:00.10 /usr/sbin/blued
+_locationd         76   0.0  0.2  2482672   9604   ??  Ss    2:29am   0:00.24 /usr/libexec/locationd
+root               74   0.0  0.1  2479160   4400   ??  Ss    2:29am   0:00.59 /usr/sbin/securityd -i
+_usbmuxd           73   0.0  0.1  2450880   4060   ??  Ss    2:29am   0:00.04 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+root               72   0.0  0.2  2479644   7172   ??  Ss    2:29am   0:00.50 /System/Library/CoreServices/launchservicesd
+root               71   0.0  0.3  2478048  12216   ??  Ss    2:29am   0:00.36 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root               69   0.0  0.1  2474960   4352   ??  Us    2:29am   0:00.04 /usr/sbin/wirelessproxd
+root               68   0.0  0.2  2487888   9728   ??  Ss    2:29am   0:01.38 /usr/libexec/opendirectoryd
+root               66   0.0  0.2  2448852   6468   ??  Ss    2:29am   0:00.03 /usr/libexec/wdhelper
+root               65   0.0  0.4  2482252  15084   ??  Ss    2:29am   0:00.35 /usr/libexec/coreduetd
+root               63   0.0  0.1  2474028   2828   ??  Ss    2:29am   0:00.11 /usr/libexec/diskarbitrationd
+root               62   0.0  0.1  2448944   3624   ??  Ss    2:29am   0:00.02 /System/Library/CoreServices/iconservicesagent
+_iconservices      61   0.0  0.1  2450516   3732   ??  Ss    2:29am   0:00.03 /System/Library/CoreServices/iconservicesd
+root               60   0.0  0.0  2448252   1436   ??  Ss    2:29am   0:00.01 firmwaresyncd
+root               57   0.0  0.9  2526152  38948   ??  Ss    2:29am   0:01.16 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root               56   0.0  0.2  2451900   8404   ??  SNs   2:29am   0:00.05 /usr/libexec/warmd
+root               54   0.0  0.2  2479432  10464   ??  Ss    2:29am   0:00.64 /usr/libexec/airportd
+root               49   0.0  0.1  2475188   2924   ??  Ss    2:29am   0:00.25 /System/Library/CoreServices/powerd.bundle/powerd
+root               48   0.0  0.2  2479096   6860   ??  Ss    2:29am   0:00.53 /usr/libexec/configd
+_appleevents       47   0.0  0.1  2476268   4984   ??  Ss    2:29am   0:00.07 /System/Library/CoreServices/appleeventsd --server
+root               43   0.0  0.1  2453796   2868   ??  Ss    2:29am   0:00.31 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root               42   0.0  0.3  2479016  11744   ??  Ss    2:29am   0:00.78 /usr/libexec/kextd
+root               40   0.0  0.4  2479928  17844   ??  Ss    2:29am   0:00.67 /usr/libexec/UserEventAgent (System)
+root               39   0.0  0.0  2451500   1616   ??  Ss    2:29am   0:00.68 /usr/sbin/syslogd
+root              392   0.0  0.0  2434852    876 s000  R+    2:30am   0:00.00 ps Au
+root                1   0.0  0.2  2472172   9252   ??  Ss    2:28am   0:02.64 /sbin/launchd
+adamlouis         384   0.0  0.0  2444644   1112 s000  S+    2:30am   0:00.00 /bin/bash /Users/adamlouis/Desktop/logs/log.command

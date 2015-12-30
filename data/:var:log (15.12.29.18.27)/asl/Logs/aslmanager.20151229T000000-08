@@ -1,0 +1,781 @@
+Dec 29 00:00:00: aslmanager starting
+Dec 29 00:00:00: ----------------------------------------
+Dec 29 00:00:00: Processing data store /var/log/asl
+Dec 29 00:00:01: Data Store Size = 7440965
+Dec 29 00:00:01: Data Store YMD Files (TTL = 7 days)
+Dec 29 00:00:01:   2015.12.28.G80.asl   2915186 (age 0)
+Dec 29 00:00:01:   2015.12.28.U0.G80.asl   871162 (age 0)
+Dec 29 00:00:01:   2015.12.28.U0.asl   371907 (age 0)
+Dec 29 00:00:01:   2015.12.28.U205.asl   7632 (age 0)
+Dec 29 00:00:01:   2015.12.28.U235.asl   550 (age 0)
+Dec 29 00:00:01:   2015.12.28.U24.asl   6465 (age 0)
+Dec 29 00:00:01:   2015.12.28.U241.asl   6466 (age 0)
+Dec 29 00:00:01:   2015.12.28.U243.asl   128412 (age 0)
+Dec 29 00:00:01:   2015.12.28.U248.asl   11153 (age 0)
+Dec 29 00:00:01:   2015.12.28.U501.asl   1248328 (age 0)
+Dec 29 00:00:01:   2015.12.28.U89.asl   8621 (age 0)
+Dec 29 00:00:01:   2015.12.28.U92.asl   50038 (age 0)
+Dec 29 00:00:01:   2015.12.28.U97.asl   485 (age 0)
+Dec 29 00:00:01: Data Store AUX Directories
+Dec 29 00:00:01:   AUX.2015.12.28   1765912 (age 0)
+Dec 29 00:00:01: Data Store BB.AUX Directories
+Dec 29 00:00:01: Data Store BB Files
+Dec 29 00:00:01:   BB.2016.12.31.G80.asl   48648 (age 0)
+Dec 29 00:00:01: Start YMD File Scan
+Dec 29 00:00:01: Finished YMD File Scan
+Dec 29 00:00:01: Start AUX Directory Scan
+Dec 29 00:00:01: Finished AUX Directory Scan
+Dec 29 00:00:01: Start BB.AUX Directory Scan
+Dec 29 00:00:01: Finished BB.AUX Directory Scan
+Dec 29 00:00:01: Start BB Scan
+Dec 29 00:00:01: Finished BB Scan
+Dec 29 00:00:01: Data Store Size = 7440965
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.asl
+Dec 29 00:00:01: Checking file /var/log/system.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     src files
+Dec 29 00:00:01:       system.log.T1451376000
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01:   copy compress /var/log/system.log.T1451376000 ---> /var/log/system.log.0.gz
+Dec 29 00:00:01:   remove /var/log/system.log.T1451376000
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     dst files
+Dec 29 00:00:01:       system.log.0.gz (age 0)
+Dec 29 00:00:01: - Check total storage used - MAX = 52428800
+Dec 29 00:00:01:     dst files
+Dec 29 00:00:01:       system.log.0.gz size 385157
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing data store /var/log/asl
+Dec 29 00:00:01: Data Store Size = 7440965
+Dec 29 00:00:01: Data Store YMD Files (TTL = 7 days)
+Dec 29 00:00:01:   2015.12.28.G80.asl   2915186 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U0.G80.asl   871162 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U0.asl   371907 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U205.asl   7632 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U235.asl   550 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U24.asl   6465 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U241.asl   6466 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U243.asl   128412 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U248.asl   11153 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U501.asl   1248328 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U89.asl   8621 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U92.asl   50038 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U97.asl   485 (age 00:00:01)
+Dec 29 00:00:01: Data Store AUX Directories
+Dec 29 00:00:01:   AUX.2015.12.28   1765912 (age 0)
+Dec 29 00:00:01: Data Store BB.AUX Directories
+Dec 29 00:00:01: Data Store BB Files
+Dec 29 00:00:01:   BB.2016.12.31.G80.asl   48648 (age 0)
+Dec 29 00:00:01: Start YMD File Scan
+Dec 29 00:00:01: Finished YMD File Scan
+Dec 29 00:00:01: Start AUX Directory Scan
+Dec 29 00:00:01: Finished AUX Directory Scan
+Dec 29 00:00:01: Start BB.AUX Directory Scan
+Dec 29 00:00:01: Finished BB.AUX Directory Scan
+Dec 29 00:00:01: Start BB Scan
+Dec 29 00:00:01: Finished BB Scan
+Dec 29 00:00:01: Data Store Size = 7440965
+Dec 29 00:00:01: Checking file /var/log/asl/Logs/aslmanager
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 2 days
+Dec 29 00:00:01:     dst files
+Dec 29 00:00:01:       aslmanager.20151228T003359-08 (age 23:26:02)
+Dec 29 00:00:01:       aslmanager.20151228T010355-08 (age 22:56:06)
+Dec 29 00:00:01:       aslmanager.20151228T011651-08 (age 22:43:10)
+Dec 29 00:00:01:       aslmanager.20151228T013111-08 (age 22:28:50)
+Dec 29 00:00:01:       aslmanager.20151228T015054-08 (age 22:09:07)
+Dec 29 00:00:01:       aslmanager.20151228T041444-08 (age 19:45:17)
+Dec 29 00:00:01:       aslmanager.20151228T045652-08 (age 19:03:09)
+Dec 29 00:00:01:       aslmanager.20151228T051151-08 (age 18:48:10)
+Dec 29 00:00:01:       aslmanager.20151228T051809-08 (age 18:41:52)
+Dec 29 00:00:01:       aslmanager.20151228T052604-08 (age 18:33:57)
+Dec 29 00:00:01:       aslmanager.20151228T053702-08 (age 18:22:59)
+Dec 29 00:00:01:       aslmanager.20151228T153843-08 (age 08:21:18)
+Dec 29 00:00:01:       aslmanager.20151228T230136-08 (age 00:58:25)
+Dec 29 00:00:01:       aslmanager.20151229T000000-08 (age 00:00:01)
+Dec 29 00:00:01: Finished processing module com.apple.asl
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.AccountPolicyHelper
+Dec 29 00:00:01: Checking file /var/log/accountpolicy.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     src files
+Dec 29 00:00:01:       accountpolicy.log.T1451376000
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01:   copy compress /var/log/accountpolicy.log.T1451376000 ---> /var/log/accountpolicy.log.0.gz
+Dec 29 00:00:01:   remove /var/log/accountpolicy.log.T1451376000
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     dst files
+Dec 29 00:00:01:       accountpolicy.log.0.gz (age 0)
+Dec 29 00:00:01: - Check total storage used - MAX = 52428800
+Dec 29 00:00:01:     dst files
+Dec 29 00:00:01:       accountpolicy.log.0.gz size 1625
+Dec 29 00:00:01: Finished processing module com.apple.AccountPolicyHelper
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.Accounts
+Dec 29 00:00:01: Checking file /var/log/Accounts/accounts.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 3 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 104857600
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/log/Accounts/accounts.vlog
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 3 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 104857600
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Finished processing module com.apple.Accounts
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.activity_tracing
+Dec 29 00:00:01: Checking file /var/db/diagnostics/faults.tracev3
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 157286400
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/db/diagnostics/activity.5.tracev3
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 78643200
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/db/diagnostics/activity.4.tracev3
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 78643200
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/db/diagnostics/activity.3.tracev3
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 78643200
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/db/diagnostics/activity.2.tracev3
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 78643200
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/db/diagnostics/activity.1.tracev3
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 78643200
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/db/diagnostics/activity.0.tracev3
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 78643200
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Finished processing module com.apple.activity_tracing
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.airplay.mac
+Dec 29 00:00:01: Checking file /Library/Logs/CrashReporter/com.apple.airplay.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 10485760
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Finished processing module com.apple.airplay.mac
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.authd
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing data store /var/log/asl
+Dec 29 00:00:01: Data Store Size = 7440965
+Dec 29 00:00:01: Data Store YMD Files (TTL = 7 days)
+Dec 29 00:00:01:   2015.12.28.G80.asl   2915186 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U0.G80.asl   871162 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U0.asl   371907 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U205.asl   7632 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U235.asl   550 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U24.asl   6465 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U241.asl   6466 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U243.asl   128412 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U248.asl   11153 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U501.asl   1248328 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U89.asl   8621 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U92.asl   50038 (age 00:00:01)
+Dec 29 00:00:01:   2015.12.28.U97.asl   485 (age 00:00:01)
+Dec 29 00:00:01: Data Store AUX Directories
+Dec 29 00:00:01:   AUX.2015.12.28   1765912 (age 0)
+Dec 29 00:00:01: Data Store BB.AUX Directories
+Dec 29 00:00:01: Data Store BB Files
+Dec 29 00:00:01:   BB.2016.12.31.G80.asl   48648 (age 0)
+Dec 29 00:00:01: Start YMD File Scan
+Dec 29 00:00:01: Finished YMD File Scan
+Dec 29 00:00:01: Start AUX Directory Scan
+Dec 29 00:00:01: Finished AUX Directory Scan
+Dec 29 00:00:01: Start BB.AUX Directory Scan
+Dec 29 00:00:01: Finished BB.AUX Directory Scan
+Dec 29 00:00:01: Start BB Scan
+Dec 29 00:00:01: Finished BB Scan
+Dec 29 00:00:01: Data Store Size = 7440965
+Dec 29 00:00:01: Checking file /var/log/authd.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     src files
+Dec 29 00:00:01:       authd.log.T1451376000
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01:   copy compress /var/log/authd.log.T1451376000 ---> /var/log/authd.log.0.gz
+Dec 29 00:00:01:   remove /var/log/authd.log.T1451376000
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     dst files
+Dec 29 00:00:01:       authd.log.0.gz (age 0)
+Dec 29 00:00:01: - Check total storage used - MAX = 20971520
+Dec 29 00:00:01:     dst files
+Dec 29 00:00:01:       authd.log.0.gz size 3955
+Dec 29 00:00:01: Finished processing module com.apple.authd
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.authkit.osx.asl
+Dec 29 00:00:01: Checking file /var/log/Accounts/appleidtraffic.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 3 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 104857600
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Checking file /var/log/Accounts/authkit.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 3 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 104857600
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Finished processing module com.apple.authkit.osx.asl
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.awdd
+Dec 29 00:00:01: Checking file /private/var/root/Library/Logs/awdd/awddLogging.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 52428800
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Finished processing module com.apple.awdd
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.callhistory.asl.conf
+Dec 29 00:00:01: Checking file /var/log/CallHistory/callhistory.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     no src files
+Dec 29 00:00:01: - Check for expired files - TTL = 7 days
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: - Check total storage used - MAX = 52428800
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01: Finished processing module com.apple.callhistory.asl.conf
+Dec 29 00:00:01: ----------------------------------------
+Dec 29 00:00:01: Processing module com.apple.cdscheduler
+Dec 29 00:00:01: Checking file /var/log/module/com.apple.cdscheduler/cdscheduler.log
+Dec 29 00:00:01: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:01:     src files
+Dec 29 00:00:01:       cdscheduler.log.T1451376000
+Dec 29 00:00:01:     no dst files
+Dec 29 00:00:01:   copy compress /var/log/module/com.apple.cdscheduler/cdscheduler.log.T1451376000 ---> /var/log/module/com.apple.cdscheduler/cdscheduler.log.0.gz
+Dec 29 00:00:02:   remove /var/log/module/com.apple.cdscheduler/cdscheduler.log.T1451376000
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       cdscheduler.log.0.gz (age 00:00:01)
+Dec 29 00:00:02: - Check total storage used - MAX = 2097152
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       cdscheduler.log.0.gz size 145044
+Dec 29 00:00:02: Finished processing module com.apple.cdscheduler
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.cloudd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing data store /var/log/com.apple.cloudkit.asl
+Dec 29 00:00:02: Finished processing module com.apple.cloudd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.clouddocs
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing data store /var/log/com.apple.clouddocs.asl
+Dec 29 00:00:02: Data Store Size = 50686
+Dec 29 00:00:02: Data Store YMD Files (TTL = 7 days)
+Dec 29 00:00:02:   2015.12.28.asl   50686 (age 00:00:02)
+Dec 29 00:00:02: Data Store AUX Directories
+Dec 29 00:00:02: Data Store BB.AUX Directories
+Dec 29 00:00:02: Data Store BB Files
+Dec 29 00:00:02: Start YMD File Scan
+Dec 29 00:00:02: Finished YMD File Scan
+Dec 29 00:00:02: Start AUX Directory Scan
+Dec 29 00:00:02: Finished AUX Directory Scan
+Dec 29 00:00:02: Start BB.AUX Directory Scan
+Dec 29 00:00:02: Finished BB.AUX Directory Scan
+Dec 29 00:00:02: Start BB Scan
+Dec 29 00:00:02: Finished BB Scan
+Dec 29 00:00:02: Data Store Size = 50686
+Dec 29 00:00:02: Finished processing module com.apple.clouddocs
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.commerce.asl
+Dec 29 00:00:02: Finished processing module com.apple.commerce.asl
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.contacts.ContactsAutocomplete
+Dec 29 00:00:02: Checking file /var/log/com.apple.contacts.ContactsAutocomplete/Probes.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 209715200
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Checking file /var/log/com.apple.contacts.ContactsAutocomplete/Sorting.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 209715200
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Checking file /var/log/com.apple.contacts.ContactsAutocomplete/Performance.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 209715200
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Checking file /var/log/com.apple.contacts.ContactsAutocomplete/Debug.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 209715200
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.contacts.ContactsAutocomplete
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.corecdp.osx.asl
+Dec 29 00:00:02: Checking file /var/log/Accounts/cdp.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 104857600
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.corecdp.osx.asl
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.CoreDuetAdmissionControl
+Dec 29 00:00:02: Checking file /var/mobile/Library/Logs/CoreDuetAdmission.asl
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check total storage used - MAX = 20971520
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.CoreDuetAdmissionControl
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.coreduetd
+Dec 29 00:00:02: Checking file /var/log/coreduetd.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     ignore src file coreduetd.log since it is external and less than a day old
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 14 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 16777216
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.coreduetd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.corespotlight
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing data store /var/log/com.apple.corespotlight.asl
+Dec 29 00:00:02: Finished processing module com.apple.corespotlight
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.eventmonitor
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing data store /var/log/eventmonitor
+Dec 29 00:00:02: Finished processing module com.apple.eventmonitor
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.family.asl
+Dec 29 00:00:02: Checking file /var/mobile/Library/Logs/CrashReporter/DiagnosticLogs/Family/family.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 104857600
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.family.asl
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.ical
+Dec 29 00:00:02: Checking file /var/log/module/com.apple.ical/calendar.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     src files
+Dec 29 00:00:02:       calendar.log.2015-12-28T12:14:44Z.gz
+Dec 29 00:00:02:       calendar.log.2015-12-29T08:00:00Z
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       calendar.log.2015-12-28T12:14:44Z.gz
+Dec 29 00:00:02:       calendar.log.2015-12-29T08:00:00Z
+Dec 29 00:00:02:   copy compress /var/log/module/com.apple.ical/calendar.log.2015-12-29T08:00:00Z ---> /var/log/module/com.apple.ical/calendar.log.2015-12-29T08:00:00Z.gz
+Dec 29 00:00:02:   remove /var/log/module/com.apple.ical/calendar.log.2015-12-29T08:00:00Z
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       calendar.log.2015-12-28T12:14:44Z.gz (age 19:45:18)
+Dec 29 00:00:02:       calendar.log.2015-12-29T08:00:00Z.gz (age 00:00:02)
+Dec 29 00:00:02: - Check total storage used - MAX = 26214400
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       calendar.log.2015-12-28T12:14:44Z.gz size 408832
+Dec 29 00:00:02:       calendar.log.2015-12-29T08:00:00Z.gz size 254529
+Dec 29 00:00:02: Finished processing module com.apple.ical
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.icloud.FindMyDevice
+Dec 29 00:00:02: Checking file /var/log/findmydeviced/findmydeviced.asl
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 104857600
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.icloud.FindMyDevice
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.icloud.fmfd
+Dec 29 00:00:02: Checking file /var/mobile/Library/Logs/FMFD/FMFD.asl
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 104857600
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.icloud.fmfd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.install
+Dec 29 00:00:02: Finished processing module com.apple.install
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.iokit.power
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing data store /var/log/powermanagement
+Dec 29 00:00:02: Data Store Size = 389765
+Dec 29 00:00:02: Data Store YMD Files (TTL = 14 days)
+Dec 29 00:00:02:   2015.12.28.asl   389765 (age 00:00:02)
+Dec 29 00:00:02: Data Store AUX Directories
+Dec 29 00:00:02: Data Store BB.AUX Directories
+Dec 29 00:00:02: Data Store BB Files
+Dec 29 00:00:02: Start YMD File Scan
+Dec 29 00:00:02: Finished YMD File Scan
+Dec 29 00:00:02: Start AUX Directory Scan
+Dec 29 00:00:02: Finished AUX Directory Scan
+Dec 29 00:00:02: Start BB.AUX Directory Scan
+Dec 29 00:00:02: Finished BB.AUX Directory Scan
+Dec 29 00:00:02: Start BB Scan
+Dec 29 00:00:02: Finished BB Scan
+Dec 29 00:00:02: Data Store Size = 389765
+Dec 29 00:00:02: Finished processing module com.apple.iokit.power
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.login.guest
+Dec 29 00:00:02: Finished processing module com.apple.login.guest
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.mail
+Dec 29 00:00:02: Checking file /var/log/mail.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 52428800
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.mail
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.MessageTracer
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing data store /var/log/DiagnosticMessages
+Dec 29 00:00:02: Data Store Size = 1459455
+Dec 29 00:00:02: Data Store YMD Files (TTL = 30 days)
+Dec 29 00:00:02:   2015.12.28.asl   1459455 (age 00:00:02)
+Dec 29 00:00:02: Data Store AUX Directories
+Dec 29 00:00:02: Data Store BB.AUX Directories
+Dec 29 00:00:02: Data Store BB Files
+Dec 29 00:00:02: Start YMD File Scan
+Dec 29 00:00:02: Finished YMD File Scan
+Dec 29 00:00:02: Start AUX Directory Scan
+Dec 29 00:00:02: Finished AUX Directory Scan
+Dec 29 00:00:02: Start BB.AUX Directory Scan
+Dec 29 00:00:02: Finished BB.AUX Directory Scan
+Dec 29 00:00:02: Start BB Scan
+Dec 29 00:00:02: Finished BB Scan
+Dec 29 00:00:02: Data Store Size = 1459455
+Dec 29 00:00:02: Finished processing module com.apple.MessageTracer
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.mobileme.fmf1
+Dec 29 00:00:02: Checking file /var/log/FindMyFriendsApp/FindMyFriendsApp.asl
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 104857600
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.mobileme.fmf1
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.mobileme.fmf1.internal
+Dec 29 00:00:02: Checking file /var/log/FindMyFriendsApp/FindMyFriendsApp.asl
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 104857600
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.mobileme.fmf1.internal
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.captive
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.captive.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.captive
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.eapol
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.eapol.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.eapol
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.internetsharing.preference
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.internetsharing.preference.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.internetsharing.preference
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.IPConfiguration
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.IPConfiguration.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.IPConfiguration
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.IPMonitor
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.IPMonitor.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.IPMonitor
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.libsystem_network
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.libsystem_network.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.libsystem_network
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.mDNSResponder
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.mDNSResponder.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.mDNSResponder
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.networkd
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.networkd.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.networkd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.networkextension
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.networkextension.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.networkextension
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.networkextension.test
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.networkextension.test.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.networkextension.test
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.networksharing
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.networksharing.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.networksharing
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.NetworkStatistics
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.NetworkStatistics.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.NetworkStatistics
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.networking.symptoms
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.symptoms-helper.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Checking file /Library/Logs/CrashReporter/com.apple.networking.symptoms.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.apple.networking.symptoms
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.performance
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing data store /var/log/performance
+Dec 29 00:00:02: Finished processing module com.apple.performance
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.secinitd
+Dec 29 00:00:02: Checking file /var/log/secinitd.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     src files
+Dec 29 00:00:02:       secinitd.log.T1451376000
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02:   copy compress /var/log/secinitd.log.T1451376000 ---> /var/log/secinitd.log.0.gz
+Dec 29 00:00:02:   remove /var/log/secinitd.log.T1451376000
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       secinitd.log.0.gz (age 0)
+Dec 29 00:00:02: - Check total storage used - MAX = 52428800
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       secinitd.log.0.gz size 716
+Dec 29 00:00:02: Finished processing module com.apple.secinitd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.securityd
+Dec 29 00:00:02: Checking file /var/log/module/com.apple.securityd/security.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     src files
+Dec 29 00:00:02:       security.log.20151228T082859Z.gz
+Dec 29 00:00:02:       security.log.20151228T083000Z.gz
+Dec 29 00:00:02:       security.log.20151228T083001Z.gz
+Dec 29 00:00:02:       security.log.20151228T085855Z.gz
+Dec 29 00:00:02:       security.log.20151228T091151Z.gz
+Dec 29 00:00:02:       security.log.20151228T092611Z.gz
+Dec 29 00:00:02:       security.log.20151228T094554Z.gz
+Dec 29 00:00:02:       security.log.20151228T094712Z.gz
+Dec 29 00:00:02:       security.log.20151228T100841Z.gz
+Dec 29 00:00:02:       security.log.20151228T102833Z.gz
+Dec 29 00:00:02:       security.log.20151228T103913Z.gz
+Dec 29 00:00:02:       security.log.20151228T125122Z.gz
+Dec 29 00:00:02:       security.log.20151228T130342Z.gz
+Dec 29 00:00:02:       security.log.20151228T130629Z.gz
+Dec 29 00:00:02:       security.log.20151228T131239Z.gz
+Dec 29 00:00:02:       security.log.20151228T132034Z.gz
+Dec 29 00:00:02:       security.log.20151228T133155Z.gz
+Dec 29 00:00:02:       security.log.20151228T133216Z.gz
+Dec 29 00:00:02:       security.log.20151228T204549Z.gz
+Dec 29 00:00:02:       security.log.20151228T233334Z.gz
+Dec 29 00:00:02:       security.log.20151228T233410Z.gz
+Dec 29 00:00:02:       security.log.20151229T065615Z
+Dec 29 00:00:02:       security.log.20151229T065634Z
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       security.log.20151228T082859Z.gz
+Dec 29 00:00:02:       security.log.20151228T083000Z.gz
+Dec 29 00:00:02:       security.log.20151228T083001Z.gz
+Dec 29 00:00:02:       security.log.20151228T085855Z.gz
+Dec 29 00:00:02:       security.log.20151228T091151Z.gz
+Dec 29 00:00:02:       security.log.20151228T092611Z.gz
+Dec 29 00:00:02:       security.log.20151228T094554Z.gz
+Dec 29 00:00:02:       security.log.20151228T094712Z.gz
+Dec 29 00:00:02:       security.log.20151228T100841Z.gz
+Dec 29 00:00:02:       security.log.20151228T102833Z.gz
+Dec 29 00:00:02:       security.log.20151228T103913Z.gz
+Dec 29 00:00:02:       security.log.20151228T125122Z.gz
+Dec 29 00:00:02:       security.log.20151228T130342Z.gz
+Dec 29 00:00:02:       security.log.20151228T130629Z.gz
+Dec 29 00:00:02:       security.log.20151228T131239Z.gz
+Dec 29 00:00:02:       security.log.20151228T132034Z.gz
+Dec 29 00:00:02:       security.log.20151228T133155Z.gz
+Dec 29 00:00:02:       security.log.20151228T133216Z.gz
+Dec 29 00:00:02:       security.log.20151228T204549Z.gz
+Dec 29 00:00:02:       security.log.20151228T233334Z.gz
+Dec 29 00:00:02:       security.log.20151228T233410Z.gz
+Dec 29 00:00:02:       security.log.20151229T065615Z
+Dec 29 00:00:02:       security.log.20151229T065634Z
+Dec 29 00:00:02:   copy compress /var/log/module/com.apple.securityd/security.log.20151229T065615Z ---> /var/log/module/com.apple.securityd/security.log.20151229T065615Z.gz
+Dec 29 00:00:02:   remove /var/log/module/com.apple.securityd/security.log.20151229T065615Z
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       security.log.20151228T082859Z.gz (age 23:31:03)
+Dec 29 00:00:02:       security.log.20151228T083000Z.gz (age 23:30:02)
+Dec 29 00:00:02:       security.log.20151228T083001Z.gz (age 23:30:01)
+Dec 29 00:00:02:       security.log.20151228T085855Z.gz (age 23:01:07)
+Dec 29 00:00:02:       security.log.20151228T091151Z.gz (age 22:48:11)
+Dec 29 00:00:02:       security.log.20151228T092611Z.gz (age 22:33:51)
+Dec 29 00:00:02:       security.log.20151228T094554Z.gz (age 22:14:08)
+Dec 29 00:00:02:       security.log.20151228T094712Z.gz (age 22:12:50)
+Dec 29 00:00:02:       security.log.20151228T100841Z.gz (age 21:51:21)
+Dec 29 00:00:02:       security.log.20151228T102833Z.gz (age 21:31:29)
+Dec 29 00:00:02:       security.log.20151228T103913Z.gz (age 21:20:49)
+Dec 29 00:00:02:       security.log.20151228T125122Z.gz (age 19:08:40)
+Dec 29 00:00:02:       security.log.20151228T130342Z.gz (age 18:56:20)
+Dec 29 00:00:02:       security.log.20151228T130629Z.gz (age 18:53:33)
+Dec 29 00:00:02:       security.log.20151228T131239Z.gz (age 18:47:23)
+Dec 29 00:00:02:       security.log.20151228T132034Z.gz (age 18:39:28)
+Dec 29 00:00:02:       security.log.20151228T133155Z.gz (age 18:28:07)
+Dec 29 00:00:02:       security.log.20151228T133216Z.gz (age 18:27:46)
+Dec 29 00:00:02:       security.log.20151228T204549Z.gz (age 11:14:13)
+Dec 29 00:00:02:       security.log.20151228T233334Z.gz (age 08:26:28)
+Dec 29 00:00:02:       security.log.20151228T233410Z.gz (age 08:25:52)
+Dec 29 00:00:02:       security.log.20151229T065615Z.gz (age 01:03:47)
+Dec 29 00:00:02:       security.log.20151229T065634Z (age 01:03:28)
+Dec 29 00:00:02: - Check total storage used - MAX = 20971520
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       security.log.20151228T082859Z.gz size 362
+Dec 29 00:00:02:       security.log.20151228T083000Z.gz size 1548
+Dec 29 00:00:02:       security.log.20151228T083001Z.gz size 2043
+Dec 29 00:00:02:       security.log.20151228T085855Z.gz size 1615
+Dec 29 00:00:02:       security.log.20151228T091151Z.gz size 1618
+Dec 29 00:00:02:       security.log.20151228T092611Z.gz size 1585
+Dec 29 00:00:02:       security.log.20151228T094554Z.gz size 1759
+Dec 29 00:00:02:       security.log.20151228T094712Z.gz size 322
+Dec 29 00:00:02:       security.log.20151228T100841Z.gz size 297
+Dec 29 00:00:02:       security.log.20151228T102833Z.gz size 671
+Dec 29 00:00:02:       security.log.20151228T103913Z.gz size 3754
+Dec 29 00:00:02:       security.log.20151228T125122Z.gz size 1944
+Dec 29 00:00:02:       security.log.20151228T130342Z.gz size 1861
+Dec 29 00:00:02:       security.log.20151228T130629Z.gz size 1946
+Dec 29 00:00:02:       security.log.20151228T131239Z.gz size 1908
+Dec 29 00:00:02:       security.log.20151228T132034Z.gz size 1930
+Dec 29 00:00:02:       security.log.20151228T133155Z.gz size 2048
+Dec 29 00:00:02:       security.log.20151228T133216Z.gz size 219
+Dec 29 00:00:02:       security.log.20151228T204549Z.gz size 624
+Dec 29 00:00:02:       security.log.20151228T233334Z.gz size 1914
+Dec 29 00:00:02:       security.log.20151228T233410Z.gz size 145
+Dec 29 00:00:02:       security.log.20151229T065615Z.gz size 1868
+Dec 29 00:00:02:       security.log.20151229T065634Z size 5851
+Dec 29 00:00:02: Finished processing module com.apple.securityd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.apple.xpc.activity
+Dec 29 00:00:02: Checking file /var/log/module/com.apple.xpc.activity/xpc.activity.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     src files
+Dec 29 00:00:02:       xpc.activity.log.T1451376000
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02:   copy compress /var/log/module/com.apple.xpc.activity/xpc.activity.log.T1451376000 ---> /var/log/module/com.apple.xpc.activity/xpc.activity.log.0.gz
+Dec 29 00:00:02:   remove /var/log/module/com.apple.xpc.activity/xpc.activity.log.T1451376000
+Dec 29 00:00:02: - Check for expired files - TTL = 3 days
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       xpc.activity.log.0.gz (age 0)
+Dec 29 00:00:02: - Check total storage used - MAX = 20971520
+Dec 29 00:00:02:     dst files
+Dec 29 00:00:02:       xpc.activity.log.0.gz size 237
+Dec 29 00:00:02: Finished processing module com.apple.xpc.activity
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: Processing module com.openssh.sshd
+Dec 29 00:00:02: Checking file /var/log/sshd.log
+Dec 29 00:00:02: - Rename, move to destination directory, and compress as required
+Dec 29 00:00:02:     no src files
+Dec 29 00:00:02: - Check for expired files - TTL = 7 days
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: - Check total storage used - MAX = 20971520
+Dec 29 00:00:02:     no dst files
+Dec 29 00:00:02: Finished processing module com.openssh.sshd
+Dec 29 00:00:02: ----------------------------------------
+Dec 29 00:00:02: aslmanager finished

@@ -1,0 +1,69 @@
+wirelessproxd(69) deny file-read-data /private/var/root/Library/Preferences/.GlobalPreferences.plist
+
+Process:         wirelessproxd [69]
+Path:            /usr/sbin/wirelessproxd
+Load Address:    0x105e4f000
+Identifier:      wirelessproxd
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-29 02:29:16.082 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff8dbbe3c2 semaphore_wait_trap + 10
+1   CoreFoundation                	0x00007fff94b4d77e CFPREFERENCES_IS_WAITING_FOR_CFPREFSD + 46
+2   CoreFoundation                	0x00007fff94b4d898 -[CFPrefsSearchListSource generationCountFromListOfSources:count:] + 200
+3   CoreFoundation                	0x00007fff949fccb4 -[CFPrefsSearchListSource alreadylocked_copyDictionary] + 324
+4   CoreFoundation                	0x00007fff949f798c -[CFPrefsSearchListSource alreadylocked_copyValueForKey:] + 60
+5   CoreFoundation                	0x00007fff94b7f64c ___CFPreferencesCopyAppValueWithContainer_block_invoke + 60
+6   CoreFoundation                	0x00007fff94b4c750 +[CFPrefsSearchListSource withSearchListForIdentifier:container:perform:] + 608
+7   CoreFoundation                	0x00007fff94b7f5c7 _CFPreferencesCopyAppValueWithContainer + 183
+8   Foundation                    	0x00007fff92eed9c9 -[NSUserDefaults(NSUserDefaults) init] + 1461
+9   Foundation                    	0x00007fff92eed3b7 +[NSUserDefaults(NSUserDefaults) standardUserDefaults] + 81
+10  Foundation                    	0x00007fff92f8f2da __shouldRemoveUbiquitousItems_block_invoke + 29
+11  libdispatch.dylib             	0x00007fff88c1b33f _dispatch_client_callout + 8
+12  libdispatch.dylib             	0x00007fff88c1b237 dispatch_once_f + 67
+13  Foundation                    	0x00007fff92f8f286 __NSRemoveFileErrorCallback + 790
+14  libremovefile.dylib           	0x00007fff916ea93d __removefile_tree_walker + 345
+15  libremovefile.dylib           	0x00007fff916eabf3 removefile + 151
+16  Foundation                    	0x00007fff92f744e5 -[NSFilesystemItemRemoveOperation main] + 171
+17  Foundation                    	0x00007fff92f3e2fb -[__NSOperationInternal _start:] + 654
+18  Foundation                    	0x00007fff92f74347 -[NSFileManager removeItemAtPath:error:] + 84
+19  wirelessproxd                 	0x0000000105e84730
+20  libsystem_notify.dylib        	0x00007fff934a9d7b ___notify_dispatch_local_notification_block_invoke + 31
+21  libdispatch.dylib             	0x00007fff88c26871 _dispatch_call_block_and_release + 12
+22  libdispatch.dylib             	0x00007fff88c1b33f _dispatch_client_callout + 8
+23  libdispatch.dylib             	0x00007fff88c2ec1d _dispatch_main_queue_callback_4CF + 1685
+24  CoreFoundation                	0x00007fff94a6bcd9 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+25  CoreFoundation                	0x00007fff94a26d3d __CFRunLoopRun + 1949
+26  CoreFoundation                	0x00007fff94a26338 CFRunLoopRunSpecific + 296
+27  Foundation                    	0x00007fff92f72e61 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 270
+28  Foundation                    	0x00007fff92fe4afd -[NSRunLoop(NSRunLoop) run] + 74
+29  wirelessproxd                 	0x0000000105e60d29
+30  libdyld.dylib                 	0x00007fff8a0d65ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff8dbc46de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8357b365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff8dbc4ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff88c20d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff8dbc46de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8357b365 start_wqthread + 13
+
+Binary Images:
+       0x105e4f000 -        0x105e91fff  wirelessproxd (118) <d8512952-b6f5-3145-a22a-59c3dd1e510d> /usr/sbin/wirelessproxd
+    0x7fff8357a000 -     0x7fff83583ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff88c19000 -     0x7fff88c46fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8a0d3000 -     0x7fff8a0d6ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff8dbad000 -     0x7fff8dbcbfff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff916e9000 -     0x7fff916eaffb  libremovefile.dylib (41) <b8d1a5fc-cfd5-3aab-8a10-14ddc129710a> /usr/lib/system/libremovefile.dylib
+    0x7fff92ee7000 -     0x7fff9323bff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff934a1000 -     0x7fff934aaff3  libsystem_notify.dylib (150.20.3) <243fade1-255a-3b78-8033-f336cd64b817> /usr/lib/system/libsystem_notify.dylib
+    0x7fff949b7000 -     0x7fff94e2dfff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

@@ -1,0 +1,64 @@
+ReceiptInstaller(1015) deny mach-lookup com.apple.DiskArbitration.diskarbitrationd
+
+Process:         ReceiptInstaller [1015]
+Path:            /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/ReceiptInstaller
+Load Address:    0x106df8000
+Identifier:      ReceiptInstaller
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-29 02:45:03.816 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff8dbbe386 mach_msg_trap + 10
+1   libxpc.dylib                  	0x00007fff8a199bde xpc_pipe_routine + 249
+2   libxpc.dylib                  	0x00007fff8a19d212 _xpc_interface_routine + 163
+3   libxpc.dylib                  	0x00007fff8a19f7f4 bootstrap_look_up3 + 185
+4   libxpc.dylib                  	0x00007fff8a19f729 bootstrap_look_up2 + 45
+5   DiskArbitration               	0x00007fff8d4db1af DASessionCreate + 171
+6   CoreFoundation                	0x00007fff94b0a2f1 _CFVolumeObserverCreate + 209
+7   OSServices                    	0x00007fff900d871b CreateStorageRef(unsigned int, CIconStorageEntry*, CIconFamilyLoader*, unsigned int, unsigned int*) + 247
+8   OSServices                    	0x00007fff9010989b _ISGetStorageByIconFamilyHandle + 102
+9   IconServices                  	0x00007fff8689672b _ISSetIconFamilyData + 171
+10  AppKit                        	0x00007fff82b21f04 _NSAddQuickDrawIconFamilyElements + 769
+11  AppKit                        	0x00007fff82b1dc9c _NSIconFamilyFromImage + 88
+12  AppKit                        	0x00007fff82b1d9f4 -[NSWorkspace setIcon:forFile:options:] + 701
+13  ReceiptInstaller              	0x0000000106dfbdef
+14  libdispatch.dylib             	0x00007fff88c26871 _dispatch_call_block_and_release + 12
+15  libdispatch.dylib             	0x00007fff88c1b33f _dispatch_client_callout + 8
+16  libdispatch.dylib             	0x00007fff88c2ec1d _dispatch_main_queue_callback_4CF + 1685
+17  CoreFoundation                	0x00007fff94a6bcd9 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+18  CoreFoundation                	0x00007fff94a26d3d __CFRunLoopRun + 1949
+19  CoreFoundation                	0x00007fff94a26338 CFRunLoopRunSpecific + 296
+20  ReceiptInstaller              	0x0000000106df92f3
+21  libdyld.dylib                 	0x00007fff8a0d65ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff8dbc46de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8357b365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff8dbc4ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff88c20d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff8dbc46de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8357b365 start_wqthread + 13
+
+Thread 4:
+
+Binary Images:
+       0x106df8000 -        0x106dfefff  ReceiptInstaller (459) <4536027c-acd1-379f-8bf2-eaa1f71c1144> /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/ReceiptInstaller
+    0x7fff82306000 -     0x7fff82f29ff7  com.apple.AppKit (6.9 - 1404.34) <fb9c0e8d-8e07-35cd-91d8-7a3869b8eb03> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+    0x7fff8357a000 -     0x7fff83583ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff86894000 -     0x7fff868b6fff  com.apple.IconServices (68.1 - 68.1) <3ecaa762-1193-3d76-a25f-7680db3a957e> /System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+    0x7fff88c19000 -     0x7fff88c46fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8a0d3000 -     0x7fff8a0d6ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff8a197000 -     0x7fff8a1c0fff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff8d4da000 -     0x7fff8d4dffff  com.apple.DiskArbitration (2.7 - 2.7) <b7fae647-156a-30c8-ba8b-69d188d02602> /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+    0x7fff8dbad000 -     0x7fff8dbcbfff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff900d4000 -     0x7fff90131fff  com.apple.CoreServices.OSServices (728.6 - 728.6) <e86385ed-70aa-3371-8e58-8ffdef81c854> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+    0x7fff949b7000 -     0x7fff94e2dfff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

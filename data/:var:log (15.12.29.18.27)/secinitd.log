@@ -1,0 +1,30 @@
+Dec 29 01:46:44 localhost secinitd[137]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 01:46:44 localhost secinitd[137]: ctkd[136]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 01:47:03 Adams-MBP secinitd[278]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 01:51:45 localhost secinitd[135]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 01:51:45 localhost secinitd[135]: ctkd[134]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 01:52:40 Adams-MBP secinitd[279]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 02:29:09 localhost secinitd[137]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 02:29:09 localhost secinitd[137]: ctkd[136]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 02:29:28 Adams-MBP secinitd[240]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 03:15:25 localhost secinitd[136]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 03:15:25 localhost secinitd[136]: ctkd[135]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 03:16:22 Adams-MBP secinitd[251]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 14:32:11 localhost secinitd[130]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 14:32:11 localhost secinitd[130]: ctkd[129]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 14:32:28 Adams-MBP secinitd[272]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 14:40:52 localhost secinitd[142]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 14:40:52 localhost secinitd[142]: ctkd[141]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 14:41:08 Adams-MBP secinitd[246]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 14:45:34 localhost secinitd[135]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 14:45:34 localhost secinitd[135]: ctkd[134]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 14:45:50 Adams-MBP secinitd[275]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 15:14:14 localhost secinitd[137]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 15:14:14 localhost secinitd[137]: ctkd[136]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 15:15:28 Adams-MBP secinitd[280]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 15:32:25 Adams-MacBook-Pro secinitd[146]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 15:32:25 Adams-MacBook-Pro secinitd[146]: ctkd[145]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 15:32:38 Adams-MBP secinitd[244]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 18:10:30 localhost secinitd[142]: UID[0]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist
+Dec 29 18:10:30 localhost secinitd[142]: ctkd[141]: unable to get root path for bundle of main executable: /System/Library/Frameworks/CryptoTokenKit.framework/ctkd
+Dec 29 18:10:50 Adams-MBP secinitd[277]: UID[501]: cache loaded: /System/Library/Caches/com.apple.app-sandbox-cache.plist

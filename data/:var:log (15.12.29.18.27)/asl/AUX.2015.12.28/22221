@@ -1,0 +1,124 @@
+mdworker(633) deny file-read-data /Volumes/Tyrion/Archives/Me <pre-hinge repair, 15.12.26>/Desktop/To Sync/Saved Articles/Star Trek/Into Darkness (2013)/Brandon Bird - Star Trek was everything I expected and less._files/pixel (import fstype:hfs fsflag:4A09018 flags:240000005E diag:0 isXCode:0 uti:public.html plugin:/Library/Spotlight/RichText.mdimporter - find suspect file using: sudo mdutil -t 2049552)
+
+Process:         mdworker [633]
+Path:            /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+Load Address:    0x100e6d000
+Identifier:      mdworker
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 23:15:34.547 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff8c46c386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff932d5624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff932d4aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff932d4338 CFRunLoopRunSpecific + 296
+4   UIFoundation                  	0x00007fff84d85155 -[NSHTMLReader _loadUsingWebKit] + 2143
+5   Foundation                    	0x00007fff91822d4b __NSThreadPerformPerform + 279
+6   CoreFoundation                	0x00007fff932e35c1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+7   CoreFoundation                	0x00007fff932d541c __CFRunLoopDoSources0 + 556
+8   CoreFoundation                	0x00007fff932d493f __CFRunLoopRun + 927
+9   CoreFoundation                	0x00007fff932d4338 CFRunLoopRunSpecific + 296
+10  CoreFoundation                	0x00007fff933971f1 CFRunLoopRun + 97
+11  mdworker                      	0x0000000100e75b27
+12  libdyld.dylib                 	0x00007fff889845ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff8c472ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff874ced01 _dispatch_autorelease_pool_pop + 0
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff8c471eb2 __psynch_cvwait + 10
+1   Foundation                    	0x00007fff917d29b2 -[NSCondition wait] + 240
+2   Foundation                    	0x00007fff917c3ec8 -[NSObject(NSThreadPerformAdditions) performSelector:onThread:withObject:waitUntilDone:modes:] + 935
+3   Foundation                    	0x00007fff917c3aa3 -[NSObject(NSThreadPerformAdditions) performSelectorOnMainThread:withObject:waitUntilDone:] + 131
+4   UIFoundation                  	0x00007fff84d86579 -[NSHTMLReader attributedString] + 22
+5   UIFoundation                  	0x00007fff84d996aa _NSReadAttributedStringFromURLOrData + 8698
+6   UIFoundation                  	0x00007fff84d9b8a2 -[NSAttributedString(NSAttributedStringUIFoundationAdditions) initWithURL:options:documentAttributes:error:] + 197
+7   RichText                      	0x00000001030c8439 GetMetadataForURL + 2995
+8   mdworker                      	0x0000000100e735a0
+9   mdworker                      	0x0000000100e723c3
+10  mdworker                      	0x0000000100e72f19
+11  mdworker                      	0x0000000100e77e2b
+12  libsystem_pthread.dylib       	0x00007fff81e2bc13 _pthread_body + 131
+13  libsystem_pthread.dylib       	0x00007fff81e2bb90 _pthread_body + 0
+14  libsystem_pthread.dylib       	0x00007fff81e29375 thread_start + 13
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff8c46c386 mach_msg_trap + 10
+1   mdworker                      	0x0000000100e8e124
+2   libsystem_pthread.dylib       	0x00007fff81e2bc13 _pthread_body + 131
+3   libsystem_pthread.dylib       	0x00007fff81e2bb90 _pthread_body + 0
+4   libsystem_pthread.dylib       	0x00007fff81e29375 thread_start + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff8c4726de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff81e29365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff8c4726de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff81e29365 start_wqthread + 13
+
+Thread 6:
+0   libsystem_kernel.dylib        	0x00007fff8c471eb2 __psynch_cvwait + 10
+1   libc++.1.dylib                	0x00007fff87d9568f std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&) + 47
+2   JavaScriptCore                	0x00007fff928f557b JSC::GCThread::waitForNextPhase() + 171
+3   JavaScriptCore                	0x00007fff928f53c8 JSC::GCThread::gcThreadMain() + 88
+4   JavaScriptCore                	0x00007fff928ead42 WTF::threadEntryPoint(void*) + 178
+5   JavaScriptCore                	0x00007fff928eac6f WTF::wtfThreadEntryPoint(void*) + 15
+6   libsystem_pthread.dylib       	0x00007fff81e2bc13 _pthread_body + 131
+7   libsystem_pthread.dylib       	0x00007fff81e2bb90 _pthread_body + 0
+8   libsystem_pthread.dylib       	0x00007fff81e29375 thread_start + 13
+
+Thread 7:
+0   libsystem_kernel.dylib        	0x00007fff8c471d16 __open + 10
+1   CFNetwork                     	0x00007fff84bffd95 FileURLProtocol::processSmallFile(FilePath const&) + 75
+2   CFNetwork                     	0x00007fff84bffad8 FileURLProtocol::_protocolInterface_startLoad(_CFCachedURLResponse const*) + 248
+3   CFNetwork                     	0x00007fff84a8efd4 ___ZN19URLConnectionLoader27_private_ScheduleOriginLoadEPK12NSURLRequestPK20_CFCachedURLResponse_block_invoke_2 + 61
+4   CFNetwork                     	0x00007fff84a8ef75 ___ZNK19URLConnectionLoader25withExistingProtocolAsyncEU13block_pointerFvP11URLProtocolE_block_invoke + 25
+5   libdispatch.dylib             	0x00007fff874c933f _dispatch_client_callout + 8
+6   libdispatch.dylib             	0x00007fff874d703a _dispatch_block_invoke + 474
+7   CFNetwork                     	0x00007fff84a8de00 RunloopBlockContext::_invoke_block(void const*, void*) + 24
+8   CoreFoundation                	0x00007fff932af8f4 CFArrayApplyFunction + 68
+9   CFNetwork                     	0x00007fff84a8dcf9 RunloopBlockContext::perform() + 137
+10  CFNetwork                     	0x00007fff84a8db9a MultiplexerSource::perform() + 282
+11  CFNetwork                     	0x00007fff84a8d9bc MultiplexerSource::_perform(void*) + 72
+12  CoreFoundation                	0x00007fff932e35c1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+13  CoreFoundation                	0x00007fff932d541c __CFRunLoopDoSources0 + 556
+14  CoreFoundation                	0x00007fff932d493f __CFRunLoopRun + 927
+15  CoreFoundation                	0x00007fff932d4338 CFRunLoopRunSpecific + 296
+16  CFNetwork                     	0x00007fff84a686e9 +[NSURLConnection(Loader) _resourceLoadLoop:] + 412
+17  Foundation                    	0x00007fff9196cc6f __NSThread__start__ + 1351
+18  libsystem_pthread.dylib       	0x00007fff81e2bc13 _pthread_body + 131
+19  libsystem_pthread.dylib       	0x00007fff81e2bb90 _pthread_body + 0
+20  libsystem_pthread.dylib       	0x00007fff81e29375 thread_start + 13
+
+Thread 8:
+0   libsystem_kernel.dylib        	0x00007fff8c4726de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff81e29365 start_wqthread + 13
+
+Thread 9:
+0   libsystem_kernel.dylib        	0x00007fff8c4726de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff81e29365 start_wqthread + 13
+
+Thread 10:
+0   libsystem_kernel.dylib        	0x00007fff8c4726de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff81e29365 start_wqthread + 13
+
+Binary Images:
+       0x100e6d000 -        0x100ecefff  mdworker (972.16) <567c442e-cd49-3bf2-a450-f1fd543a5a28> /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+       0x1030c6000 -        0x1030cbfff  com.apple.MDImporter.RichText (6.9 - 287) <a1979481-9561-313f-bf76-636a7cc14706> /System/Library/Spotlight/RichText.mdimporter/Contents/MacOS/RichText
+    0x7fff81e28000 -     0x7fff81e31ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff84a61000 -     0x7fff84ce7ff7  com.apple.CFNetwork (760.2.6 - 760.2.6) <dde325b9-7f6f-3933-8f86-8d031e400dd5> /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+    0x7fff84ce8000 -     0x7fff84e66fff  com.apple.UIFoundation (1.0 - 436.1) <8c254bb0-1ded-36a2-aaaf-786eb19cce39> /System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/UIFoundation
+    0x7fff874c7000 -     0x7fff874f4fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff87d8e000 -     0x7fff87de1ff7  libc++.1.dylib (120.1) <8fc3d139-8055-3498-9ac5-6467cb7f4d14> /usr/lib/libc++.1.dylib
+    0x7fff88981000 -     0x7fff88984ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff8c45b000 -     0x7fff8c479fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff91795000 -     0x7fff91ae9ff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff928e7000 -     0x7fff92f8dffb  com.apple.JavaScriptCore (11601 - 11601.3.7) <f9351983-16a7-312d-9202-02873cbc1d9d> /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+    0x7fff93265000 -     0x7fff936dbfff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

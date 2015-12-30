@@ -1,0 +1,64 @@
+storeuid(509) deny file-read-data /Users/adamlouis/Library/Keyboard Layouts
+
+Process:         storeuid [509]
+Path:            /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+Load Address:    0x10af2f000
+Identifier:      com.apple.storeuid
+Version:         459 (1.0)
+Build Info:      2-Commerce~459000000000000
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-29 02:32:48.104 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff8dbc3d5e __open_nocancel + 10
+1   CarbonCore                    	0x00007fff84a0dd98 FilterRelevantFilesFromDirectory + 75
+2   CarbonCore                    	0x00007fff84a0d600 CacheFMMapData + 965
+3   CarbonCore                    	0x00007fff84a0c605 IntlFCOpenComponentData + 202
+4   HIToolbox                     	0x00007fff83292935 InitializeInputSourceCache + 444
+5   HIToolbox                     	0x00007fff83292623 GetInputSourceCacheHeader + 113
+6   HIToolbox                     	0x00007fff8329240e islcGetInputMethodIndexFromBundleID + 96
+7   HIToolbox                     	0x00007fff83291e76 islcGetInputSourceCacheIndexFromData + 302
+8   HIToolbox                     	0x00007fff83290d26 islGetInputSourceListWithAdditions + 816
+9   HIToolbox                     	0x00007fff832909d5 TSMGetInputSourceCountWithFilteredAdditions + 39
+10  HIToolbox                     	0x00007fff8328feba TISCreateInputSourceList + 89
+11  HIToolbox                     	0x00007fff8328fb30 SyncHandwritingHotKey + 128
+12  HIToolbox                     	0x00007fff8328edc9 _FirstEventTime + 1056
+13  HIToolbox                     	0x00007fff8328e87b RunCurrentEventLoopInMode + 49
+14  HIToolbox                     	0x00007fff8328e677 ReceiveNextEventCommon + 184
+15  HIToolbox                     	0x00007fff8328e5af _BlockUntilNextEventMatchingListInModeWithFilter + 71
+16  AppKit                        	0x00007fff823900ee _DPSNextEvent + 1067
+17  AppKit                        	0x00007fff8275c943 -[NSApplication _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 454
+18  AppKit                        	0x00007fff82385fc8 -[NSApplication run] + 682
+19  AppKit                        	0x00007fff82308520 NSApplicationMain + 1176
+20  storeuid                      	0x000000010af30749
+21  libdyld.dylib                 	0x00007fff8a0d65ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff8dbc46de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8357b365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff8dbc4ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff88c20d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff8dbc46de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8357b365 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff8dbc46de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8357b365 start_wqthread + 13
+
+Binary Images:
+       0x10af2f000 -        0x10af35fff  com.apple.storeuid (1.0 - 459) <6b4a40ee-4fd9-31b1-bb86-9cac531bc0a5> /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid
+    0x7fff82306000 -     0x7fff82f29ff7  com.apple.AppKit (6.9 - 1404.34) <fb9c0e8d-8e07-35cd-91d8-7a3869b8eb03> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+    0x7fff8325e000 -     0x7fff83553fff  com.apple.HIToolbox (2.1.1) <d9338bef-ca84-3085-b6cb-4e93b3b9a2e1> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+    0x7fff8357a000 -     0x7fff83583ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff849e5000 -     0x7fff84ccaff3  com.apple.CoreServices.CarbonCore (1136 - 1136) <ffbde3bf-0bb3-37a2-8a44-6e25284cc348> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+    0x7fff88c19000 -     0x7fff88c46fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8a0d3000 -     0x7fff8a0d6ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff8dbad000 -     0x7fff8dbcbfff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib

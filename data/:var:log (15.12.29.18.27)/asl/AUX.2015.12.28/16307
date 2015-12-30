@@ -1,0 +1,104 @@
+QuickLookSatelli(503) deny mach-lookup com.apple.nsurlstorage-cache
+
+Process:         QuickLookSatelli [503]
+Path:            /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd.app/Contents/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite
+Load Address:    0x1084a7000
+Identifier:      com.apple.quicklook.satellite
+Version:         521.1 (5.0)
+Build Info:      12-QuickLook_executables~696003000000000
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 06:06:50.090 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff8dd87bc6 __mac_syscall + 10
+1   CFNetwork                     	0x00007fff86379ed0 GetSandboxFileExtensionForPath(char const*) + 38
+2   CFNetwork                     	0x00007fff86379a65 __CFURLCache::createNSURLStorageClient(__CFString const*, long, std::__1::shared_ptr<__CFURLCache>) + 323
+3   CFNetwork                     	0x00007fff8637a7e5 __CFURLCache::SetDiskCapacity(long) + 205
+4   CFNetwork                     	0x00007fff86378891 -[NSURLCache initWithMemoryCapacity:diskCapacity:diskPath:] + 288
+5   CFNetwork                     	0x00007fff86378609 +[NSURLCache sharedURLCache] + 96
+6   WebKitLegacy                  	0x00007fff89756d3a cfURLCache + 31
+7   WebKitLegacy                  	0x00007fff89756d09 WKCopyFoundationCacheDirectory + 9
+8   WebKitLegacy                  	0x00007fff89756832 +[WebView(WebFileInternal) _setCacheModel:] + 50
+9   CoreFoundation                	0x00007fff94ca370c __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__ + 12
+10  CoreFoundation                	0x00007fff94ca367f ___CFXRegistrationPost_block_invoke + 63
+11  CoreFoundation                	0x00007fff94ca2d47 _CFXRegistrationPost + 407
+12  CoreFoundation                	0x00007fff94ca2ab2 ___CFXNotificationPost_block_invoke + 50
+13  CoreFoundation                	0x00007fff94c9cd42 -[_CFXNotificationRegistrar find:object:observer:enumerator:] + 1922
+14  CoreFoundation                	0x00007fff94b8b145 _CFXNotificationPost + 693
+15  Foundation                    	0x00007fff930b2921 -[NSNotificationCenter postNotificationName:object:userInfo:] + 66
+16  WebKitLegacy                  	0x00007fff89752dd3 -[WebPreferences initWithIdentifier:] + 467
+17  Web                           	0x000000010a881c30
+18  libobjc.A.dylib               	0x00007fff8d016390 _class_initialize + 706
+19  libobjc.A.dylib               	0x00007fff8d015c90 lookUpImpOrForward + 183
+20  libobjc.A.dylib               	0x00007fff8d00f591 objc_msgSend + 209
+21  Foundation                    	0x00007fff930f8373 -[NSBundle loadAndReturnError:] + 701
+22  QuickLookUI                   	0x00007fff8c8b881c -[QLDisplayBundleLoader loadDisplayBundle:] + 108
+23  QuickLookUI                   	0x00007fff8c8b8980 -[QLDisplayBundleLoader displayBundleClassForDisplayBundleID:] + 81
+24  QuickLookUI                   	0x00007fff8c8b8cef _QLThumbnailRequestSetThumbnailWithURLRepresentation + 100
+25  QuickLook                     	0x00007fff901d5792 QLThumbnailRequestSetThumbnailWithURLRepresentation + 244
+26  Web                           	0x0000000108f65aa5
+27  QuickLook                     	0x00007fff901d3d54 _QLThumbnailRequestCallGenerator + 560
+28  QuickLookSatellite            	0x00000001084aa2b3
+29  QuickLookSatellite            	0x00000001084ab67e
+30  QuickLookSatellite            	0x00000001084aa012
+31  QuickLook                     	0x00007fff901d1d8d ___QLGeneratorDispatchBlock_block_invoke_2 + 16
+32  QuickLook                     	0x00007fff9020d997 QLTryCatchAndCrash(void () block_pointer) + 17
+33  libdispatch.dylib             	0x00007fff88dea871 _dispatch_call_block_and_release + 12
+34  libdispatch.dylib             	0x00007fff88ddf33f _dispatch_client_callout + 8
+35  libdispatch.dylib             	0x00007fff88df2c1d _dispatch_main_queue_callback_4CF + 1685
+36  CoreFoundation                	0x00007fff94c2fcd9 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+37  CoreFoundation                	0x00007fff94bead3d __CFRunLoopRun + 1949
+38  CoreFoundation                	0x00007fff94bea338 CFRunLoopRunSpecific + 296
+39  CoreFoundation                	0x00007fff94cad1f1 CFRunLoopRun + 97
+40  XPCService                    	0x00007fff8a502628 xpc_service_main + 413
+41  libdyld.dylib                 	0x00007fff8a29a5ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff8dd886de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8373f365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff8dd88ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff88de4d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff8dd82386 mach_msg_trap + 10
+1   libxpc.dylib                  	0x00007fff8a35dbde xpc_pipe_routine + 249
+2   libxpc.dylib                  	0x00007fff8a361212 _xpc_interface_routine + 163
+3   libxpc.dylib                  	0x00007fff8a3632be _xpc_look_up_endpoint + 192
+4   libxpc.dylib                  	0x00007fff8a3631d3 _xpc_connection_bootstrap_look_up_slow + 312
+5   libxpc.dylib                  	0x00007fff8a360d37 _xpc_connection_init + 562
+6   libxpc.dylib                  	0x00007fff8a360af7 _xpc_connection_resume_init + 14
+7   libdispatch.dylib             	0x00007fff88ddf33f _dispatch_client_callout + 8
+8   libdispatch.dylib             	0x00007fff88de3f6f _dispatch_queue_drain + 754
+9   libdispatch.dylib             	0x00007fff88dea63b _dispatch_queue_invoke + 549
+10  libdispatch.dylib             	0x00007fff88de2c87 _dispatch_root_queue_drain + 538
+11  libdispatch.dylib             	0x00007fff88de2a34 _dispatch_worker_thread3 + 91
+12  libsystem_pthread.dylib       	0x00007fff8374168f _pthread_wqthread + 1129
+13  libsystem_pthread.dylib       	0x00007fff8373f365 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff8dd886de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8373f365 start_wqthread + 13
+
+Binary Images:
+       0x1084a7000 -        0x1084adff7  com.apple.quicklook.satellite (5.0 - 521.1) <f70dc064-0d7c-39ad-9883-9d0a66f649e1> /System/Library/Frameworks/QuickLook.framework/Versions/A/Resources/quicklookd.app/Contents/XPCServices/QuickLookSatellite.xpc/Contents/MacOS/QuickLookSatellite
+       0x108f64000 -        0x108f65fff  com.apple.qlgenerator.web (5.0 - 696.3) <ff5b14d2-4f66-366d-893d-e635224ef71b> /System/Library/QuickLook/Web.qlgenerator/Contents/MacOS/Web
+       0x10a87b000 -        0x10a897ff7  com.apple.qldisplay.Web (5.0 - 696.3) <6cbcfbe7-a507-385d-8e87-d5781208978e> /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/PlugIns/Web.qldisplay/Contents/MacOS/Web
+    0x7fff8373e000 -     0x7fff83747ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff86377000 -     0x7fff865fdff7  com.apple.CFNetwork (760.2.6 - 760.2.6) <dde325b9-7f6f-3933-8f86-8d031e400dd5> /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+    0x7fff88ddd000 -     0x7fff88e0afff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff89750000 -     0x7fff898abffb  com.apple.WebKitLegacy (11601 - 11601.3.9) <c961a4f8-4947-31da-9e91-ffb006bf1734> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy
+    0x7fff8a297000 -     0x7fff8a29affb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff8a35b000 -     0x7fff8a384fff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff8a501000 -     0x7fff8a507fff  com.apple.XPCService (2.0 - 1) <9a305622-14e1-3d9a-be47-6524419ba58d> /System/Library/PrivateFrameworks/XPCService.framework/Versions/A/XPCService
+    0x7fff8c86a000 -     0x7fff8c955ff7  com.apple.QuickLookUIFramework (5.0 - 696.3) <8416c721-85d3-3f4a-9916-2cb4640bb0cb> /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+    0x7fff8d00e000 -     0x7fff8d379657  libobjc.A.dylib (680) <58cb8cfc-7dbd-3a53-bd72-a42ff799b21e> /usr/lib/libobjc.A.dylib
+    0x7fff8dd71000 -     0x7fff8dd8ffff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff901c3000 -     0x7fff90223fff  com.apple.QuickLookFramework (5.0 - 696.3) <d20c8962-7bb8-3a2c-bb80-5b61259b50f2> /System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+    0x7fff930ab000 -     0x7fff933ffff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff94b7b000 -     0x7fff94ff1fff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

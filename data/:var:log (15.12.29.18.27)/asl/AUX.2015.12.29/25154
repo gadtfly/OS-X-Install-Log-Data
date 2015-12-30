@@ -1,0 +1,100 @@
+Finder(229) System Policy: deny file-write-create /usr/.DS_Store
+
+Process:         Finder [229]
+Path:            /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+Load Address:    0x102e06000
+Identifier:      com.apple.finder
+Version:         10.11.2 (10.11.2)
+Build Info:      3-Finder_FE~960002006000000
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-29 02:18:44.868 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff90670386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff974d9624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff974d8aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff974d8338 CFRunLoopRunSpecific + 296
+4   HIToolbox                     	0x00007fff85d40935 RunCurrentEventLoopInMode + 235
+5   HIToolbox                     	0x00007fff85d4076f ReceiveNextEventCommon + 432
+6   HIToolbox                     	0x00007fff85d405af _BlockUntilNextEventMatchingListInModeWithFilter + 71
+7   AppKit                        	0x00007fff84e420ee _DPSNextEvent + 1067
+8   AppKit                        	0x00007fff8520e943 -[NSApplication _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 454
+9   AppKit                        	0x00007fff84e37fc8 -[NSApplication run] + 682
+10  AppKit                        	0x00007fff84dba520 NSApplicationMain + 1176
+11  Finder                        	0x0000000102e0b948
+12  libdyld.dylib                 	0x00007fff8cb885ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff90676ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff8b6d2d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff90670386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff974d9624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff974d8aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff974d8338 CFRunLoopRunSpecific + 296
+4   AppKit                        	0x00007fff84f01065 _NSEventThread + 149
+5   libsystem_pthread.dylib       	0x00007fff8602fc13 _pthread_body + 131
+6   libsystem_pthread.dylib       	0x00007fff8602fb90 _pthread_body + 0
+7   libsystem_pthread.dylib       	0x00007fff8602d375 thread_start + 13
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff90675d46 __open_extended + 10
+1   DesktopServicesPriv           	0x00007fff8bb43046 TFileDescriptor::Open(char const*, OpenFlags, __CFFileSecurity*, bool, bool, bool) + 320
+2   DesktopServicesPriv           	0x00007fff8bb4d7ea TFSInfo::CreateFile(char const*, TUString const&, __CFFileSecurity*, bool, char*) + 360
+3   DesktopServicesPriv           	0x00007fff8bb4d4c4 TFSInfo::CreateFile(TUString const&, TUniqueNamer*, unsigned int, unsigned int, TCountedPtr<TFSInfo>&, bool, bool, bool) const + 158
+4   DesktopServicesPriv           	0x00007fff8bb46997 TPropertyInfo::FlushChanges(TCountedPtr<TFSInfo> const&, TCountedPtr<TPropertyInfoList> const&) + 173
+5   DesktopServicesPriv           	0x00007fff8bb468b5 TPropertyInfo::FlushChanges(TCountedPtr<TCFURLInfo> const&, TCountedPtr<TPropertyInfoList> const&) + 105
+6   DesktopServicesPriv           	0x00007fff8bb46746 THFSPlusPropertyStore::FlushChanges() + 98
+7   DesktopServicesPriv           	0x00007fff8bb4ac20 TFSVolumeInfo::Flush(bool) + 60
+8   DesktopServicesPriv           	0x00007fff8bb4abc0 TFSVolumeInfo::HandleFlushRequest(short) + 52
+9   DesktopServicesPriv           	0x00007fff8bb1d3a1 ExceptionSafeBlock(void () block_pointer) + 12
+10  DesktopServicesPriv           	0x00007fff8bb4ab60 ___ZN17TVolumeSyncThread19ScheduleVolumeFlushEsd_block_invoke + 84
+11  libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+12  libdispatch.dylib             	0x00007fff8b6dd676 _dispatch_source_latch_and_call + 2235
+13  libdispatch.dylib             	0x00007fff8b6d19b7 _dispatch_source_invoke + 983
+14  libdispatch.dylib             	0x00007fff8b6d2134 _dispatch_queue_drain + 1207
+15  libdispatch.dylib             	0x00007fff8b6d863b _dispatch_queue_invoke + 549
+16  libdispatch.dylib             	0x00007fff8b6d0c87 _dispatch_root_queue_drain + 538
+17  libdispatch.dylib             	0x00007fff8b6d0a34 _dispatch_worker_thread3 + 91
+18  libsystem_pthread.dylib       	0x00007fff8602f68f _pthread_wqthread + 1129
+19  libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 6:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 7:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 8:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 9:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Binary Images:
+       0x102e06000 -        0x10335cfff  com.apple.finder (10.11.2 - 10.11.2) <3296b462-03e8-34fd-a905-641be4790dad> /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+    0x7fff84db8000 -     0x7fff859dbff7  com.apple.AppKit (6.9 - 1404.34) <fb9c0e8d-8e07-35cd-91d8-7a3869b8eb03> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+    0x7fff85d10000 -     0x7fff86005fff  com.apple.HIToolbox (2.1.1) <d9338bef-ca84-3085-b6cb-4e93b3b9a2e1> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+    0x7fff8602c000 -     0x7fff86035ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8b6cb000 -     0x7fff8b6f8fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8bb0e000 -     0x7fff8bc1cff3  com.apple.desktopservices (1.10 - 1.10) <0baed9fa-efa5-3da0-8715-043fd2400b77> /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+    0x7fff8cb85000 -     0x7fff8cb88ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff9065f000 -     0x7fff9067dfff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff97469000 -     0x7fff978dffff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

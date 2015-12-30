@@ -1,0 +1,180 @@
+2015-12-29 15:32:20.224009 PST - AID: 0x0000000000000000 - opendirectoryd (build 406.10.1) launched...
+2015-12-29 15:32:20.225775 PST - AID: 0x0000000000000000 - Logging level limit changed to 'error'
+2015-12-29 15:32:20.904055 PST - AID: 0x0000000000000000 - Initialize trigger support
+2015-12-29 15:32:20.910965 PST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/SystemCache.bundle'
+2015-12-29 15:32:22.320324 PST - AID: 0x0000000000000000 - Registered node with name '/Active Directory' as hidden
+2015-12-29 15:32:22.320757 PST - AID: 0x0000000000000000 - Registered node with name '/Configure' as hidden
+2015-12-29 15:32:22.321227 PST - AID: 0x0000000000000000 - Discovered configuration for node name '/Contacts' at path '/Library/Preferences/OpenDirectory/Configurations//Contacts.plist'
+2015-12-29 15:32:22.321395 PST - AID: 0x0000000000000000 - Registered node with name '/Contacts'
+2015-12-29 15:32:22.321782 PST - AID: 0x0000000000000000 - Registered node with name '/LDAPv3' as hidden
+2015-12-29 15:32:22.325109 PST - AID: 0x0000000000000000 - Registered node with name '/Local' as hidden
+2015-12-29 15:32:22.326802 PST - AID: 0x0000000000000000 - Registered node with name '/NIS' as hidden
+2015-12-29 15:32:22.327368 PST - AID: 0x0000000000000000 - Discovered configuration for node name '/Search' at path '/Library/Preferences/OpenDirectory/Configurations//Search.plist'
+2015-12-29 15:32:22.327390 PST - AID: 0x0000000000000000 - Registered node with name '/Search'
+2015-12-29 15:32:22.330696 PST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/legacy.bundle'
+2015-12-29 15:32:22.334544 PST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/search.bundle'
+2015-12-29 15:32:22.341275 PST - AID: 0x0000000000000000 - '/Search' has registered, loading additional services
+2015-12-29 15:32:22.341290 PST - AID: 0x0000000000000000 - Initialize augmentation support
+2015-12-29 15:32:22.346761 PST - AID: 0x0000000000000000 - Successfully registered for Kernel identity service requests
+2015-12-29 15:32:22.346780 PST - AID: 0x0000000000000000 - Adjusting kernel ID cache (100 -> 250) and membership cache (100 -> 500)
+2015-12-29 15:32:22.364103 PST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/PlistFile.bundle'
+2015-12-29 15:32:22.368719 PST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/FDESupport.bundle'
+2015-12-29 15:32:22.375719 PST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/AppleID.bundle'
+2015-12-29 15:32:22.381557 PST - AID: 0x0000000000000000 - Registered subnode with name '/Local/Default'
+2015-12-29 15:32:30.608118 PST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/ldap.bundle'
+2015-12-29 18:09:39.734306 PST - AID: 0x0000000000000000 - Starting shutdown process...
+2015-12-29 18:09:39.734605 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.734690 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.734751 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.734758 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.734773 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.734782 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.734793 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.734828 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735004 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735032 PST - AID: 0x0000000000000000 - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735223 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735229 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735233 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735237 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735241 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735245 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735250 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735254 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735271 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735277 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735281 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735285 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735289 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735293 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735298 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735302 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735306 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735310 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735314 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735319 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735323 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735327 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735331 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735336 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735340 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735345 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735349 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735353 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735357 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735362 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735366 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735370 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735374 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735378 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735382 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735386 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735390 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735395 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735399 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735404 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735408 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735412 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735417 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735421 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735425 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735429 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735433 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735437 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735441 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735445 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735449 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735454 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735458 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735462 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735466 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735470 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735475 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735557 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735563 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735567 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735572 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735576 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735580 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735584 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735588 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735592 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735597 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735601 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735605 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735610 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735614 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735618 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735622 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735626 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735630 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735634 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735638 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735643 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735647 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735652 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735656 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735660 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735664 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735668 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735672 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735676 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735680 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735685 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735688 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735695 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735699 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735704 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735708 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735712 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735716 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735720 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735725 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735729 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735733 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735738 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735742 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735746 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735750 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735755 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735759 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735763 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735767 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735771 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735776 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735780 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735784 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735788 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735793 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735797 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735801 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735805 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735809 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735813 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735817 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735822 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735826 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735830 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735834 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735838 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735842 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735846 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735850 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735854 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735859 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735863 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735867 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735871 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735876 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735880 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735884 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735889 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735893 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735897 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735902 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735906 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735910 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735914 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735918 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735923 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent
+2015-12-29 18:09:39.735927 PST - AID: 0x0000000000000000 - Module: SystemCache - XPC peer error: Termination imminent

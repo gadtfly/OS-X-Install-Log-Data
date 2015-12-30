@@ -1,0 +1,184 @@
+  PID   TT  STAT      TIME COMMAND
+    1   ??  Ss     0:08.87 /sbin/launchd
+   21   ??  Ss     0:01.62 /usr/sbin/syslogd
+   22   ??  Ss     0:02.44 /usr/libexec/UserEventAgent (System)
+   24   ??  Ss     0:13.10 /usr/libexec/kextd
+   25   ??  Ss     0:00.54 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+   29   ??  Ss     0:00.12 /System/Library/CoreServices/appleeventsd --server
+   30   ??  Ss     0:00.93 /usr/libexec/configd
+   31   ??  Ss     0:00.23 /System/Library/CoreServices/powerd.bundle/powerd
+   37   ??  Ss     0:01.97 /usr/libexec/airportd
+   39   ??  SNs    0:00.09 /usr/libexec/warmd
+   40   ??  Ss     1:28.87 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+   44   ??  Ss     0:00.17 /System/Library/CoreServices/iconservicesd
+   45   ??  Ss     0:00.18 /System/Library/CoreServices/iconservicesagent
+   46   ??  Ss     0:00.42 /usr/libexec/diskarbitrationd
+   48   ??  Ss     0:01.32 /usr/libexec/coreduetd
+   49   ??  Ss     0:00.07 /usr/libexec/wdhelper
+   51   ??  Ss     0:07.45 /usr/libexec/opendirectoryd
+   52   ??  Ss     0:00.07 /usr/sbin/wirelessproxd
+   55   ??  Ss     0:00.71 /System/Library/CoreServices/launchservicesd
+   56   ??  Ss     0:00.07 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+   57   ??  Ss     0:07.76 /usr/sbin/securityd -i
+   59   ??  Ss     0:00.28 /usr/libexec/locationd
+   62   ??  Ss     0:00.30 /usr/sbin/blued
+   63   ??  Ss     0:00.03 autofsd
+   68   ??  Ss     0:00.37 /usr/sbin/mDNSResponder
+   70   ??  Ss     0:00.06 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+   72   ??  Ss     0:00.04 /System/Library/CoreServices/logind
+   73   ??  Ss     0:00.01 /usr/sbin/KernelEventAgent
+   75   ??  Ss     0:01.54 /usr/libexec/hidd
+   76   ??  Ss     0:00.10 /usr/libexec/AirPlayXPCHelper
+   77   ??  Ss     0:01.20 /usr/sbin/notifyd
+   78   ??  Ss     0:00.46 /System/Library/CoreServices/coreservicesd
+   79   ??  Ss     0:00.10 /usr/libexec/diagnosticd
+   80   ??  Ss     0:01.21 /usr/sbin/distnoted daemon
+   82   ??  Us     0:00.59 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+   85   ??  Ss     0:01.00 /usr/sbin/cfprefsd daemon
+   89   ??  Ss     0:00.09 aslmanager
+   90   ??  Ss     0:01.83 /usr/libexec/sandboxd
+   92   ??  Ss     0:01.56 /usr/sbin/coreaudiod
+   97   ??  Ss     0:00.16 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+  103   ??  Ss     0:00.03 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+  106   ??  Ss     0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+  114   ??  Ss     0:09.91 /usr/libexec/lsd runAsRoot
+  131   ??  Ss     0:07.85 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Resources/WindowServer -daemon
+  133   ??  Ss     0:00.10 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+  134   ??  Ss     0:00.10 /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+  135   ??  Ss     0:00.02 /usr/libexec/smd
+  138   ??  Ss     0:00.49 /usr/libexec/networkd
+  139   ??  Ss     0:00.03 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+  140   ??  Ss     0:00.08 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+  141   ??  Ss     0:00.02 /usr/libexec/networkd_privileged
+  142   ??  Ss     0:00.08 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+  150   ??  Ss     0:00.04 /usr/libexec/watchdogd
+  155   ??  Ss     0:00.03 /usr/libexec/nsurlsessiond --privileged
+  156   ??  Us     0:01.84 /usr/libexec/nehelper
+  157   ??  Ss     0:00.13 /usr/libexec/usbd
+  158   ??  Ss     0:00.02 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+  159   ??  Ss     0:00.05 /System/Library/Frameworks/CoreMediaIO.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+  161   ??  Ss     1:52.18 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+  168   ??  Ss     0:00.86 /usr/libexec/symptomsd
+  172   ??  Ss     0:00.05 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+  187   ??  Ss     0:01.17 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+  209   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+  211   ??  S      0:00.31 /usr/sbin/cfprefsd agent
+  215   ??  Ss     0:01.40 /usr/libexec/securityd_service
+  218   ??  S      0:00.16 /usr/sbin/distnoted agent
+  221   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+  232   ??  Ss     0:00.11 /usr/sbin/systemsoundserverd
+  233   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+  236   ??  S      0:00.12 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+  237   ??  S      0:00.07 /System/Library/Frameworks/AddressBook.framework/Versions/A/XPCServices/com.apple.AddressBook.ContactsAccountsService.xpc/Contents/MacOS/com.apple.AddressBook.ContactsAccountsService
+  241   ??  S      0:00.08 /usr/libexec/secd
+  247   ??  S      0:00.07 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+  253   ??  S      0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+  272   ??  Ss     0:00.19 /usr/libexec/diskmanagementd
+  273   ??  Ss     0:00.13 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+  274   ??  Ss     0:00.05 /System/Library/CoreServices/backupd.bundle/Contents/Resources/TMCacheDelete
+  275   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+  285   ??  S      0:00.03 /usr/sbin/distnoted agent
+  286   ??  S      0:12.17 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+  289   ??  Ss     0:00.07 /usr/libexec/findmydeviced
+  290   ??  S      0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+  302   ??  S      0:00.06 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+  313   ??  Ss     0:00.09 /usr/libexec/systemstatsd
+  322   ??  SNs    0:00.07 /usr/sbin/netbiosd
+  323   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/XPCServices/com.apple.IASUtilities.IASCloudConfigHelper.xpc/Contents/MacOS/com.apple.IASUtilities.IASCloudConfigHelper
+  327   ??  Ss     0:00.09 /usr/sbin/ntpd -c /private/etc/ntp-restrict.conf -n -g -p /var/run/ntpd.pid -f /var/db/ntp.drift
+  336   ??  Ss     0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+  338   ??  Ss     0:09.30 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+  339   ??  Ss     0:00.03 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/suhelperd
+  340   ??  Ss     0:00.23 /usr/libexec/nsurlstoraged
+  351   ??  S      0:00.09 /System/Library/Frameworks/InputMethodKit.framework/Versions/A/XPCServices/com.apple.InputMethodKit.TextReplacementService.xpc/Contents/MacOS/com.apple.InputMethodKit.TextReplacementService
+  353   ??  Ss     0:00.02 /usr/sbin/filecoordinationd
+  355   ??  Ss     0:00.05 sysmond
+  371   ??  Ss     0:00.06 /System/Library/CoreServices/sharedfilelistd --enable-legacy-services
+  377   ??  S      0:00.59 /usr/sbin/cfprefsd agent
+  379   ??  Ss     0:00.43 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  392   ??  S      0:00.02 /System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/XPCServices/com.apple.sbd.xpc/Contents/MacOS/com.apple.sbd
+  395   ??  S      0:00.46 /usr/libexec/UserEventAgent (Aqua)
+  397   ??  S      0:00.32 /usr/sbin/distnoted agent
+  398   ??  U      0:04.12 /usr/libexec/lsd
+  401   ??  S      0:00.28 /usr/sbin/usernoted
+  402   ??  S      0:00.84 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+  403   ??  U      0:02.30 /usr/libexec/secinitd
+  405   ??  S      0:00.18 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+  408   ??  Ss     0:00.02 /usr/libexec/rpcsvchost -launchd netlogon.bundle
+  417   ??  S      0:00.02 /usr/sbin/pboard
+  419   ??  S      0:00.07 /System/Library/Frameworks/AddressBook.framework/Versions/A/XPCServices/com.apple.AddressBook.ContactsAccountsService.xpc/Contents/MacOS/com.apple.AddressBook.ContactsAccountsService
+  421   ??  S      0:00.21 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+  422   ??  S      0:00.77 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+  424   ??  S      0:00.05 /usr/libexec/secd
+  428   ??  S      0:00.15 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+  430   ??  S      0:00.14 /System/Library/CoreServices/sharedfilelistd
+  432   ??  Ss     0:00.23 /System/Library/PrivateFrameworks/CalendarAgent.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+  433   ??  S      0:00.10 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+  434   ??  S      0:00.06 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+  436   ??  S      0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+  437   ??  S      0:00.02 /System/Library/Frameworks/Security.framework/Versions/A/Resources/IDSKeychainSyncingProxy.bundle/Contents/MacOS/IDSKeychainSyncingProxy
+  438   ??  Ss     0:00.05 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+  439   ??  S      0:00.62 /usr/libexec/nsurlstoraged
+  440   ??  Ss     0:02.59 /usr/sbin/ocspd
+  441   ??  S      0:00.11 /usr/libexec/fmfd
+  442   ??  S      0:00.07 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+  443   ??  S      0:00.07 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistorySyncHelper
+  444   ??  U      0:00.24 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+  446   ??  S      0:00.03 /usr/libexec/nsurlsessiond
+  448   ??  S      0:00.06 /System/Library/CoreServices/pbs
+  459   ??  S      0:00.08 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+  461   ??  S      0:01.94 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+  463   ??  S      0:00.28 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+  464   ??  S      0:02.05 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+  467   ??  S      0:00.15 /usr/libexec/sharingd
+  468   ??  S      0:00.62 /usr/libexec/pkd
+  469   ??  S      0:01.63 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+  470   ??  S      0:00.19 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+  485   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+  488   ??  S      0:00.02 /System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher
+  491   ??  S      0:00.06 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+  492   ??  S      0:00.25 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMCompiler 2
+  494   ??  S      0:00.03 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+  495   ??  S      0:00.04 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  496   ??  S      0:00.35 /System/Library/CoreServices/iconservicesagent
+  497   ??  S      0:00.02 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMCompiler 2
+  498   ??  S      0:00.42 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+  500   ??  S      0:00.07 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+  501   ??  S      0:00.07 /System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher
+  502   ??  S      0:00.02 /usr/libexec/spindump_agent
+  504   ??  S      0:00.03 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+  506   ??  S      0:00.07 /System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+  508   ??  S      0:00.62 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+  510   ??  S      0:00.08 /System/Library/Image Capture/Support/icdd
+  511   ??  S      0:00.16 /System/Library/CoreServices/AppleIDAuthAgent
+  514   ??  S      0:00.04 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+  515   ??  S      0:00.07 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+  519   ??  S      0:00.07 /System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent
+  520   ??  S      0:00.09 /System/Library/CoreServices/diagnostics_agent
+  522   ??  S      0:00.16 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+  525   ??  Ss     0:00.04 /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/XPCServices/WiFiProxy.xpc/Contents/MacOS/WiFiProxy
+  526   ??  S      0:00.04 /usr/libexec/swcd
+  528   ??  Ss     0:00.16 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+  529   ??  S      0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  530   ??  Ss     0:00.03 /usr/sbin/spindump
+  531   ??  U      0:00.02 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+  532   ??  Ss     0:00.04 /System/Library/CoreServices/SubmitDiagInfo server-init
+  535   ??  S      0:00.11 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+  536   ??  U      0:01.36 /System/Library/PrivateFrameworks/ParsecUI.framework/Versions/A/Support/SpotlightNetHelper.app/Contents/MacOS/SpotlightNetHelper
+  537   ??  S      0:00.04 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+  539   ??  U      0:00.33 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+  540   ??  S      0:00.91 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  545   ??  S      0:00.02 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell -psn_0_172074
+  547   ??  S      0:00.91 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+  548   ??  S      0:00.08 /System/Library/Frameworks/InputMethodKit.framework/Versions/A/XPCServices/com.apple.InputMethodKit.TextReplacementService.xpc/Contents/MacOS/com.apple.InputMethodKit.TextReplacementService
+  552   ??  S      0:00.05 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+  553   ??  S      0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+  554   ??  S      0:00.10 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+  556   ??  S      0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+  558   ??  S      0:00.22 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+  561   ??  S      0:00.11 /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/XPCServices/DataDetectorsDynamicData.xpc/Contents/MacOS/DataDetectorsDynamicData
+  563   ??  S      0:00.02 /System/Library/PrivateFrameworks/HelpData.framework/Versions/A/Resources/helpd
+  564   ??  S      0:01.12 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+  565 s000  Ss     0:00.03 login -pf adamlouis
+  566 s000  S      0:00.03 -bash
+  571 s000  R+     0:00.01 ps Ax

@@ -1,0 +1,68 @@
+CalendarAgent(259) allow mach-register com.apple.CalendarStore.lock.init
+
+Process:         CalendarAgent [259]
+Path:            /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+Load Address:    0x10df02000
+Identifier:      CalendarAgent
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-29 18:10:51.958 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff97053386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff9debc624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff9debbaec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff9debb338 CFRunLoopRunSpecific + 296
+4   CalendarAgent                 	0x000000010df03841
+5   libdyld.dylib                 	0x00007fff9356b5ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff970596de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8ca10365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff97059ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff920b5d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff970596de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8ca10365 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff97053386 mach_msg_trap + 10
+1   libxpc.dylib                  	0x00007fff9362ebde xpc_pipe_routine + 249
+2   libxpc.dylib                  	0x00007fff93632212 _xpc_interface_routine + 163
+3   libxpc.dylib                  	0x00007fff936393f9 bootstrap_check_in3 + 134
+4   libxpc.dylib                  	0x00007fff93639361 bootstrap_check_in + 42
+5   Foundation                    	0x00007fff9c508b6a -[NSMachBootstrapServer servicePortWithName:] + 91
+6   CalendarPersistence           	0x00007fff9b5340d4 -[CalNamedMutex tryLock] + 124
+7   CalendarPersistence           	0x00007fff9b6a8c80 +[CalPersistence _createSQLiteStoreWithSchemaMigration:createDefaultCalendars:] + 94
+8   CalendarPersistence           	0x00007fff9b4dfdfa +[CalPersistence setupCalendarPersistence:andCreateDefaultCalendarsIfNeeded:withSetupGroup:] + 155
+9   CalendarAgent                 	0x00007fff9b07a6dd -[CalAgent start] + 375
+10  CalendarAgent                 	0x000000010df03988
+11  libdispatch.dylib             	0x00007fff920bb871 _dispatch_call_block_and_release + 12
+12  libdispatch.dylib             	0x00007fff920b033f _dispatch_client_callout + 8
+13  libdispatch.dylib             	0x00007fff920b41cf _dispatch_root_queue_drain + 1890
+14  libdispatch.dylib             	0x00007fff920b3a34 _dispatch_worker_thread3 + 91
+15  libsystem_pthread.dylib       	0x00007fff8ca1268f _pthread_wqthread + 1129
+16  libsystem_pthread.dylib       	0x00007fff8ca10365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff970596de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8ca10365 start_wqthread + 13
+
+Binary Images:
+       0x10df02000 -        0x10df03fff  CalendarAgent (361.1) <da2b5a9b-c63a-3aad-a990-865eef4e8d7d> /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+    0x7fff8ca0f000 -     0x7fff8ca18ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff920ae000 -     0x7fff920dbfff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff93568000 -     0x7fff9356bffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff9362c000 -     0x7fff93655fff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff97042000 -     0x7fff97060fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff9b078000 -     0x7fff9b0b9fff  com.apple.CalendarAgent (8.0 - 361.1) <d389ef3f-c7e5-3b49-a121-9fc4e089a2dc> /System/Library/PrivateFrameworks/CalendarAgent.framework/Versions/A/CalendarAgent
+    0x7fff9b4de000 -     0x7fff9b734ff7  com.apple.CalendarPersistence (8.0 - 378.4) <6ada0a9c-8bfe-3a85-83b8-0cef4ae1893d> /System/Library/PrivateFrameworks/CalendarPersistence.framework/Versions/A/CalendarPersistence
+    0x7fff9c37c000 -     0x7fff9c6d0ff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff9de4c000 -     0x7fff9e2c2fff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

@@ -1,0 +1,75 @@
+storeaccountd(2874) deny file-write-create /Users/adamlouis/Library/Caches/com.apple.spotlight
+
+Process:         storeaccountd [2874]
+Path:            /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+Load Address:    0x10484c000
+Identifier:      storeaccountd
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 23:56:50.732 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff8c46c386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff932d5624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff932d4aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff932d4338 CFRunLoopRunSpecific + 296
+4   CoreFoundation                	0x00007fff933971f1 CFRunLoopRun + 97
+5   storeaccountd                 	0x0000000104853a79
+6   libdyld.dylib                 	0x00007fff889845ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff8c471ee2 __psynch_mutexwait + 10
+1   Foundation                    	0x00007fff91798959 -[NSLock lock] + 145
+2   storeaccountd                 	0x0000000104859693
+3   storeaccountd                 	0x00000001048566c4
+4   libdispatch.dylib             	0x00007fff874d4871 _dispatch_call_block_and_release + 12
+5   libdispatch.dylib             	0x00007fff874c933f _dispatch_client_callout + 8
+6   libdispatch.dylib             	0x00007fff874dbbd8 _dispatch_async_redirect_invoke + 1733
+7   libdispatch.dylib             	0x00007fff874c933f _dispatch_client_callout + 8
+8   libdispatch.dylib             	0x00007fff874cd1cf _dispatch_root_queue_drain + 1890
+9   libdispatch.dylib             	0x00007fff874cca34 _dispatch_worker_thread3 + 91
+10  libsystem_pthread.dylib       	0x00007fff81e2b68f _pthread_wqthread + 1129
+11  libsystem_pthread.dylib       	0x00007fff81e29365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff8c472ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff874ced01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_pthread.dylib       	0x00007fff81e29358 start_wqthread + 0
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff8c473146 mkdir + 10
+1   Foundation                    	0x00007fff917c1187 -[NSFileManager createDirectoryAtPath:withIntermediateDirectories:attributes:error:] + 286
+2   StoreFoundation               	0x00007fff9321b0ed +[NSFileManager(ISAdditions) ensureDirectoryExists:] + 292
+3   storeaccountd                 	0x0000000104851d6e
+4   storeaccountd                 	0x0000000104852333
+5   storeaccountd                 	0x000000010484f71b
+6   storeaccountd                 	0x0000000104859ae5
+7   storeaccountd                 	0x000000010485981c
+8   storeaccountd                 	0x0000000104856fb5
+9   libdispatch.dylib             	0x00007fff874d4871 _dispatch_call_block_and_release + 12
+10  libdispatch.dylib             	0x00007fff874c933f _dispatch_client_callout + 8
+11  libdispatch.dylib             	0x00007fff874dbbd8 _dispatch_async_redirect_invoke + 1733
+12  libdispatch.dylib             	0x00007fff874c933f _dispatch_client_callout + 8
+13  libdispatch.dylib             	0x00007fff874cd1cf _dispatch_root_queue_drain + 1890
+14  libdispatch.dylib             	0x00007fff874cca34 _dispatch_worker_thread3 + 91
+15  libsystem_pthread.dylib       	0x00007fff81e2b68f _pthread_wqthread + 1129
+16  libsystem_pthread.dylib       	0x00007fff81e29365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_pthread.dylib       	0x00007fff81e29358 start_wqthread + 0
+
+Binary Images:
+       0x10484c000 -        0x1048cdfff  storeaccountd (459) <3fd3d82c-b26a-36c4-9b77-0c8ea57adc17> /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+    0x7fff81e28000 -     0x7fff81e31ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff874c7000 -     0x7fff874f4fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff88981000 -     0x7fff88984ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff8c45b000 -     0x7fff8c479fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff91795000 -     0x7fff91ae9ff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff931fd000 -     0x7fff93264ff7  com.apple.StoreFoundation (1.0 - 459) <50a491f2-c20d-36de-b820-7377958bd80e> /System/Library/PrivateFrameworks/StoreFoundation.framework/Versions/A/StoreFoundation
+    0x7fff93265000 -     0x7fff936dbfff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

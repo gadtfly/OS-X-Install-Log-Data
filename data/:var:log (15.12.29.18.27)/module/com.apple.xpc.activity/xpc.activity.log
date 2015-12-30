@@ -1,0 +1,1 @@
+Dec 29 11:37:27.195958 Adams-MBP com.apple.cts[221] <Error>: com.apple.ical.sync.x-coredata://BFC162BF-88E8-4767-8DDB-DCCF3C619069/CalDAVPrincipal/p7: scheduler returned false; however, this job is 1 seconds overdue. Running anyway.

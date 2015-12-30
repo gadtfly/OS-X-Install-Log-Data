@@ -1,0 +1,69 @@
+systemsoundserve(201) deny file-read-metadata /private/var/root
+
+Process:         systemsoundserve [201]
+Path:            /usr/sbin/systemsoundserverd
+Load Address:    0x10e2ec000
+Identifier:      systemsoundserverd
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 01:31:19.425 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff92e7384e stat$INODE64 + 10
+1   CoreFoundation                	0x00007fff86c4b41c _CFGetFileProperties + 140
+2   CoreFoundation                	0x00007fff86d54282 __71+[CFPrefsSource withSourceForIdentifier:user:byHost:container:perform:]_block_invoke63 + 338
+3   CoreFoundation                	0x00007fff86c4a9da +[CFPrefsSource withSourceForIdentifier:user:byHost:container:perform:] + 970
+4   CoreFoundation                	0x00007fff86da11b0 -[CFPrefsSearchListSource addSourceForIdentifier:user:byHost:container:] + 128
+5   CoreFoundation                	0x00007fff86da09ea __73+[CFPrefsSearchListSource withSearchListForIdentifier:container:perform:]_block_invoke + 282
+6   CoreFoundation                	0x00007fff86da0733 +[CFPrefsSearchListSource withSearchListForIdentifier:container:perform:] + 579
+7   CoreFoundation                	0x00007fff86dd35c7 _CFPreferencesCopyAppValueWithContainer + 183
+8   CoreFoundation                	0x00007fff86c5de93 ___CFBundleCopyUserLanguages_block_invoke + 35
+9   libdispatch.dylib             	0x00007fff8681f33f _dispatch_client_callout + 8
+10  libdispatch.dylib             	0x00007fff8681f237 dispatch_once_f + 67
+11  CoreFoundation                	0x00007fff86d41fab _CFBundleCopyLanguageSearchListInBundle + 523
+12  CoreFoundation                	0x00007fff86d1c893 _copyQueryTable + 51
+13  CoreFoundation                	0x00007fff86d1c072 _copyResourceURLsFromBundle + 370
+14  CoreFoundation                	0x00007fff86c5c2e6 _CFBundleCopyFindResources + 1206
+15  CoreFoundation                	0x00007fff86c5be20 CFBundleCopyResourceURL + 64
+16  CoreFoundation                	0x00007fff86c5bcc3 CFBundleGetLocalInfoDictionary + 83
+17  CoreFoundation                	0x00007fff86c5bc31 CFBundleGetValueForInfoDictionaryKey + 33
+18  AudioToolbox                  	0x00007fff86188e6f AudioComponentPluginLoader::QueryBundle(__CFURL const*, std::__1::function<void (__CFURL const*, __CFBundle*, AudioComponentRegistrationInfo const&, __CFArray const*&)>) + 101
+19  AudioToolbox                  	0x00007fff8607f9e9 AudioComponentPluginLoader::ScanForPluginsInDirectory(char const*) + 307
+20  AudioToolbox                  	0x00007fff86188da2 AudioComponentPluginLoader::ScanForPlugins(unsigned int, bool) + 374
+21  AudioToolbox                  	0x00007fff86187bed AudioComponentPluginMgr::initLoader(unsigned int) + 73
+22  AudioToolbox                  	0x00007fff86187b7b AudioComponentPluginMgr::prepare(unsigned int) + 137
+23  AudioToolbox                  	0x00007fff86085743 AudioComponentPluginMgr::FindNext(OpaqueAudioComponent*, AudioComponentDescription const&) + 471
+24  AudioToolbox                  	0x00007fff8618253d AudioComponentFindNext + 140
+25  systemsoundserverd            	0x000000010e2fe6e4
+26  systemsoundserverd            	0x000000010e2fe63e
+27  systemsoundserverd            	0x000000010e2fb433
+28  systemsoundserverd            	0x000000010e2fabb2
+29  systemsoundserverd            	0x000000010e2fdd94
+30  systemsoundserverd            	0x000000010e2fd690
+31  systemsoundserverd            	0x000000010e2f4b41
+32  libxpc.dylib                  	0x00007fff91e3f396 _xpc_connection_call_event_handler + 35
+33  libxpc.dylib                  	0x00007fff91e3f00f _xpc_connection_mach_event + 2198
+34  libdispatch.dylib             	0x00007fff868274ca _dispatch_client_callout4 + 9
+35  libdispatch.dylib             	0x00007fff8682793c _dispatch_mach_msg_invoke + 555
+36  libdispatch.dylib             	0x00007fff86824134 _dispatch_queue_drain + 1207
+37  libdispatch.dylib             	0x00007fff86826293 _dispatch_mach_invoke + 735
+38  libdispatch.dylib             	0x00007fff86824134 _dispatch_queue_drain + 1207
+39  libdispatch.dylib             	0x00007fff8682a63b _dispatch_queue_invoke + 549
+40  libdispatch.dylib             	0x00007fff86822c87 _dispatch_root_queue_drain + 538
+41  libdispatch.dylib             	0x00007fff86824c3a _dispatch_worker_thread + 127
+42  libsystem_pthread.dylib       	0x00007fff86262c13 _pthread_body + 131
+43  libsystem_pthread.dylib       	0x00007fff86262b90 _pthread_body + 0
+44  libsystem_pthread.dylib       	0x00007fff86260375 thread_start + 13
+
+Binary Images:
+       0x10e2ec000 -        0x10e303fff  systemsoundserverd (800.14) <20f051a9-a771-370f-88a2-22044f4bb258> /usr/sbin/systemsoundserverd
+    0x7fff86078000 -     0x7fff8621eff7  com.apple.audio.toolbox.AudioToolbox (1.13 - 1.13) <f912765d-88ed-3324-b512-3778a8ce878b> /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+    0x7fff8625f000 -     0x7fff86268ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8681d000 -     0x7fff8684afff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff86c0b000 -     0x7fff87081fff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fff91e38000 -     0x7fff91e61fff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff92e5b000 -     0x7fff92e79fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib

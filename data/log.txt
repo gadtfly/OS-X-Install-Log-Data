@@ -1,0 +1,75 @@
+15.12
+  27
+    11:27 format drive
+    11:28 reinstall os x
+    11:29 log in to Apple; download starts
+  28
+    12:04 restarted; install starts
+    12:27: restarted
+    12:29: screen momentarily black
+    12:30: welcome screen
+    12:32: choose Canada
+    12:34: choose us keyboard
+    12:36: choose jewnet
+    12:37: enter password
+    12:38: don't transfer
+    12:39: don't enable location services
+    12:41: don't sign in
+    12:42: agree t&c
+    12:43: choose account name
+    12:44: choose account photo
+    12:45: create account
+    12:47: choose time zone
+    12:48: don't send data; "setting up your mac"; desktop loaded
+    12:51: open finder
+    12:52: navigate to, open Terminal
+    12:53: ps Ax > file
+    12:54: open Console
+    12:55: save to file
+    12:56: adjust brightness, volume
+    12:57: power off
+    12:58: power on
+    1:00: login
+    1:02: open finder (saved install log from before in "all my files" as thumb)
+    1:03: navigate to, open Terminal
+    1:04: ps Ax > file
+    1:05: open Console
+    1:06: save to file
+    1:07: rename files
+    1:08: close console, terminal, finder window
+    [Note: macbook clock observed to be 5-10 seconds ahead of phone, where notes are being recorded and time being (loosely) taken]
+    [Note: observation(s?) lost due to phone/Google Keep fuckup somehow (cursor placed here, apparently with text selected go be overwritten while typing several screens down, like 20 minutes later); no undo available]
+    1:11: power on
+    1:13: login
+    [Times now by macbook clock]
+    1:14: open finder
+    1:15: accidentally unplug, replug
+    1:16: open Applications
+    1:17: open Utilities
+    1:18: open Terminal
+    1:19: ps Ax > file
+    1:20: open Console
+    1:21: visually inspect console logs
+    1:24: save to file
+    1:25: restart
+    1:27: login
+    1:29: open finder
+    1:30: nav to utilities
+    [Fuck this is tedious; sorry for inconsistent style; constrained by phone]
+    1:31: open terminal
+    1:32: psax > file
+    1:34: open Console
+    1:35: save to file
+    1:36: close app windows
+    1:37: quicklook saved psaxes
+
+    [Fuck! I meant to be doing ps au this whole time]
+
+    [okay: “User info context values set for adamlouis” is the moment of login]
+
+End manual log.  From here on (based on probably unwarranted assumptions, but fuck it):
+  Can distinguish from log content: Power On -> Login
+  Will wait 2 minutes after login to save `ps Au`, which will note in the filename what happened in the previous session that has just been rebooted from, with a timestamp of the log creation
+  Possibly do this twice for each action… but will probably find too tedious, so probably not
+  Console Logs are strictly additive, so I only need one at the end (retroactive, i.e. shit’s getting deleted, so I really hope this is true because I’m not reinstalling again)
+  Actions will first be 100% native, no-3rd-party, config stuff, then 3rd party apps and config, 1 thing at a time (per reboot+logging)

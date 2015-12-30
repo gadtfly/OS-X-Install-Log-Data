@@ -1,0 +1,153 @@
+storeaccountd(298) deny file-write-create /Users/adamlouis/Library/Caches/com.apple.spotlight
+
+Process:         storeaccountd [298]
+Path:            /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+Load Address:    0x106394000
+Identifier:      storeaccountd
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-29 01:52:44.461 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff90670386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff974d9624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff974d8aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff974d8338 CFRunLoopRunSpecific + 296
+4   CoreFoundation                	0x00007fff9759b1f1 CFRunLoopRun + 97
+5   storeaccountd                 	0x000000010639ba79
+6   libdyld.dylib                 	0x00007fff8cb885ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff90677146 mkdir + 10
+1   Foundation                    	0x00007fff959c5187 -[NSFileManager createDirectoryAtPath:withIntermediateDirectories:attributes:error:] + 286
+2   StoreFoundation               	0x00007fff9741f0ed +[NSFileManager(ISAdditions) ensureDirectoryExists:] + 292
+3   storeaccountd                 	0x0000000106399d6e
+4   storeaccountd                 	0x0000000106399fd2
+5   libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+6   libdispatch.dylib             	0x00007fff8b6ce926 _dispatch_barrier_sync_f_invoke + 74
+7   storeaccountd                 	0x0000000106399657
+8   storeaccountd                 	0x0000000106399054
+9   storeaccountd                 	0x000000010639b4f0
+10  StoreFoundation               	0x00007fff9742abe2 -[ISURLOperation _sendOutputToDelegate:] + 101
+11  StoreFoundation               	0x00007fff97427b61 -[ISURLOperation _handleFinishedLoading] + 937
+12  CFNetwork                     	0x00007fff88c92129 __65-[NSURLConnectionInternal _withConnectionAndDelegate:onlyActive:]_block_invoke + 69
+13  CFNetwork                     	0x00007fff88c9203e -[NSURLConnectionInternal _withConnectionAndDelegate:onlyActive:] + 233
+14  CFNetwork                     	0x00007fff88c91f43 -[NSURLConnectionInternal _withActiveConnectionAndDelegate:] + 48
+15  CFNetwork                     	0x00007fff88c96ce2 ___ZN27URLConnectionClient_Classic26_delegate_didFinishLoadingEU13block_pointerFvvE_block_invoke + 104
+16  CFNetwork                     	0x00007fff88e2b407 ___ZN27URLConnectionClient_Classic18_withDelegateAsyncEPKcU13block_pointerFvP16_CFURLConnectionPK33CFURLConnectionClientCurrent_VMaxE_block_invoke_2 + 100
+17  libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+18  libdispatch.dylib             	0x00007fff8b6db03a _dispatch_block_invoke + 474
+19  CFNetwork                     	0x00007fff88c91e00 RunloopBlockContext::_invoke_block(void const*, void*) + 24
+20  CoreFoundation                	0x00007fff974b38f4 CFArrayApplyFunction + 68
+21  CFNetwork                     	0x00007fff88c91cf9 RunloopBlockContext::perform() + 137
+22  CFNetwork                     	0x00007fff88c91b9a MultiplexerSource::perform() + 282
+23  CFNetwork                     	0x00007fff88c919bc MultiplexerSource::_perform(void*) + 72
+24  CoreFoundation                	0x00007fff974e75c1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+25  CoreFoundation                	0x00007fff974d941c __CFRunLoopDoSources0 + 556
+26  CoreFoundation                	0x00007fff974d893f __CFRunLoopRun + 927
+27  CoreFoundation                	0x00007fff974d8338 CFRunLoopRunSpecific + 296
+28  StoreFoundation               	0x00007fff97421775 -[ISOperation runRunLoopUntilStopped] + 46
+29  StoreFoundation               	0x00007fff9742a641 -[ISURLOperation _runWithURL:] + 436
+30  StoreFoundation               	0x00007fff9742a414 -[ISURLOperation _run] + 234
+31  StoreFoundation               	0x00007fff97426932 -[ISURLOperation run] + 238
+32  StoreFoundation               	0x00007fff9740d3b5 -[ISStoreURLOperation _runURLOperation] + 2707
+33  StoreFoundation               	0x00007fff9740be3b -[ISStoreURLOperation run] + 354
+34  StoreFoundation               	0x00007fff974220d9 -[ISOperation _main:] + 426
+35  StoreFoundation               	0x00007fff97421c07 -[ISOperation main] + 547
+36  StoreFoundation               	0x00007fff97421865 -[ISOperation runSubOperation:returningError:] + 209
+37  storeaccountd                 	0x000000010639ae36
+38  StoreFoundation               	0x00007fff974220d9 -[ISOperation _main:] + 426
+39  StoreFoundation               	0x00007fff97421c07 -[ISOperation main] + 547
+40  StoreFoundation               	0x00007fff97421865 -[ISOperation runSubOperation:returningError:] + 209
+41  StoreFoundation               	0x00007fff9742172d -[ISOperation runSyncReturningError:] + 124
+42  storeaccountd                 	0x0000000106398e76
+43  libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+44  libdispatch.dylib             	0x00007fff8b6ce926 _dispatch_barrier_sync_f_invoke + 74
+45  storeaccountd                 	0x0000000106398cfa
+46  storeaccountd                 	0x000000010639e75b
+47  libdispatch.dylib             	0x00007fff8b6d8871 _dispatch_call_block_and_release + 12
+48  libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+49  libdispatch.dylib             	0x00007fff8b6dfbd8 _dispatch_async_redirect_invoke + 1733
+50  libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+51  libdispatch.dylib             	0x00007fff8b6d11cf _dispatch_root_queue_drain + 1890
+52  libdispatch.dylib             	0x00007fff8b6d0a34 _dispatch_worker_thread3 + 91
+53  libsystem_pthread.dylib       	0x00007fff8602f68f _pthread_wqthread + 1129
+54  libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff90676ff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff8b6d2d01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff906703c2 semaphore_wait_trap + 10
+1   libdispatch.dylib             	0x00007fff8b6db995 _dispatch_barrier_sync_f_slow + 594
+2   storeaccountd                 	0x0000000106398cfa
+3   storeaccountd                 	0x000000010639e75b
+4   libdispatch.dylib             	0x00007fff8b6d8871 _dispatch_call_block_and_release + 12
+5   libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+6   libdispatch.dylib             	0x00007fff8b6dfbd8 _dispatch_async_redirect_invoke + 1733
+7   libdispatch.dylib             	0x00007fff8b6cd33f _dispatch_client_callout + 8
+8   libdispatch.dylib             	0x00007fff8b6d11cf _dispatch_root_queue_drain + 1890
+9   libdispatch.dylib             	0x00007fff8b6d0a34 _dispatch_worker_thread3 + 91
+10  libsystem_pthread.dylib       	0x00007fff8602f68f _pthread_wqthread + 1129
+11  libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 6:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 7:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 8:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 9:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 10:
+0   libsystem_kernel.dylib        	0x00007fff906766de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8602d365 start_wqthread + 13
+
+Thread 11:
+0   libsystem_kernel.dylib        	0x00007fff90670386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff974d9624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff974d8aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff974d8338 CFRunLoopRunSpecific + 296
+4   CFNetwork                     	0x00007fff88c6c6e9 +[NSURLConnection(Loader) _resourceLoadLoop:] + 412
+5   Foundation                    	0x00007fff95b70c6f __NSThread__start__ + 1351
+6   libsystem_pthread.dylib       	0x00007fff8602fc13 _pthread_body + 131
+7   libsystem_pthread.dylib       	0x00007fff8602fb90 _pthread_body + 0
+8   libsystem_pthread.dylib       	0x00007fff8602d375 thread_start + 13
+
+Thread 12:
+0   libsystem_kernel.dylib        	0x00007fff90676176 __select + 10
+1   libsystem_pthread.dylib       	0x00007fff8602fc13 _pthread_body + 131
+2   libsystem_pthread.dylib       	0x00007fff8602fb90 _pthread_body + 0
+3   libsystem_pthread.dylib       	0x00007fff8602d375 thread_start + 13
+
+Binary Images:
+       0x106394000 -        0x106415fff  storeaccountd (459) <3fd3d82c-b26a-36c4-9b77-0c8ea57adc17> /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+    0x7fff8602c000 -     0x7fff86035ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff88c65000 -     0x7fff88eebff7  com.apple.CFNetwork (760.2.6 - 760.2.6) <dde325b9-7f6f-3933-8f86-8d031e400dd5> /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+    0x7fff8b6cb000 -     0x7fff8b6f8fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8cb85000 -     0x7fff8cb88ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff9065f000 -     0x7fff9067dfff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff95999000 -     0x7fff95cedff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff97401000 -     0x7fff97468ff7  com.apple.StoreFoundation (1.0 - 459) <50a491f2-c20d-36de-b820-7377958bd80e> /System/Library/PrivateFrameworks/StoreFoundation.framework/Versions/A/StoreFoundation
+    0x7fff97469000 -     0x7fff978dffff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation

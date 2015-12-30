@@ -1,0 +1,48 @@
+writeconfig(134) System Policy: deny file-write-times /System/Library/PrivateFrameworks/EFILogin.framework/Versions/A/Resources/EFIResourceBuilder.bundle/Contents/Resources
+
+Process:         writeconfig [134]
+Path:            /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+Load Address:    0x10495b000
+Identifier:      com.apple.systemadministration.writeconfig
+Version:         1 (1.0)
+Build Info:      11-Admin~633000000000000
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 00:29:23.095 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff9aafd4a6 __sigsuspend_nocancel + 10
+1   libdispatch.dylib             	0x00007fff8e4be7b6 _dispatch_sigsuspend + 0
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff9aafd6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8deeb365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff9aafdff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff8e4afd01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff9aafd6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8deeb365 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff9aafe96e utimes + 10
+1   writeconfig                   	0x00000001049655a3
+2   libdispatch.dylib             	0x00007fff8e4b5871 _dispatch_call_block_and_release + 12
+3   libdispatch.dylib             	0x00007fff8e4aa33f _dispatch_client_callout + 8
+4   libdispatch.dylib             	0x00007fff8e4bcbd8 _dispatch_async_redirect_invoke + 1733
+5   libdispatch.dylib             	0x00007fff8e4aa33f _dispatch_client_callout + 8
+6   libdispatch.dylib             	0x00007fff8e4ae1cf _dispatch_root_queue_drain + 1890
+7   libdispatch.dylib             	0x00007fff8e4ada34 _dispatch_worker_thread3 + 91
+8   libsystem_pthread.dylib       	0x00007fff8deed68f _pthread_wqthread + 1129
+9   libsystem_pthread.dylib       	0x00007fff8deeb365 start_wqthread + 13
+
+Binary Images:
+       0x10495b000 -        0x104974fff  com.apple.systemadministration.writeconfig (1.0 - 1) <9496a01c-f0db-3226-9752-843b16a05f13> /System/Library/PrivateFrameworks/SystemAdministration.framework/XPCServices/writeconfig.xpc/Contents/MacOS/writeconfig
+    0x7fff8deea000 -     0x7fff8def3ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8e4a8000 -     0x7fff8e4d5fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff9aae6000 -     0x7fff9ab04fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib

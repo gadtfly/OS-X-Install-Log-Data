@@ -1,0 +1,653 @@
+
+fsck_hfs started at Mon Dec 28 00:27:36 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 00:27:36 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 00:29:03 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 00:29:03 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 00:29:04 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 00:29:04 2015
+
+
+/dev/rdisk1: fsck_hfs started at Mon Dec 28 00:29:42 2015
+/dev/rdisk1: /dev/rdisk1: ERROR: volume /private/var/setup is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk1: fsck_hfs completed at Mon Dec 28 00:29:42 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 00:37:54 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 00:37:54 2015
+
+
+fsck_hfs started at Mon Dec 28 00:58:29 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 00:58:29 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 00:58:59 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 00:58:59 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 00:59:00 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 00:59:00 2015
+
+
+fsck_hfs started at Mon Dec 28 01:11:32 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 01:11:32 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 01:11:55 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 01:11:55 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 01:11:56 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 01:11:56 2015
+
+
+fsck_hfs started at Mon Dec 28 01:25:54 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 01:25:54 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 01:26:14 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 01:26:14 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 01:26:15 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 01:26:15 2015
+
+
+fsck_hfs started at Mon Dec 28 01:45:37 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 01:45:37 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 01:46:00 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 01:46:00 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 01:46:01 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 01:46:01 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 01:58:17 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 01:58:17 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Mon Dec 28 02:04:51 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Mon Dec 28 02:04:51 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Mon Dec 28 02:04:51 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Mon Dec 28 02:04:51 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 02:04:53 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 02:04:53 2015
+
+
+/dev/rdisk2s1: fsck_hfs started at Mon Dec 28 02:04:54 2015
+/dev/rdisk2s1: /dev/rdisk2s1: ** /dev/rdisk2s1 (NO WRITE)
+/dev/rdisk2s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s1: fsck_hfs completed at Mon Dec 28 02:04:54 2015
+
+
+/dev/rdisk2s1: fsck_hfs started at Mon Dec 28 02:04:54 2015
+/dev/rdisk2s1: /dev/rdisk2s1: ** /dev/rdisk2s1 (NO WRITE)
+/dev/rdisk2s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk2s1: fsck_hfs completed at Mon Dec 28 02:04:54 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 02:04:55 2015
+/dev/rdisk0s3: /dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+/dev/rdisk0s3: ** Checking Journaled HFS Plus volume.
+/dev/rdisk0s3:    The volume name is Recovery HD
+/dev/rdisk0s3: ** Checking extents overflow file.
+/dev/rdisk0s3: ** Checking catalog file.
+/dev/rdisk0s3: ** Checking multi-linked files.
+/dev/rdisk0s3: ** Checking catalog hierarchy.
+/dev/rdisk0s3: ** Checking extended attributes file.
+/dev/rdisk0s3: ** Checking volume bitmap.
+/dev/rdisk0s3: ** Checking volume information.
+/dev/rdisk0s3: ** The volume Recovery HD appears to be OK.
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 02:04:56 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 02:04:56 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 02:04:56 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 02:04:57 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 02:04:57 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 02:05:17 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 02:05:17 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 03:29:45 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 03:29:45 2015
+
+
+fsck_hfs started at Mon Dec 28 04:50:59 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 04:50:59 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 04:51:25 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 04:51:25 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 04:51:26 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 04:51:26 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Mon Dec 28 04:54:59 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Mon Dec 28 04:54:59 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Mon Dec 28 04:55:00 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Mon Dec 28 04:55:00 2015
+
+
+fsck_hfs started at Mon Dec 28 05:03:25 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 05:03:25 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 05:03:47 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 05:03:47 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 05:03:47 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 05:03:47 2015
+
+
+fsck_hfs started at Mon Dec 28 05:06:12 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 05:06:12 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 05:06:33 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 05:06:33 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 05:06:33 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 05:06:33 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 05:10:00 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 05:10:00 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 05:10:01 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 05:10:01 2015
+
+
+fsck_hfs started at Mon Dec 28 05:12:21 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 05:12:21 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 05:12:41 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 05:12:41 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 05:12:42 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 05:12:42 2015
+
+
+fsck_hfs started at Mon Dec 28 05:20:17 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 05:20:17 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 05:20:36 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 05:20:36 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 05:20:37 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 05:20:37 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 05:24:18 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 05:24:18 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 05:24:19 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 05:24:19 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 05:25:29 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 05:25:29 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 05:25:29 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 05:25:29 2015
+
+
+fsck_hfs started at Mon Dec 28 05:31:35 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 05:31:35 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 05:31:59 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 05:31:59 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 05:32:00 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 05:32:00 2015
+
+
+fsck_hfs started at Mon Dec 28 15:33:13 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 15:33:13 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 15:33:40 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 15:33:40 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 15:33:40 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 15:33:40 2015
+
+
+fsck_hfs started at Mon Dec 28 22:55:54 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Mon Dec 28 22:55:54 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Mon Dec 28 22:56:18 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Mon Dec 28 22:56:18 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Mon Dec 28 22:56:19 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Mon Dec 28 22:56:19 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 23:02:04 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 23:02:04 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Mon Dec 28 23:13:30 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Mon Dec 28 23:13:30 2015
+
+
+fsck_hfs started at Tue Dec 29 01:46:17 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 01:46:17 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 01:46:44 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 01:46:44 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 01:46:44 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 01:46:44 2015
+
+
+fsck_hfs started at Tue Dec 29 01:51:23 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 01:51:23 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 01:51:44 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 01:51:44 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 01:51:46 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 01:51:46 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Tue Dec 29 01:56:22 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Tue Dec 29 01:56:22 2015
+
+
+/dev/rdisk1s2: fsck_hfs started at Tue Dec 29 01:56:23 2015
+/dev/rdisk1s2: /dev/rdisk1s2: ** /dev/rdisk1s2 (NO WRITE)
+/dev/rdisk1s2:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s2: fsck_hfs completed at Tue Dec 29 01:56:23 2015
+
+
+fsck_hfs started at Tue Dec 29 02:28:48 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 02:28:48 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 02:29:08 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 02:29:08 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 02:29:09 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 02:29:09 2015
+
+
+fsck_hfs started at Tue Dec 29 03:14:58 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 03:14:58 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 03:15:24 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 03:15:24 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 03:15:25 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 03:15:25 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Tue Dec 29 14:18:56 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Tue Dec 29 14:18:56 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Tue Dec 29 14:18:57 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Tue Dec 29 14:18:57 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Tue Dec 29 14:24:34 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Tue Dec 29 14:24:34 2015
+
+
+/dev/rdisk1s1: fsck_hfs started at Tue Dec 29 14:24:35 2015
+/dev/rdisk1s1: /dev/rdisk1s1: ** /dev/rdisk1s1 (NO WRITE)
+/dev/rdisk1s1:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk1s1: fsck_hfs completed at Tue Dec 29 14:24:35 2015
+
+
+fsck_hfs started at Tue Dec 29 14:31:49 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 14:31:49 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 14:32:09 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 14:32:09 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 14:32:11 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 14:32:11 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 14:35:52 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 14:35:52 2015
+
+
+fsck_hfs started at Tue Dec 29 14:40:25 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 14:40:25 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 14:40:51 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 14:40:51 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 14:40:52 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 14:40:52 2015
+
+
+fsck_hfs started at Tue Dec 29 14:45:07 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 14:45:07 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 14:45:33 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 14:45:33 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 14:45:34 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 14:45:34 2015
+
+
+fsck_hfs started at Tue Dec 29 15:13:47 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 15:13:47 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 15:14:13 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 15:14:13 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 15:14:14 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 15:14:14 2015
+
+
+fsck_hfs started at Tue Dec 29 15:31:57 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 15:31:57 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 15:32:23 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 15:32:23 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 15:32:23 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 15:32:23 2015
+
+
+fsck_hfs started at Tue Dec 29 18:10:08 2015
+** /dev/rdisk0s2 (NO WRITE)
+** Root file system
+   Executing fsck_hfs (version hfs-305.10.1).
+fsck_hfs completed at Tue Dec 29 18:10:08 2015
+
+
+/dev/rdisk0s2: fsck_hfs started at Tue Dec 29 18:10:29 2015
+/dev/rdisk0s2: /dev/rdisk0s2: ERROR: volume / is mounted with write access. Re-run with (-l) to freeze volume.
+/dev/rdisk0s2: fsck_hfs completed at Tue Dec 29 18:10:29 2015
+
+
+/dev/rdisk0s3: fsck_hfs started at Tue Dec 29 18:10:29 2015
+/dev/rdisk0s3: /dev/rdisk0s3: ** /dev/rdisk0s3 (NO WRITE)
+/dev/rdisk0s3:    Executing fsck_hfs (version hfs-305.10.1).
+QUICKCHECK ONLY; FILESYSTEM CLEAN
+/dev/rdisk0s3: fsck_hfs completed at Tue Dec 29 18:10:29 2015
+

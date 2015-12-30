@@ -1,0 +1,45 @@
+Dec 29 00:30:05 Adams-MBP newsyslog[4244]: logfile turned over
+Tue Dec 29 01:46:44.920 ***Starting Up***
+Tue Dec 29 01:46:45.375 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 01:46:45.375 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 01:46:50.291 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 01:51:50.003 ***Starting Up***
+Tue Dec 29 01:51:50.073 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 01:51:50.073 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 01:51:55.475 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 02:29:10.186 ***Starting Up***
+Tue Dec 29 02:29:10.238 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 02:29:10.238 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 02:29:14.617 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 03:15:27.583 ***Starting Up***
+Tue Dec 29 03:15:27.648 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 03:15:27.648 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 03:15:32.433 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 03:27:59.144 <kernel>  IOCTL not recognized: 234 out of 236
+Tue Dec 29 11:37:27.345 <kernel> Got incomplete channel sequence length 0, should be 16
+Tue Dec 29 11:37:30.613 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 12:27:15.559 <airportd[54]> WARNING: Google Chrome (421) is not entitled for com.apple.wifi.scan, temporarily allowing request with background priority —— all entitlement requirements will be strictly enforced in a future release
+Tue Dec 29 14:32:12.701 ***Starting Up***
+Tue Dec 29 14:32:12.839 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 14:32:12.839 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 14:32:17.750 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 14:40:54.819 ***Starting Up***
+Tue Dec 29 14:40:54.878 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 14:40:54.878 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 14:40:58.914 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 14:45:36.297 ***Starting Up***
+Tue Dec 29 14:45:36.350 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 14:45:36.350 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 14:45:40.979 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 15:14:16.190 ***Starting Up***
+Tue Dec 29 15:14:16.293 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 15:14:16.293 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 15:14:21.096 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 15:32:26.263 ***Starting Up***
+Tue Dec 29 15:32:26.581 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 15:32:26.582 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 15:32:30.993 <kernel> Unexpected payload found for message 9, dataLen 0
+Tue Dec 29 18:10:30.873 ***Starting Up***
+Tue Dec 29 18:10:30.971 <kernel>  Unable to create IO80211InterfaceMonitor
+Tue Dec 29 18:10:30.971 <airportd[54]> airportdProcessDLILEvent: en1 attached (up)
+Tue Dec 29 18:10:35.209 <kernel> Unexpected payload found for message 9, dataLen 0

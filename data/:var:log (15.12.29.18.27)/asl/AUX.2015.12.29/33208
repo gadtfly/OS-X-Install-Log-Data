@@ -1,0 +1,24 @@
+ostraceutil(123) System Policy: deny forbidden-link-priv
+
+Process:         ostraceutil [123]
+Path:            /usr/bin/ostraceutil
+Load Address:    0x1087e7000
+Identifier:      ostraceutil
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  diagnosticd [120]
+
+Date/Time:       2015-12-29 14:45:37.827 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff9745403e link + 10
+1   ostraceutil                   	0x00000001087e97c0
+2   ostraceutil                   	0x00000001087e9281
+3   libdyld.dylib                 	0x00007fff939655ad start + 1
+
+Binary Images:
+       0x1087e7000 -        0x1087efffb  ostraceutil (201.10.3) <76339c44-104e-3739-868b-2bd63b181839> /usr/bin/ostraceutil
+    0x7fff93962000 -     0x7fff93965ffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff9743c000 -     0x7fff9745afff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib

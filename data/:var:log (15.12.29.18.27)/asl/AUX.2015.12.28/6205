@@ -1,0 +1,208 @@
+AssetCacheLocato(426) deny mach-lookup com.apple.cookied
+
+Process:         AssetCacheLocato [426]
+Path:            /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService
+Load Address:    0x1036b3000
+Identifier:      com.apple.AssetCacheLocatorService
+Version:         14 (14)
+Build Info:      221-AssetCacheServices~14000000000000
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 01:58:37.791 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff8c573624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff8c572aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff8c572338 CFRunLoopRunSpecific + 296
+4   Foundation                    	0x00007fff96c12e61 -[NSRunLoop(NSRunLoop) runMode:beforeDate:] + 270
+5   Foundation                    	0x00007fff96c84afd -[NSRunLoop(NSRunLoop) run] + 74
+6   AssetCacheLocatorService      	0x00000001036b9f8e -[AssetCacheLocatorService start] + 493
+7   AssetCacheLocatorService      	0x00000001036b6032 main + 71
+8   libdyld.dylib                 	0x00007fff935fb5ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   Metadata                      	0x00007fff8f5dbf5b mdsFetchAttributesForItems + 173
+2   Metadata                      	0x00007fff8f5b844a __newAttr + 897
+3   Metadata                      	0x00007fff8f5b7f66 MDItemCopyAttribute + 158
+4   Metadata                      	0x00007fff8f5a695c __MDItemUpdateData + 1198
+5   Metadata                      	0x00007fff8f5b8dcd __MDItemSetAttributes + 183
+6   Metadata                      	0x00007fff8f5b923b MDItemSetAttribute + 301
+7   CarbonCore                    	0x00007fff9af0bcc7 CSBackupSetItemExcluded + 583
+8   CoreServicesInternal          	0x00007fff8b2fdcb8 pathURLPropertyProviderSetValues(__CFURL const*, __FileCache*, __CFString const* const*, void const**, void const**, long, void const*, __CFError**) + 575
+9   CoreServicesInternal          	0x00007fff8b2f0b0a _FSURLSetResourcePropertyForKey + 182
+10  CoreFoundation                	0x00007fff8c64f220 CFURLSetResourcePropertyForKey + 128
+11  CoreFoundation                	0x00007fff8c69a4bb -[NSURL setResourceValue:forKey:error:] + 187
+12  AssetCacheLocatorService      	0x00000001036c15d6 __49-[AssetCacheLocatorService saveDiskCacheWithTag:]_block_invoke + 174
+13  libdispatch.dylib             	0x00007fff8c122871 _dispatch_call_block_and_release + 12
+14  libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+15  libdispatch.dylib             	0x00007fff8c11b1cf _dispatch_root_queue_drain + 1890
+16  libdispatch.dylib             	0x00007fff8c11aa34 _dispatch_worker_thread3 + 91
+17  libsystem_pthread.dylib       	0x00007fff8bb5a68f _pthread_wqthread + 1129
+18  libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   libsystem_kernel.dylib        	0x00007fff9875945b _kernelrpc_mach_port_request_notification + 120
+2   libdispatch.dylib             	0x00007fff8c11fe6a _dispatch_kevent_mach_notify_resume + 163
+3   libdispatch.dylib             	0x00007fff8c11cb42 _dispatch_kevent_resume + 36
+4   libdispatch.dylib             	0x00007fff8c11fda9 _dispatch_mach_kevent_register + 178
+5   libdispatch.dylib             	0x00007fff8c11e9f6 _dispatch_mach_msg_send + 291
+6   libdispatch.dylib             	0x00007fff8c11e955 _dispatch_mach_msg_send + 130
+7   libdispatch.dylib             	0x00007fff8c11fa58 _dispatch_mach_send_drain + 140
+8   libdispatch.dylib             	0x00007fff8c11e38d _dispatch_mach_invoke + 985
+9   libdispatch.dylib             	0x00007fff8c11c134 _dispatch_queue_drain + 1207
+10  libdispatch.dylib             	0x00007fff8c11d113 _dispatch_mgr_queue_drain + 32
+11  libdispatch.dylib             	0x00007fff8c11cfee _dispatch_mgr_invoke + 45
+12  libdispatch.dylib             	0x00007fff8c11cd01 _dispatch_autorelease_pool_pop + 0
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   libxpc.dylib                  	0x00007fff97732bde xpc_pipe_routine + 249
+2   libxpc.dylib                  	0x00007fff97736212 _xpc_interface_routine + 163
+3   libxpc.dylib                  	0x00007fff977382be _xpc_look_up_endpoint + 192
+4   libxpc.dylib                  	0x00007fff977381d3 _xpc_connection_bootstrap_look_up_slow + 312
+5   libxpc.dylib                  	0x00007fff97735d37 _xpc_connection_init + 562
+6   libxpc.dylib                  	0x00007fff97735af7 _xpc_connection_resume_init + 14
+7   libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+8   libdispatch.dylib             	0x00007fff8c11bf6f _dispatch_queue_drain + 754
+9   libdispatch.dylib             	0x00007fff8c12263b _dispatch_queue_invoke + 549
+10  libdispatch.dylib             	0x00007fff8c11ac87 _dispatch_root_queue_drain + 538
+11  libdispatch.dylib             	0x00007fff8c11aa34 _dispatch_worker_thread3 + 91
+12  libsystem_pthread.dylib       	0x00007fff8bb5a68f _pthread_wqthread + 1129
+13  libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   Metadata                      	0x00007fff8f58d112 mdsFetchItemsForPaths + 149
+2   Metadata                      	0x00007fff8f58aa95 MDItemCreate + 581
+3   CarbonCore                    	0x00007fff9af0bbf2 CSBackupSetItemExcluded + 370
+4   CoreServicesInternal          	0x00007fff8b2fdcb8 pathURLPropertyProviderSetValues(__CFURL const*, __FileCache*, __CFString const* const*, void const**, void const**, long, void const*, __CFError**) + 575
+5   CoreServicesInternal          	0x00007fff8b2f0b0a _FSURLSetResourcePropertyForKey + 182
+6   CoreFoundation                	0x00007fff8c64f220 CFURLSetResourcePropertyForKey + 128
+7   CoreFoundation                	0x00007fff8c69a4bb -[NSURL setResourceValue:forKey:error:] + 187
+8   AssetCacheLocatorService      	0x00000001036c15d6 __49-[AssetCacheLocatorService saveDiskCacheWithTag:]_block_invoke + 174
+9   libdispatch.dylib             	0x00007fff8c122871 _dispatch_call_block_and_release + 12
+10  libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+11  libdispatch.dylib             	0x00007fff8c11b1cf _dispatch_root_queue_drain + 1890
+12  libdispatch.dylib             	0x00007fff8c11aa34 _dispatch_worker_thread3 + 91
+13  libsystem_pthread.dylib       	0x00007fff8bb5a68f _pthread_wqthread + 1129
+14  libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 6:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libdispatch.dylib             	0x00007fff8c11a673 _dispatch_queue_wakeup_global_slow + 60
+2   libdispatch.dylib             	0x00007fff8c118a3a _dispatch_queue_wakeup_with_qos_slow + 126
+3   CFNetwork                     	0x00007fff9ce2e306 URLConnectionInstanceData::withWorkQueueAsync(void () block_pointer) const + 108
+4   CFNetwork                     	0x00007fff9ce3eeb8 ClassicURLConnection::start() + 392
+5   CFNetwork                     	0x00007fff9ce3ecee CFURLConnectionStart + 42
+6   CFNetwork                     	0x00007fff9ce3ec9f -[NSURLConnectionInternalConnection start] + 79
+7   AssetCacheLocatorService      	0x00000001036c5dfc -[AssetCacheLocatorService locateLocalCachingServersWithHeaders:body:timeout:callback:callbackQueue:tag:] + 1399
+8   AssetCacheLocatorService      	0x00000001036c73e7 __148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke + 234
+9   AssetCacheLocatorService      	0x00000001036c798d __148-[AssetCacheLocatorService locateLocalCachingServersWithTimeout:localAddresses:gatewayIdentifiers:configurationProfiles:callback:callbackQueue:tag:]_block_invoke1062 + 391
+10  libdispatch.dylib             	0x00007fff8c122871 _dispatch_call_block_and_release + 12
+11  libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+12  libdispatch.dylib             	0x00007fff8c11bf6f _dispatch_queue_drain + 754
+13  libdispatch.dylib             	0x00007fff8c12263b _dispatch_queue_invoke + 549
+14  libdispatch.dylib             	0x00007fff8c11ac87 _dispatch_root_queue_drain + 538
+15  libdispatch.dylib             	0x00007fff8c11aa34 _dispatch_worker_thread3 + 91
+16  libsystem_pthread.dylib       	0x00007fff8bb5a68f _pthread_wqthread + 1129
+17  libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 7:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 8:
+0   libsystem_kernel.dylib        	0x00007fff9876aff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff8c11aa69 _dispatch_mgr_wakeup + 34
+2   libdispatch.dylib             	0x00007fff8c1189d9 _dispatch_queue_wakeup_with_qos_slow + 29
+3   libdispatch.dylib             	0x00007fff8c118a3a _dispatch_queue_wakeup_with_qos_slow + 126
+4   libdispatch.dylib             	0x00007fff8c11a26b _dispatch_resume_slow + 14
+5   libxpc.dylib                  	0x00007fff977366d5 _xpc_connection_check_in + 300
+6   libxpc.dylib                  	0x00007fff97735da5 _xpc_connection_init + 672
+7   libxpc.dylib                  	0x00007fff97735af7 _xpc_connection_resume_init + 14
+8   libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+9   libdispatch.dylib             	0x00007fff8c11bf6f _dispatch_queue_drain + 754
+10  libdispatch.dylib             	0x00007fff8c12263b _dispatch_queue_invoke + 549
+11  libdispatch.dylib             	0x00007fff8c11ac87 _dispatch_root_queue_drain + 538
+12  libdispatch.dylib             	0x00007fff8c11aa34 _dispatch_worker_thread3 + 91
+13  libsystem_pthread.dylib       	0x00007fff8bb5a68f _pthread_wqthread + 1129
+14  libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 9:
+0   libsystem_kernel.dylib        	0x00007fff9876a6de __workq_kernreturn + 10
+1   libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 10:
+0   CoreFoundation                	0x00007fff8c64b90d _CFPrefsWithSources + 77
+1   CoreFoundation                	0x00007fff8c53d17b +[CFPrefsManagedSource withSourceForIdentifier:user:perform:] + 219
+2   CoreFoundation                	0x00007fff8c53d08c -[CFPrefsSearchListSource addManagedSourceForIdentifier:user:] + 108
+3   CoreFoundation                	0x00007fff8c69897f __73+[CFPrefsSearchListSource withSearchListForIdentifier:container:perform:]_block_invoke + 175
+4   CoreFoundation                	0x00007fff8c698733 +[CFPrefsSearchListSource withSearchListForIdentifier:container:perform:] + 579
+5   CoreFoundation                	0x00007fff8c6cb5c7 _CFPreferencesCopyAppValueWithContainer + 183
+6   CoreFoundation                	0x00007fff8c6cb878 _CFPreferencesGetAppIntegerValueWithContainer + 24
+7   CFNetwork                     	0x00007fff9ce1ae8d DiagnosticLogging::userDiagnosticLevel() + 1383
+8   CFNetwork                     	0x00007fff9ce1a8ef DiagnosticLogging::newMsg(LogFormatter::LineInfo const&, DiagnosticLogging::Level) + 21
+9   CFNetwork                     	0x00007fff9ce1a5ed ExternalStorage::establishConnection(void (unsigned char) block_pointer) + 427
+10  CFNetwork                     	0x00007fff9ce1a3e2 ExternalStorage::initialize(__CFString const*, unsigned char, dispatch_queue_s*) + 160
+11  CFNetwork                     	0x00007fff9ce27265 ExternalHSTSStorage::initialize(__CFDictionary const*) + 89
+12  CFNetwork                     	0x00007fff9ce27152 ___CFHSTSPolicyCreateWithProperties_block_invoke + 58
+13  CFNetwork                     	0x00007fff9ce27042 HSTSStorage::CopyCacheOrCreate(__CFDictionary const*, HSTSStorage* (__CFDictionary const*) block_pointer) + 52
+14  CFNetwork                     	0x00007fff9ce26e97 _CFHSTSPolicyCreateWithProperties + 129
+15  CFNetwork                     	0x00007fff9ce26dea ___ZNK14StorageSession15copyHSTSStorageEv_block_invoke + 242
+16  libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+17  libdispatch.dylib             	0x00007fff8c117237 dispatch_once_f + 67
+18  CFNetwork                     	0x00007fff9ce26cf6 StorageSession::copyHSTSStorage() const + 106
+19  CFNetwork                     	0x00007fff9ce26a87 -[__NSCFURLSessionConfiguration copyHSTSPolicy] + 76
+20  CFNetwork                     	0x00007fff9ce2699e HTTPProtocol::_createStrictSecurityCompliantCanonicalRequest(__CFURL const*, _CFURLRequest const*, NSURLSession const*) + 110
+21  CFNetwork                     	0x00007fff9ce26623 HTTPProtocol::_createMutableCanonicalRequest(__CFAllocator const*, _CFURLRequest const*, NSURLSession const*, void const*) + 63
+22  CFNetwork                     	0x00007fff9ce265c3 HTTPProtocol::_createCanonicalRequest(__CFAllocator const*, _CFURLRequest const*, NSURLSession const*, void const*) + 67
+23  CFNetwork                     	0x00007fff9ce2652b +[_NSCFURLProtocol canonicalRequestForRequest:task:] + 94
+24  CFNetwork                     	0x00007fff9ce260dc -[__NSURLSessionLocal _createCanonicalRequestForTask:] + 98
+25  CFNetwork                     	0x00007fff9ce3f50d URLConnectionClient::_internalEvent_WillSendRequest() + 101
+26  CFNetwork                     	0x00007fff9ce3f247 URLConnectionClient::_connectionClientInterface_startConnection(__CFRunLoop*, __CFString const*) + 359
+27  CFNetwork                     	0x00007fff9ce3f0b4 ___ZN20ClassicURLConnection5startEv_block_invoke + 40
+28  CFNetwork                     	0x00007fff9ce3eedd ___ZN20ClassicURLConnection15withClientAsyncEU13block_pointerFvP25ConnectionClientInterfaceE_block_invoke + 21
+29  CFNetwork                     	0x00007fff9ce2e339 ___ZNK25URLConnectionInstanceData18withWorkQueueAsyncEU13block_pointerFvvE_block_invoke + 16
+30  libdispatch.dylib             	0x00007fff8c122871 _dispatch_call_block_and_release + 12
+31  libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+32  libdispatch.dylib             	0x00007fff8c11bf6f _dispatch_queue_drain + 754
+33  libdispatch.dylib             	0x00007fff8c12263b _dispatch_queue_invoke + 549
+34  libdispatch.dylib             	0x00007fff8c11ac87 _dispatch_root_queue_drain + 538
+35  libdispatch.dylib             	0x00007fff8c11aa34 _dispatch_worker_thread3 + 91
+36  libsystem_pthread.dylib       	0x00007fff8bb5a68f _pthread_wqthread + 1129
+37  libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 11:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   CoreFoundation                	0x00007fff8c573624 __CFRunLoopServiceMachPort + 212
+2   CoreFoundation                	0x00007fff8c572aec __CFRunLoopRun + 1356
+3   CoreFoundation                	0x00007fff8c572338 CFRunLoopRunSpecific + 296
+4   CFNetwork                     	0x00007fff9ce1c6e9 +[NSURLConnection(Loader) _resourceLoadLoop:] + 412
+5   Foundation                    	0x00007fff96d5ec6f __NSThread__start__ + 1351
+6   libsystem_pthread.dylib       	0x00007fff8bb5ac13 _pthread_body + 131
+7   libsystem_pthread.dylib       	0x00007fff8bb5ab90 _pthread_body + 0
+8   libsystem_pthread.dylib       	0x00007fff8bb58375 thread_start + 13
+
+Binary Images:
+       0x1036b3000 -        0x1036d9fff  com.apple.AssetCacheLocatorService (14 - 14) <e2933967-92a1-3b96-9109-79115f501c0c> /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService
+    0x7fff8b2dd000 -     0x7fff8b30bff7  com.apple.CoreServicesInternal (248.2 - 248.2) <7d0d2c65-c4c4-3fbd-89a7-12302ea444aa> /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal
+    0x7fff8bb57000 -     0x7fff8bb60ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8c115000 -     0x7fff8c142fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8c503000 -     0x7fff8c979fff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fff8f589000 -     0x7fff8f629ff7  com.apple.Metadata (10.7.0 - 972.16) <98ca1355-3e2c-364c-9c4f-3ca286db08a7> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+    0x7fff935f8000 -     0x7fff935fbffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff96b87000 -     0x7fff96edbff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff97730000 -     0x7fff97759fff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff98753000 -     0x7fff98771fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff9aefd000 -     0x7fff9b1e2ff3  com.apple.CoreServices.CarbonCore (1136 - 1136) <ffbde3bf-0bb3-37a2-8a44-6e25284cc348> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+    0x7fff9ce15000 -     0x7fff9d09bff7  com.apple.CFNetwork (760.2.6 - 760.2.6) <dde325b9-7f6f-3933-8f86-8d031e400dd5> /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork

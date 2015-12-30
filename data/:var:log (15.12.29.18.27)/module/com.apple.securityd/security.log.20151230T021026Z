@@ -1,0 +1,90 @@
+Dec 29 18:10:47 securityd_service[214] <Notice> [daemon{} ]: registered for notifications
+Dec 29 18:10:52 secd[288] <Notice> [ds{} ]: ds __dsCopyStateWithKey_block_invoke_3 found item for key engine-state@dk
+Dec 29 18:10:52 secd[288] <Notice> [engine{} ]: engine SOSEngineSetPeers_locked me (null) NULL
+Dec 29 18:10:52 secd[288] <Notice> [engine{} ]: engine SOSEngineSetState <Engine (null) peers  MC[0] PS[0]>
+Dec 29 18:10:54 secd[288] <Notice> [item{} ]: item SecDbItemDoUpdate replaced O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151229233300.201329Z,2179FDAC with O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151230021054.688992Z,99335266 in <SecDbConnection rw open>
+Dec 29 18:10:54 secd[288] <Notice> [engine{} ]: engine  (null): will-commit sos 1 changes
+Dec 29 18:10:54 secd[288] <Notice> [item{} ]: item SecKeychainChanged Sent SyncWithAllPeers and com.apple.security.keychainchanged
+Dec 29 18:10:54 CloudKeychainProxy[310] <Notice> [user{} ]: start
+Dec 29 18:10:54 secd[288] <Notice> [talkwithkvs{} ]: talkwithkvs __talkWithKVS_block_invoke converted CF object: ACK
+Dec 29 18:10:54 securityd_service[214] <Notice> [daemon{} ]: selector: kb_load (4), error: invalid session (6), sid: 100013, suid: -1, pid: 308
+Dec 29 18:10:55 secd[288] <Notice> [views{} ]: views with_label_and_number Action Code Raw is 3
+Dec 29 18:10:55 secd[288] <Notice> [key-interests{} ]: key-interests SOSUpdateKeyInterest Updating interests: <CFBasicHash 0x7f8f0b415fe0 [0x7fff7daaf440]>{type = mutable dict, count = 3,
+	entries =>
+		0 : <CFString 0x1073cc5b0 [0x7fff7daaf440]>{contents = "KeyParameter"} = <CFBasicHash 0x7f8f0b416590 [0x7fff7daaf440]>{type = mutable dict, count = 3,
+	entries =>
+		0 : <CFString 0x1073cc610 [0x7fff7daaf440]>{contents = "AlwaysKeys"} = <CFArray 0x7f8f0b413eb0 [0x7fff7daaf440]>{type = mutable-small, count = 1, values = (
+		0 : <CFString 0x1073cf3f0 [0x7fff7daaf440]>{contents = ">KeyParameters"}
+	)}
+		1 : <CFString 0x1073cc650 [0x7fff7daaf440]>{contents = "UnlockedKeys"} = <CFArray 0x7f8f0b415fb0 [0x7fff7daaf440]>{type = mutable-small, count = 0, values = ()}
+		2 : <CFString 0x1073cc630 [0x7fff7daaf440]>{contents = "FirstUnlockKeys"} = <CFArray 0x7f8f0b416100 [0x7fff7daaf440]>{type = mutable-small, count = 0, values = ()}
+	}
+	
+		1 : <CFString 0x1073cc5f0 [0x7fff7daaf440]>{contents = "Message"} = <CFBasicHash 0x7f8f0b416700 [0x7fff7daaf440]>{type = mutable dict, count = 3,
+	entries =>
+		0 : <CFString 0x1073cc610 [0x7fff7daaf440]>{contents = "AlwaysKeys"} = <CFArray 0x7f8f0b416670 [0x7fff7daaf440]>{type = mutable-small, count = 0, values = ()}
+		1 : <CFString 0x1073cc650 [0x7fff7daaf440]>{contents = "UnlockedKeys"} = <CFArray 0x7f8f0b4166d0 [0x7fff7daaf440]>{type = mutable-small, count = 0, values = ()}
+		2 : <CFString 0x1073cc630 [0x7fff7daaf440]>{contents = "FirstUnlockKeys"} = <CFArray 0x7f8f0b4166a0 [0x7fff7daaf440]>{type = mutable-small, count = 0, values = ()}
+	}
+	
+		2 : <CFString 0x1073cc5d0 [0x7fff7daaf440]>{contents = "Circle"} = <CFBasicHash 0x7f8f0b416630 [0x7fff7daaf440]>{type = mutable dict, count = 3,
+	entries =>
+		0 : <CFString 0x1073cc610 [0x7fff7daaf440]>{contents = "AlwaysKeys"} = <CFArray 0x7f8f0b416050 [0x7fff7daaf440]>{type = mutable-small, count = 1, values = (
+		0 : <CFString 0x7f8f0b410bd0 [0x7fff7daaf440]>{contents = "dbg-Scope"}
+	)}
+		1 : <CFString 0x1073cc650 [0x7fff7daaf440]>{contents = "UnlockedKeys"} = <CFArray 0x7f8f0b416600 [0x7fff7daaf440]>{type = mutable-small, count = 0, values = ()}
+		2 : <CFString 0x1073cc630 [0x7fff7daaf440]>{contents = "FirstUnlockKeys"} = <CFArray 0x7f8f0b4165d0 [0x7fff7daaf440]>{type = mutable-small, count = 0, values = ()}
+	}
+	
+	}
+Dec 29 18:10:55 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke_2 Requesting lock assertion for 60 seconds
+Dec 29 18:10:55 secd[288] <Notice> [sync{} ]: sync SOSCloudTransportSetItemsChangedBlock Changing itemsChangedBlock
+Dec 29 18:10:55 secd[288] <Notice> [item{} ]: item SecDbItemDoUpdate replaced O,genp,503E100F,L,dku,com.apple.security.sos,1,acct,svce,v_Data,20151229233244.384292Z,5E785083 with O,genp,503E100F,L,dku,com.apple.security.sos,1,acct,svce,v_Data,20151230021055.536198Z,B1386496 in <SecDbConnection rw open>
+Dec 29 18:10:55 secd[288] <Notice> [engine{} ]: engine  (null): will-commit api 1 changes
+Dec 29 18:10:55 IDSKeychainSyncingProxy[311] <Notice> [user{} ]: start
+Dec 29 18:10:55 IDSKeychainSyncingProxy[311] <Warning> [com.apple.security.idskeychainsyncingproxy{} ]: [Warning] Services all disappeared, removing all dependent devices
+Dec 29 18:10:55 secd[288] <Notice> [talkwithIDS{} ]: talkwithIDS __talkWithIDS_block_invoke converted CF object: true
+Dec 29 18:10:55 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke8 Dropping lock assertion
+Dec 29 18:10:55 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account}
+Dec 29 18:10:55 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account}
+Dec 29 18:10:55 secd[288] <Error> [SecLogging{} ]:  securityd_xpc_dictionary_handler WiFiAgent[267] View Error Domain=com.apple.security.sos.error Code=1032 "No Peer for Account" UserInfo={NSDescription=No Peer for Account}
+Dec 29 18:10:55 secd[288] <Notice> [talkwithkvs{} ]: talkwithkvs __talkWithKVS_block_invoke converted CF object: ACK
+Dec 29 18:10:55 secd[288] <Notice> [engine{} ]: engine SOSEngineCopyState <Engine (null) peers  MC[0] PS[0]>
+Dec 29 18:10:55 secd[288] <Notice> [talkwithkvs{} ]: talkwithkvs __talkWithKVS_block_invoke converted CF object: ACK
+Dec 29 18:10:55 secd[288] <Notice> [ds{} ]: ds __dsMergeObject_block_invoke Conflict resolver choose peers item: O,genp,164C2842,L,dk,com.apple.security.sos,0,acct,svce,v_Data,20151230021055.684064Z,4C0EEB2B
+Dec 29 18:10:55 secd[288] <Notice> [item{} ]: item SecDbItemDoUpdate replaced O,genp,164C2842,L,dk,com.apple.security.sos,2,acct,svce,v_Data,20151229233243.929986Z,DC6A6B47 with O,genp,164C2842,L,dk,com.apple.security.sos,2,acct,svce,v_Data,20151230021055.684064Z,4C0EEB2B in <SecDbConnection rw open>
+Dec 29 18:10:55 secd[288] <Notice> [engine{} ]: engine  (null): will-commit sos 1 changes
+Dec 29 18:10:56 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke_2 Requesting lock assertion for 60 seconds
+Dec 29 18:10:56 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke8 Dropping lock assertion
+Dec 29 18:10:56 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Dec 29 18:10:56 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Dec 29 18:10:56 secd[288] <Error> [SecLogging{} ]:  securityd_xpc_dictionary_handler IDSKeychainSynci[311] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Dec 29 18:10:56 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke_2 Requesting lock assertion for 60 seconds
+Dec 29 18:10:56 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke8 Dropping lock assertion
+Dec 29 18:10:56 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Dec 29 18:10:56 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Dec 29 18:10:56 secd[288] <Error> [SecLogging{} ]:  securityd_xpc_dictionary_handler IDSKeychainSynci[311] SetDeviceID Error Domain=com.apple.security.sos.error Code=1032 "No peer for me" UserInfo={NSDescription=No peer for me}
+Dec 29 18:10:56 secd[288] <Notice> [updates{} ]: updates SOSCCProcessEnsurePeerRegistration_Server Request for registering peers
+Dec 29 18:10:56 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke_2 Requesting lock assertion for 60 seconds
+Dec 29 18:10:56 secd[288] <Notice> [updates{} ]: updates SOSAccountEnsurePeerRegistration Ensuring peer registration.
+Dec 29 18:10:56 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke8 Dropping lock assertion
+Dec 29 18:10:56 CloudKeychainProxy[310] <Error> [SecLogging{} ]:  __45-[UbiqitousKVSProxy doEnsurePeerRegistration]_block_invoke <UB---e-C---> ensurePeerRegistration called, success ((null))
+Dec 29 18:10:57 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=2 "Public Key not available - failed to register before call" UserInfo={NSDescription=Public Key not available - failed to register before call}
+Dec 29 18:10:57 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=2 "Public Key not available - failed to register before call" UserInfo={NSDescription=Public Key not available - failed to register before call}
+Dec 29 18:10:57 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=2 "Public Key not available - failed to register before call" UserInfo={NSDescription=Public Key not available - failed to register before call}
+Dec 29 18:11:00 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=2 "Public Key not available - failed to register before call" UserInfo={NSDescription=Public Key not available - failed to register before call}
+Dec 29 18:11:05 secd[288] <Notice> [item{} ]: item SecDbItemDoUpdate replaced O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151230021054.688992Z,99335266 with O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151230021105.71754Z,FF549BFD in <SecDbConnection rw open>
+Dec 29 18:11:05 secd[288] <Notice> [engine{} ]: engine  (null): will-commit api 1 changes
+Dec 29 18:11:05 secd[288] <Notice> [item{} ]: item SecKeychainChanged Sent SyncWithAllPeers and com.apple.security.keychainchanged
+Dec 29 18:11:05 secd[288] <Notice> [talkwithkvs{} ]: talkwithkvs __talkWithKVS_block_invoke converted CF object: ACK
+Dec 29 18:11:06 secd[288] <Notice> [item{} ]: item SecDbItemDoUpdate replaced O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151230021105.71754Z,FF549BFD with O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151230021106.078138Z,2E4E8BCF in <SecDbConnection rw open>
+Dec 29 18:11:06 secd[288] <Notice> [engine{} ]: engine  (null): will-commit api 1 changes
+Dec 29 18:11:06 secd[288] <Notice> [item{} ]: item SecKeychainChanged Sent SyncWithAllPeers and com.apple.security.keychainchanged
+Dec 29 18:11:06 secd[288] <Notice> [talkwithkvs{} ]: talkwithkvs __talkWithKVS_block_invoke converted CF object: ACK
+Dec 29 18:11:06 secd[288] <Notice> [item{} ]: item SecDbItemDoUpdate replaced O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151230021106.078138Z,2E4E8BCF with O,genp,F6B7D9DD,S,ak,apple,4,acct,svce,gena,20151230021106.416811Z,D7A337C8 in <SecDbConnection rw open>
+Dec 29 18:11:06 secd[288] <Notice> [engine{} ]: engine  (null): will-commit api 1 changes
+Dec 29 18:11:06 secd[288] <Notice> [item{} ]: item SecKeychainChanged Sent SyncWithAllPeers and com.apple.security.keychainchanged
+Dec 29 18:11:06 secd[288] <Notice> [talkwithkvs{} ]: talkwithkvs __talkWithKVS_block_invoke converted CF object: ACK
+Dec 29 18:11:10 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke_2 Requesting lock assertion for 60 seconds
+Dec 29 18:11:10 secd[288] <Notice> [lockassertions{} ]: lockassertions __SecAKSDoWhileUserBagLocked_block_invoke8 Dropping lock assertion
+Dec 29 18:11:11 secd[288] <Notice> [securityd{} ]: securityd SecErrorGetOSStatus unknown error domain: com.apple.security.sos.error for error: Error Domain=com.apple.security.sos.error Code=2 "Public Key not available - failed to register before call" UserInfo={NSDescription=Public Key not available - failed to register before call}

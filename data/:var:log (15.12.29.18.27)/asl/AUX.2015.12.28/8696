@@ -1,0 +1,119 @@
+mdworker(1034) deny mach-lookup com.apple.nsurlstorage-cache (import fstype:hfs fsflag:480D000 flags:40000005E diag:0 isXCode:0 uti:public.html plugin:/Library/Spotlight/RichText.mdimporter - find suspect file using: sudo mdutil -t 110210)
+
+Process:         mdworker [1034]
+Path:            /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+Load Address:    0x1067bf000
+Identifier:      mdworker
+Version:         ??? (???)
+Code Type:       x86_64 (Native)
+Parent Process:  launchd [1]
+
+Date/Time:       2015-12-28 03:53:49.096 -0800
+OS Version:      Mac OS X 10.11.2 (15C50)
+Report Version:  8
+
+Thread 0:
+0   libsystem_kernel.dylib        	0x00007fff98769d5e __open_nocancel + 10
+1   CoreFoundation                	0x00007fff8c524947 _CFIterateDirectory + 87
+2   CoreFoundation                	0x00007fff8c5276a3 _CFBundleCopyInfoDictionaryInDirectoryWithVersion + 675
+3   CoreFoundation                	0x00007fff8c527315 CFBundleGetInfoDictionary + 69
+4   CoreFoundation                	0x00007fff8c52360a _CFBundleCreate + 1114
+5   Foundation                    	0x00007fff96b8d230 -[NSBundle _cfBundle] + 73
+6   Foundation                    	0x00007fff96b8d1af -[NSBundle infoDictionary] + 19
+7   Foundation                    	0x00007fff96b90d62 -[NSBundle bundleIdentifier] + 22
+8   AppKit                        	0x00007fff93fead4d -[NSAppearance initWithAppearanceNamed:bundle:] + 68
+9   Foundation                    	0x00007fff96b9bee3 _NSFaultInObject + 32
+10  AppKit                        	0x00007fff93feaa47 __33+[NSAppearance _initializeCoreUI]_block_invoke + 121
+11  libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+12  libdispatch.dylib             	0x00007fff8c117237 dispatch_once_f + 67
+13  AppKit                        	0x00007fff93ff2219 +[NSAppearance _defaultAppearance] + 22
+14  AppKit                        	0x00007fff94020b85 +[NSAppearance appearanceNamed:] + 24
+15  AppKit                        	0x00007fff94002e36 +[NSWindow initialize] + 166
+16  libobjc.A.dylib               	0x00007fff9ab99390 _class_initialize + 706
+17  libobjc.A.dylib               	0x00007fff9ab99123 _class_initialize + 85
+18  libobjc.A.dylib               	0x00007fff9ab98c90 lookUpImpOrForward + 183
+19  libobjc.A.dylib               	0x00007fff9ab92591 objc_msgSend + 209
+20  AppKit                        	0x00007fff94002d3e -[NSView(NSPrivateHLTBSupport) _boundToHIView] + 39
+21  AppKit                        	0x00007fff947c61ab -[NSView _legacySetNeedsDisplayInRect:] + 1436
+22  AppKit                        	0x00007fff94002671 NSViewSetNeedsDisplayInRect + 1332
+23  AppKit                        	0x00007fff94002136 -[NSView setNeedsDisplayInRect:] + 48
+24  AppKit                        	0x00007fff94001f4d -[NSView setNeedsDisplay:] + 81
+25  AppKit                        	0x00007fff940ddd68 -[NSClipView initWithFrame:] + 151
+26  AppKit                        	0x00007fff940dd56c -[NSScrollView initWithFrame:] + 490
+27  WebKitLegacy                  	0x00007fff98df506b -[WebDynamicScrollBarsView initWithFrame:] + 75
+28  WebKitLegacy                  	0x00007fff98df4ede -[WebFrameView initWithFrame:] + 334
+29  WebKitLegacy                  	0x00007fff98df398c -[WebView(WebPrivate) _commonInitializationWithFrameName:groupName:] + 460
+30  WebKitLegacy                  	0x00007fff98ec1aab -[WebView(WebPrivate) _initWithFrame:frameName:groupName:] + 171
+31  WebKitLegacy                  	0x00007fff98e05c8b -[WebView initWithFrame:frameName:groupName:] + 187
+32  WebKitLegacy                  	0x00007fff98e1b3ac -[WebView initWithFrame:] + 60
+33  UIFoundation                  	0x00007fff8b516cf5 -[NSHTMLReader _loadUsingWebKit] + 1023
+34  Foundation                    	0x00007fff96c14d4b __NSThreadPerformPerform + 279
+35  CoreFoundation                	0x00007fff8c5815c1 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+36  CoreFoundation                	0x00007fff8c57341c __CFRunLoopDoSources0 + 556
+37  CoreFoundation                	0x00007fff8c57293f __CFRunLoopRun + 927
+38  CoreFoundation                	0x00007fff8c572338 CFRunLoopRunSpecific + 296
+39  CoreFoundation                	0x00007fff8c6351f1 CFRunLoopRun + 97
+40  mdworker                      	0x00000001067c7b27
+41  libdyld.dylib                 	0x00007fff935fb5ad start + 1
+
+Thread 1:
+0   libsystem_kernel.dylib        	0x00007fff9876aff6 kevent_qos + 10
+1   libdispatch.dylib             	0x00007fff8c11cd01 _dispatch_autorelease_pool_pop + 0
+
+Thread 2:
+0   libsystem_kernel.dylib        	0x00007fff98769eb2 __psynch_cvwait + 10
+1   Foundation                    	0x00007fff96bc49b2 -[NSCondition wait] + 240
+2   Foundation                    	0x00007fff96bb5ec8 -[NSObject(NSThreadPerformAdditions) performSelector:onThread:withObject:waitUntilDone:modes:] + 935
+3   Foundation                    	0x00007fff96bb5aa3 -[NSObject(NSThreadPerformAdditions) performSelectorOnMainThread:withObject:waitUntilDone:] + 131
+4   UIFoundation                  	0x00007fff8b518579 -[NSHTMLReader attributedString] + 22
+5   UIFoundation                  	0x00007fff8b52b6aa _NSReadAttributedStringFromURLOrData + 8698
+6   UIFoundation                  	0x00007fff8b52d8a2 -[NSAttributedString(NSAttributedStringUIFoundationAdditions) initWithURL:options:documentAttributes:error:] + 197
+7   RichText                      	0x0000000106b19439 GetMetadataForURL + 2995
+8   mdworker                      	0x00000001067c55a0
+9   mdworker                      	0x00000001067c43c3
+10  mdworker                      	0x00000001067c4f19
+11  mdworker                      	0x00000001067c9e2b
+12  libsystem_pthread.dylib       	0x00007fff8bb5ac13 _pthread_body + 131
+13  libsystem_pthread.dylib       	0x00007fff8bb5ab90 _pthread_body + 0
+14  libsystem_pthread.dylib       	0x00007fff8bb58375 thread_start + 13
+
+Thread 3:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   mdworker                      	0x00000001067e0124
+2   libsystem_pthread.dylib       	0x00007fff8bb5ac13 _pthread_body + 131
+3   libsystem_pthread.dylib       	0x00007fff8bb5ab90 _pthread_body + 0
+4   libsystem_pthread.dylib       	0x00007fff8bb58375 thread_start + 13
+
+Thread 4:
+0   libsystem_kernel.dylib        	0x00007fff98764386 mach_msg_trap + 10
+1   libxpc.dylib                  	0x00007fff97732bde xpc_pipe_routine + 249
+2   libxpc.dylib                  	0x00007fff97736212 _xpc_interface_routine + 163
+3   libxpc.dylib                  	0x00007fff977382be _xpc_look_up_endpoint + 192
+4   libxpc.dylib                  	0x00007fff977381d3 _xpc_connection_bootstrap_look_up_slow + 312
+5   libxpc.dylib                  	0x00007fff97735d37 _xpc_connection_init + 562
+6   libxpc.dylib                  	0x00007fff97735af7 _xpc_connection_resume_init + 14
+7   libdispatch.dylib             	0x00007fff8c11733f _dispatch_client_callout + 8
+8   libdispatch.dylib             	0x00007fff8c11bf6f _dispatch_queue_drain + 754
+9   libdispatch.dylib             	0x00007fff8c12263b _dispatch_queue_invoke + 549
+10  libdispatch.dylib             	0x00007fff8c11ac87 _dispatch_root_queue_drain + 538
+11  libdispatch.dylib             	0x00007fff8c11aa34 _dispatch_worker_thread3 + 91
+12  libsystem_pthread.dylib       	0x00007fff8bb5a68f _pthread_wqthread + 1129
+13  libsystem_pthread.dylib       	0x00007fff8bb58365 start_wqthread + 13
+
+Thread 5:
+0   libsystem_pthread.dylib       	0x00007fff8bb58358 start_wqthread + 0
+
+Binary Images:
+       0x1067bf000 -        0x106820fff  mdworker (972.16) <567c442e-cd49-3bf2-a450-f1fd543a5a28> /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+       0x106b17000 -        0x106b1cfff  com.apple.MDImporter.RichText (6.9 - 287) <a1979481-9561-313f-bf76-636a7cc14706> /System/Library/Spotlight/RichText.mdimporter/Contents/MacOS/RichText
+    0x7fff8b47a000 -     0x7fff8b5f8fff  com.apple.UIFoundation (1.0 - 436.1) <8c254bb0-1ded-36a2-aaaf-786eb19cce39> /System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/UIFoundation
+    0x7fff8bb57000 -     0x7fff8bb60ff7  libsystem_pthread.dylib (138.10.4) <327cecd0-b881-3153-8fcc-4fd4818b7f16> /usr/lib/system/libsystem_pthread.dylib
+    0x7fff8c115000 -     0x7fff8c142fff  libdispatch.dylib (501.20.1) <324c9189-2af3-3356-847f-6f4ce1c6e901> /usr/lib/system/libdispatch.dylib
+    0x7fff8c503000 -     0x7fff8c979fff  com.apple.CoreFoundation (6.9 - 1256.14) <068d1ba9-3859-34c7-986a-97edf739c5c8> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+    0x7fff935f8000 -     0x7fff935fbffb  libdyld.dylib (360.18) <5f3777a7-f07e-3d5f-bfa3-a920ff4170ed> /usr/lib/system/libdyld.dylib
+    0x7fff93fe6000 -     0x7fff94c09ff7  com.apple.AppKit (6.9 - 1404.34) <fb9c0e8d-8e07-35cd-91d8-7a3869b8eb03> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+    0x7fff96b87000 -     0x7fff96edbff7  com.apple.Foundation (6.9 - 1256.1) <66106cc9-9d97-3846-88d8-4bf6bb508296> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+    0x7fff97730000 -     0x7fff97759fff  libxpc.dylib (756.20.4) <61ab4610-9304-354c-9e9b-d57198ae9866> /usr/lib/system/libxpc.dylib
+    0x7fff98753000 -     0x7fff98771fff  libsystem_kernel.dylib (3248.20.55) <0e688457-4915-36dd-8798-5c2edee3f1a3> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff98dee000 -     0x7fff98f49ffb  com.apple.WebKitLegacy (11601 - 11601.3.9) <c961a4f8-4947-31da-9e91-ffb006bf1734> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy
+    0x7fff9ab91000 -     0x7fff9aefc657  libobjc.A.dylib (680) <58cb8cfc-7dbd-3a53-bd72-a42ff799b21e> /usr/lib/libobjc.A.dylib
